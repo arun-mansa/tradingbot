@@ -1,0 +1,16 @@
+{
+    "connection_settings": {
+        "hostname": "iqoption.com",
+        "password": "randomstring5090",
+        "username": "kumar.ak.arun3@gmail.com"
+    }, 
+    "trade_settings": {
+        "actives": [
+            "EURUSD"
+        ], 
+        "patterns": [
+            "DBHLC",
+            "DBLHC"
+        ]
+    }
+}
