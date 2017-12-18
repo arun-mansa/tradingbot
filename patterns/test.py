@@ -6,12 +6,12 @@ from base import Base
 class TEST(Base):
     """Class for TEST pattern."""
 
-    def __init__(self, api):
+    def __init__(self, api, active):
         """
         :param api: The instance of
             :class:`IQOptionAPI <iqoptionapi.api.IQOptionAPI>`.
         """
-        super(TEST, self).__init__(api)
+        super(TEST, self).__init__(api, active)
         self.name = "TEST"
 
     def call(self):

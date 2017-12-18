@@ -17,8 +17,9 @@ class Base(object):
     @property
     def candles(self):
         """Property to get candles."""
-        if self.api.timesync.server_datetime.second == 0:
+        if (not self.api.is_successful) or self.api.timesync.server_datetime.second == 0:
             self.api.getcandles(self.active, 60, 28)
+            self.api.is_successful = True
             time.sleep(0.5)
             return self.api.candles
 
@@ -39,6 +40,7 @@ class Base(object):
 
             relativestrength = rol_up / rol_down
             rsi = 100.0 - (100.0 / (1.0 + relativestrength))
+            
             return rsi
 
     def call(self):

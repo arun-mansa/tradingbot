@@ -59,6 +59,7 @@ class IQOptionAPI(object):
         self.username = username
         self.password = password
         self.proxies = proxies
+        self.is_successful = True
 
     def prepare_http_url(self, resource):
         """Construct http url from resource url.
@@ -100,6 +101,14 @@ class IQOptionAPI(object):
 
         response.raise_for_status()
         return response
+
+    @property
+    def is_successful(self):
+        """Property to get weather last call is_successful.
+
+        :returns: Boolean.
+        """
+        return self.is_successful
 
     @property
     def websocket(self):

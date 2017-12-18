@@ -219,3 +219,172 @@
 2017-12-14 16:31:13:INFO: Signaler for active 'EURUSD' started.
 2017-12-14 16:31:13:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
 2017-12-14 16:31:13:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-14 17:54:01:INFO: Signaler for active 'EURUSD' recived pattern 'DBHLC' in direction 'put'.
+2017-12-14 18:07:07:INFO: Create signaler for active 'EURUSD'.
+2017-12-14 18:07:07:INFO: Signaler for active 'EURUSD' started.
+2017-12-14 18:07:07:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-14 18:07:07:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-15 11:39:09:INFO: Create signaler for active 'EURUSD'.
+2017-12-15 11:39:09:INFO: Signaler for active 'EURUSD' started.
+2017-12-15 11:39:09:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-15 11:39:09:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-15 13:05:34:INFO: Create signaler for active 'EURUSD'.
+2017-12-15 13:05:34:INFO: Signaler for active 'EURUSD' started.
+2017-12-15 13:05:34:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-15 13:05:34:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-15 13:10:29:INFO: Create signaler for active 'EURUSD'.
+2017-12-15 13:10:29:INFO: Signaler for active 'EURUSD' started.
+2017-12-15 13:10:29:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-15 13:10:29:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-15 13:12:59:INFO: Create signaler for active 'EURUSD'.
+2017-12-15 13:12:59:INFO: Signaler for active 'EURUSD' started.
+2017-12-15 13:12:59:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-15 13:12:59:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-15 13:12:59:INFO: Create signaler for active 'EURJPY'.
+2017-12-15 13:12:59:INFO: Signaler for active 'EURJPY' started.
+2017-12-15 13:12:59:INFO: Signaler for active 'EURJPY' wait for pattern 'DBHLC'.
+2017-12-15 13:12:59:INFO: Signaler for active 'EURJPY' wait for pattern 'DBLHC'.
+2017-12-15 13:12:59:INFO: Create signaler for active 'AUDCAD'.
+2017-12-15 13:12:59:INFO: Signaler for active 'AUDCAD' started.
+2017-12-15 13:12:59:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBHLC'.
+2017-12-15 13:12:59:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBLHC'.
+2017-12-15 15:48:01:INFO: Signaler for active 'AUDCAD' recived pattern 'DBHLC' in direction 'put'.
+2017-12-16 18:47:49:INFO: Create signaler for active 'EURUSD'.
+2017-12-16 18:47:49:INFO: Signaler for active 'EURUSD' started.
+2017-12-16 18:47:49:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-16 18:47:49:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-16 18:47:49:INFO: Create signaler for active 'EURJPY'.
+2017-12-16 18:47:49:INFO: Signaler for active 'EURJPY' started.
+2017-12-16 18:47:49:INFO: Signaler for active 'EURJPY' wait for pattern 'DBHLC'.
+2017-12-16 18:47:49:INFO: Signaler for active 'EURJPY' wait for pattern 'DBLHC'.
+2017-12-16 18:47:49:INFO: Create signaler for active 'AUDCAD'.
+2017-12-16 18:47:49:INFO: Signaler for active 'AUDCAD' started.
+2017-12-16 18:47:49:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBHLC'.
+2017-12-16 18:47:49:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBLHC'.
+2017-12-16 18:58:20:INFO: Create signaler for active 'EURUSD'.
+2017-12-16 18:58:20:INFO: Signaler for active 'EURUSD' started.
+2017-12-16 18:58:20:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-16 18:58:20:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-16 18:58:20:INFO: Create signaler for active 'EURJPY'.
+2017-12-16 18:58:20:INFO: Signaler for active 'EURJPY' started.
+2017-12-16 18:58:20:INFO: Signaler for active 'EURJPY' wait for pattern 'DBHLC'.
+2017-12-16 18:58:20:INFO: Signaler for active 'EURJPY' wait for pattern 'DBLHC'.
+2017-12-16 18:58:20:INFO: Create signaler for active 'AUDCAD'.
+2017-12-16 18:58:20:INFO: Signaler for active 'AUDCAD' started.
+2017-12-16 18:58:20:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBHLC'.
+2017-12-16 18:58:20:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBLHC'.
+2017-12-16 18:59:37:INFO: Create signaler for active 'EURUSD'.
+2017-12-16 18:59:37:INFO: Signaler for active 'EURUSD' started.
+2017-12-16 18:59:37:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-16 18:59:37:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-16 18:59:37:INFO: Create signaler for active 'EURJPY'.
+2017-12-16 18:59:37:INFO: Signaler for active 'EURJPY' started.
+2017-12-16 18:59:37:INFO: Signaler for active 'EURJPY' wait for pattern 'DBHLC'.
+2017-12-16 18:59:37:INFO: Signaler for active 'EURJPY' wait for pattern 'DBLHC'.
+2017-12-16 18:59:37:INFO: Create signaler for active 'AUDCAD'.
+2017-12-16 18:59:37:INFO: Signaler for active 'AUDCAD' started.
+2017-12-16 18:59:37:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBHLC'.
+2017-12-16 18:59:37:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBLHC'.
+2017-12-16 19:03:06:INFO: Create signaler for active 'EURUSD'.
+2017-12-16 19:03:06:INFO: Signaler for active 'EURUSD' started.
+2017-12-16 19:03:06:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-16 19:03:06:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-16 19:03:06:INFO: Create signaler for active 'EURJPY'.
+2017-12-16 19:03:06:INFO: Signaler for active 'EURJPY' started.
+2017-12-16 19:03:06:INFO: Signaler for active 'EURJPY' wait for pattern 'DBHLC'.
+2017-12-16 19:03:06:INFO: Signaler for active 'EURJPY' wait for pattern 'DBLHC'.
+2017-12-16 19:03:06:INFO: Create signaler for active 'AUDCAD'.
+2017-12-16 19:03:06:INFO: Signaler for active 'AUDCAD' started.
+2017-12-16 19:03:06:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBHLC'.
+2017-12-16 19:03:06:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBLHC'.
+2017-12-18 10:55:58:INFO: Create signaler for active 'EURUSD'.
+2017-12-18 10:55:58:INFO: Signaler for active 'EURUSD' started.
+2017-12-18 10:55:58:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-18 10:55:58:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-18 10:55:58:INFO: Create signaler for active 'EURJPY'.
+2017-12-18 10:55:58:INFO: Signaler for active 'EURJPY' started.
+2017-12-18 10:55:58:INFO: Signaler for active 'EURJPY' wait for pattern 'TEST'.
+2017-12-18 10:55:58:INFO: Signaler for active 'EURJPY' wait for pattern 'DBLHC'.
+2017-12-18 10:55:58:INFO: Create signaler for active 'AUDCAD'.
+2017-12-18 10:55:58:INFO: Signaler for active 'AUDCAD' started.
+2017-12-18 10:55:58:INFO: Signaler for active 'AUDCAD' wait for pattern 'TEST'.
+2017-12-18 10:55:58:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBLHC'.
+2017-12-18 10:56:01:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2017-12-18 10:59:38:INFO: Create signaler for active 'EURUSD'.
+2017-12-18 10:59:38:INFO: Signaler for active 'EURUSD' started.
+2017-12-18 10:59:38:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-18 10:59:38:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-18 10:59:38:INFO: Create signaler for active 'EURJPY'.
+2017-12-18 10:59:38:INFO: Signaler for active 'EURJPY' started.
+2017-12-18 10:59:38:INFO: Signaler for active 'EURJPY' wait for pattern 'DBHLC'.
+2017-12-18 10:59:38:INFO: Signaler for active 'EURJPY' wait for pattern 'DBLHC'.
+2017-12-18 10:59:38:INFO: Create signaler for active 'AUDCAD'.
+2017-12-18 10:59:38:INFO: Signaler for active 'AUDCAD' started.
+2017-12-18 10:59:38:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBHLC'.
+2017-12-18 10:59:38:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBLHC'.
+2017-12-18 11:03:10:INFO: Create signaler for active 'EURUSD'.
+2017-12-18 11:03:10:INFO: Signaler for active 'EURUSD' started.
+2017-12-18 11:03:10:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-18 11:03:10:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-18 11:03:10:INFO: Create signaler for active 'EURJPY'.
+2017-12-18 11:03:10:INFO: Signaler for active 'EURJPY' started.
+2017-12-18 11:03:10:INFO: Signaler for active 'EURJPY' wait for pattern 'DBHLC'.
+2017-12-18 11:03:10:INFO: Signaler for active 'EURJPY' wait for pattern 'DBLHC'.
+2017-12-18 11:03:10:INFO: Create signaler for active 'AUDCAD'.
+2017-12-18 11:03:10:INFO: Signaler for active 'AUDCAD' started.
+2017-12-18 11:03:10:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBHLC'.
+2017-12-18 11:03:10:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBLHC'.
+2017-12-18 11:07:01:INFO: Signaler for active 'EURUSD' recived pattern 'DBLHC' in direction 'call'.
+2017-12-18 11:17:01:INFO: Signaler for active 'EURUSD' recived pattern 'DBHLC' in direction 'put'.
+2017-12-18 12:10:02:INFO: Signaler for active 'EURJPY' recived pattern 'DBHLC' in direction 'put'.
+2017-12-18 12:16:34:INFO: Create signaler for active 'EURUSD'.
+2017-12-18 12:16:34:INFO: Signaler for active 'EURUSD' started.
+2017-12-18 12:16:34:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-18 12:16:34:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-18 12:16:34:INFO: Create signaler for active 'EURJPY'.
+2017-12-18 12:16:34:INFO: Signaler for active 'EURJPY' started.
+2017-12-18 12:16:34:INFO: Signaler for active 'EURJPY' wait for pattern 'TEST'.
+2017-12-18 12:16:34:INFO: Signaler for active 'EURJPY' wait for pattern 'DBLHC'.
+2017-12-18 12:16:34:INFO: Create signaler for active 'AUDCAD'.
+2017-12-18 12:16:34:INFO: Signaler for active 'AUDCAD' started.
+2017-12-18 12:16:34:INFO: Signaler for active 'AUDCAD' wait for pattern 'TEST'.
+2017-12-18 12:16:34:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBLHC'.
+2017-12-18 12:17:01:INFO: Signaler for active 'AUDCAD' recived pattern 'TEST' in direction 'call'.
+2017-12-18 12:18:33:INFO: Create signaler for active 'EURUSD'.
+2017-12-18 12:18:33:INFO: Signaler for active 'EURUSD' started.
+2017-12-18 12:18:33:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-18 12:18:33:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-18 12:18:33:INFO: Create signaler for active 'AUDCAD'.
+2017-12-18 12:18:33:INFO: Signaler for active 'AUDCAD' started.
+2017-12-18 12:18:33:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBHLC'.
+2017-12-18 12:18:33:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBLHC'.
+2017-12-18 12:22:41:INFO: Create signaler for active 'EURUSD'.
+2017-12-18 12:22:41:INFO: Signaler for active 'EURUSD' started.
+2017-12-18 12:22:41:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-18 12:22:41:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-18 12:22:41:INFO: Create signaler for active 'AUDCAD'.
+2017-12-18 12:22:41:INFO: Signaler for active 'AUDCAD' started.
+2017-12-18 12:22:41:INFO: Signaler for active 'AUDCAD' wait for pattern 'TEST'.
+2017-12-18 12:22:41:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBLHC'.
+2017-12-18 12:23:01:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2017-12-18 12:26:28:INFO: Create signaler for active 'EURUSD'.
+2017-12-18 12:26:28:INFO: Signaler for active 'EURUSD' started.
+2017-12-18 12:26:28:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-18 12:26:28:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-18 12:26:28:INFO: Create signaler for active 'AUDCAD'.
+2017-12-18 12:26:28:INFO: Signaler for active 'AUDCAD' started.
+2017-12-18 12:26:28:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBHLC'.
+2017-12-18 12:26:28:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBLHC'.
+2017-12-18 12:28:54:INFO: Create signaler for active 'EURUSD'.
+2017-12-18 12:28:54:INFO: Signaler for active 'EURUSD' started.
+2017-12-18 12:28:54:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-18 12:28:54:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-18 12:28:54:INFO: Create signaler for active 'AUDCAD'.
+2017-12-18 12:28:54:INFO: Signaler for active 'AUDCAD' started.
+2017-12-18 12:28:54:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBHLC'.
+2017-12-18 12:28:54:INFO: Signaler for active 'AUDCAD' wait for pattern 'DBLHC'.
+2017-12-18 12:30:01:INFO: Signaler for active 'EURUSD' recived pattern 'DBHLC' in direction 'put'.
+2017-12-18 12:45:02:INFO: Signaler for active 'EURUSD' recived pattern 'DBLHC' in direction 'call'.
+2017-12-18 14:06:01:INFO: Signaler for active 'AUDCAD' recived pattern 'DBHLC' in direction 'put'.
+2017-12-18 15:03:01:INFO: Signaler for active 'AUDCAD' recived pattern 'DBHLC' in direction 'put'.
+2017-12-18 16:30:01:INFO: Signaler for active 'EURUSD' recived pattern 'DBLHC' in direction 'call'.

@@ -22,9 +22,11 @@ class WebsocketClient(object):
     def on_message(self, wss, message): # pylint: disable=unused-argument
         """Method to process websocket messages."""
         logger = logging.getLogger(__name__)
-        logger.debug(message)
-
+        api_responce = message
         message = json.loads(str(message))
+
+        if not (message["name"] == "timeSync" or message["name"] == "heartbeat"):
+            logger.debug(api_responce)
 
         if message["name"] == "timeSync":
             self.api.timesync.server_timestamp = message["msg"]
@@ -34,6 +36,9 @@ class WebsocketClient(object):
 
         if message["name"] == "candles":
             self.api.candles.candles_data = message["msg"]["data"]
+
+        if message["name"] == "buyComplete":
+            self.api.is_successful = message["msg"]["isSuccessful"]
 
     @staticmethod
     def on_error(wss, error): # pylint: disable=unused-argument

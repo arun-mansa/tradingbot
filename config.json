@@ -6,7 +6,8 @@
     }, 
     "trade_settings": {
         "actives": [
-            "EURUSD"
+            "EURUSD",
+            "AUDCAD"
         ], 
         "patterns": [
             "DBHLC",
