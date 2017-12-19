@@ -1,296 +1,131 @@
-2017-12-13 13:12:48:INFO: Create connection.
-2017-12-13 13:12:54:INFO: Successfully connected.
-2017-12-13 13:12:54:INFO: Create signalers.
-2017-12-13 13:12:54:INFO: Create traders.
-2017-12-13 13:26:04:INFO: Create connection.
-2017-12-13 13:26:11:INFO: Successfully connected.
-2017-12-13 13:26:11:INFO: Create signalers.
-2017-12-13 13:27:25:INFO: Create connection.
-2017-12-13 13:27:31:INFO: Successfully connected.
-2017-12-13 13:27:31:INFO: Create signalers.
-2017-12-13 13:27:31:INFO: Create traders.
-2017-12-13 13:29:19:INFO: Create connection.
-2017-12-13 13:29:26:INFO: Successfully connected.
-2017-12-13 13:29:26:INFO: Create signalers.
-2017-12-13 13:29:26:INFO: Create traders.
-2017-12-13 13:31:54:INFO: Create connection.
-2017-12-13 13:32:00:INFO: Successfully connected.
-2017-12-13 13:32:00:INFO: Create signalers.
-2017-12-13 13:32:00:INFO: Create traders.
-2017-12-13 13:37:06:INFO: Create connection.
-2017-12-13 13:37:12:INFO: Successfully connected.
-2017-12-13 13:37:12:INFO: Create signalers.
-2017-12-13 13:37:12:INFO: Create traders.
-2017-12-13 13:37:34:INFO: Create connection.
-2017-12-13 13:37:40:INFO: Successfully connected.
-2017-12-13 13:37:40:INFO: Create signalers.
-2017-12-13 13:37:40:INFO: Create traders.
-2017-12-13 13:51:04:INFO: Create connection.
-2017-12-13 13:52:01:INFO: Create connection.
-2017-12-13 13:52:08:INFO: Successfully connected.
-2017-12-13 13:52:08:INFO: Create signalers.
-2017-12-13 13:52:08:INFO: Create traders.
-2017-12-13 13:58:14:INFO: Create connection.
-2017-12-13 13:58:20:INFO: Successfully connected.
-2017-12-13 13:58:20:INFO: Create signalers.
-2017-12-13 13:58:20:INFO: Create traders.
-2017-12-13 14:00:08:INFO: Create connection.
-2017-12-13 14:00:14:INFO: Successfully connected.
-2017-12-13 14:00:14:INFO: Create signalers.
-2017-12-13 14:00:38:INFO: Create connection.
-2017-12-13 14:00:45:INFO: Successfully connected.
-2017-12-13 14:00:45:INFO: Create signalers.
-2017-12-13 14:00:45:INFO: Create traders.
-2017-12-13 14:02:11:INFO: Create connection.
-2017-12-13 14:02:17:INFO: Successfully connected.
-2017-12-13 14:02:17:INFO: Create signalers.
-2017-12-13 14:02:17:INFO: Create traders.
-2017-12-13 14:52:31:INFO: Create connection.
-2017-12-13 14:52:37:INFO: Successfully connected.
-2017-12-13 14:52:37:INFO: Create signalers.
-2017-12-13 14:52:37:INFO: Create traders.
-2017-12-13 16:28:01:INFO: Create connection.
-2017-12-13 16:28:07:INFO: Successfully connected.
-2017-12-13 16:28:07:INFO: Create signalers.
-2017-12-13 16:28:07:INFO: Create traders.
-2017-12-13 17:45:34:INFO: Create connection.
-2017-12-13 17:45:40:INFO: Successfully connected.
-2017-12-13 17:45:40:INFO: Create signalers.
-2017-12-13 17:45:40:INFO: Create traders.
-2017-12-13 18:02:00:INFO: Create connection.
-2017-12-13 18:02:06:INFO: Successfully connected.
-2017-12-13 18:02:06:INFO: Create signalers.
-2017-12-13 18:02:06:INFO: Create traders.
-2017-12-14 11:29:30:INFO: Create connection.
-2017-12-14 11:29:37:INFO: Successfully connected.
-2017-12-14 11:29:37:INFO: Create signalers.
-2017-12-14 11:29:37:INFO: Create traders.
-2017-12-14 11:33:55:INFO: Create connection.
-2017-12-14 11:34:02:INFO: Successfully connected.
-2017-12-14 11:34:02:INFO: Create signalers.
-2017-12-14 11:34:02:INFO: Create traders.
-2017-12-14 11:35:02:INFO: Create connection.
-2017-12-14 11:35:09:INFO: Successfully connected.
-2017-12-14 11:35:09:INFO: Create signalers.
-2017-12-14 11:35:09:INFO: Create traders.
-2017-12-14 13:48:41:INFO: Create connection.
-2017-12-14 13:48:48:INFO: Successfully connected.
-2017-12-14 13:48:48:INFO: Create signalers.
-2017-12-14 13:48:48:INFO: Create traders.
-2017-12-14 13:50:49:INFO: Create connection.
-2017-12-14 13:50:55:INFO: Successfully connected.
-2017-12-14 13:50:55:INFO: Create signalers.
-2017-12-14 13:50:55:INFO: Create traders.
-2017-12-14 13:52:17:INFO: Create connection.
-2017-12-14 13:52:23:INFO: Successfully connected.
-2017-12-14 13:52:23:INFO: Create signalers.
-2017-12-14 13:52:23:INFO: Create traders.
-2017-12-14 13:54:27:INFO: Create connection.
-2017-12-14 13:54:33:INFO: Successfully connected.
-2017-12-14 13:54:33:INFO: Create signalers.
-2017-12-14 13:54:33:INFO: Create traders.
-2017-12-14 13:57:46:INFO: Create connection.
-2017-12-14 13:57:53:INFO: Successfully connected.
-2017-12-14 13:57:53:INFO: Create signalers.
-2017-12-14 13:57:53:INFO: Create traders.
-2017-12-14 13:59:05:INFO: Create connection.
-2017-12-14 13:59:11:INFO: Successfully connected.
-2017-12-14 13:59:11:INFO: Create signalers.
-2017-12-14 13:59:11:INFO: Create traders.
-2017-12-14 14:01:47:INFO: Create connection.
-2017-12-14 14:01:53:INFO: Successfully connected.
-2017-12-14 14:01:53:INFO: Create signalers.
-2017-12-14 14:01:53:INFO: Create traders.
-2017-12-14 14:02:40:INFO: Create connection.
-2017-12-14 14:02:46:INFO: Successfully connected.
-2017-12-14 14:02:46:INFO: Create signalers.
-2017-12-14 14:02:46:INFO: Create traders.
-2017-12-14 14:04:07:INFO: Create connection.
-2017-12-14 14:04:13:INFO: Successfully connected.
-2017-12-14 14:04:13:INFO: Create signalers.
-2017-12-14 14:04:13:INFO: Create traders.
-2017-12-14 14:07:43:INFO: Create connection.
-2017-12-14 14:07:49:INFO: Successfully connected.
-2017-12-14 14:07:49:INFO: Create signalers.
-2017-12-14 14:07:49:INFO: Create traders.
-2017-12-14 14:09:25:INFO: Create connection.
-2017-12-14 14:09:31:INFO: Successfully connected.
-2017-12-14 14:09:31:INFO: Create signalers.
-2017-12-14 14:09:31:INFO: Create traders.
-2017-12-14 14:10:37:INFO: Create connection.
-2017-12-14 14:10:53:INFO: Create connection.
-2017-12-14 14:10:59:INFO: Successfully connected.
-2017-12-14 14:10:59:INFO: Create signalers.
-2017-12-14 14:10:59:INFO: Create traders.
-2017-12-14 14:12:31:INFO: Create connection.
-2017-12-14 14:12:44:INFO: Successfully connected.
-2017-12-14 14:12:44:INFO: Create signalers.
-2017-12-14 14:12:44:INFO: Create traders.
-2017-12-14 14:17:10:INFO: Create connection.
-2017-12-14 14:17:16:INFO: Successfully connected.
-2017-12-14 14:17:16:INFO: Create signalers.
-2017-12-14 14:17:16:INFO: Create traders.
-2017-12-14 14:28:16:INFO: Create connection.
-2017-12-14 14:28:22:INFO: Successfully connected.
-2017-12-14 14:28:22:INFO: Create signalers.
-2017-12-14 14:28:22:INFO: Create traders.
-2017-12-14 14:31:22:INFO: Create connection.
-2017-12-14 14:31:28:INFO: Successfully connected.
-2017-12-14 14:31:28:INFO: Create signalers.
-2017-12-14 14:31:28:INFO: Create traders.
-2017-12-14 14:32:55:INFO: Create connection.
-2017-12-14 14:33:01:INFO: Successfully connected.
-2017-12-14 14:33:01:INFO: Create signalers.
-2017-12-14 14:33:01:INFO: Create traders.
-2017-12-14 14:33:41:INFO: Create connection.
-2017-12-14 14:33:54:INFO: Successfully connected.
-2017-12-14 14:33:54:INFO: Create signalers.
-2017-12-14 14:33:54:INFO: Create traders.
-2017-12-14 14:36:23:INFO: Create connection.
-2017-12-14 14:36:30:INFO: Successfully connected.
-2017-12-14 14:36:30:INFO: Create signalers.
-2017-12-14 14:36:30:INFO: Create traders.
-2017-12-14 14:38:59:INFO: Create connection.
-2017-12-14 14:39:05:INFO: Successfully connected.
-2017-12-14 14:39:05:INFO: Create signalers.
-2017-12-14 14:39:05:INFO: Create traders.
-2017-12-14 14:42:10:INFO: Create connection.
-2017-12-14 14:42:33:INFO: Create connection.
-2017-12-14 14:47:30:INFO: Create connection.
-2017-12-14 14:54:52:INFO: Create connection.
-2017-12-14 14:54:59:INFO: Successfully connected.
-2017-12-14 14:54:59:INFO: Create signalers.
-2017-12-14 14:54:59:INFO: Create traders.
-2017-12-14 14:58:47:INFO: Create connection.
-2017-12-14 14:58:53:INFO: Successfully connected.
-2017-12-14 14:58:53:INFO: Create signalers.
-2017-12-14 14:58:53:INFO: Create traders.
-2017-12-14 15:40:49:INFO: Create connection.
-2017-12-14 15:40:55:INFO: Successfully connected.
-2017-12-14 15:40:55:INFO: Create signalers.
-2017-12-14 15:40:55:INFO: Create traders.
-2017-12-14 15:44:15:INFO: Create connection.
-2017-12-14 15:44:21:INFO: Successfully connected.
-2017-12-14 15:44:21:INFO: Create signalers.
-2017-12-14 15:44:21:INFO: Create traders.
-2017-12-14 15:48:55:INFO: Create connection.
-2017-12-14 15:49:01:INFO: Successfully connected.
-2017-12-14 15:49:01:INFO: Create signalers.
-2017-12-14 15:49:01:INFO: Create traders.
-2017-12-14 15:52:56:INFO: Create connection.
-2017-12-14 15:53:07:INFO: Create connection.
-2017-12-14 15:53:13:INFO: Successfully connected.
-2017-12-14 15:53:13:INFO: Create signalers.
-2017-12-14 15:53:13:INFO: Create traders.
-2017-12-14 15:57:30:INFO: Create connection.
-2017-12-14 15:57:37:INFO: Successfully connected.
-2017-12-14 15:57:37:INFO: Create signalers.
-2017-12-14 15:57:37:INFO: Create traders.
-2017-12-14 16:08:38:INFO: Create connection.
-2017-12-14 16:08:44:INFO: Successfully connected.
-2017-12-14 16:08:44:INFO: Create signalers.
-2017-12-14 16:08:44:INFO: Create traders.
-2017-12-14 16:13:18:INFO: Create connection.
-2017-12-14 16:13:24:INFO: Successfully connected.
-2017-12-14 16:13:24:INFO: Create signalers.
-2017-12-14 16:13:24:INFO: Create traders.
-2017-12-14 16:16:55:INFO: Create connection.
-2017-12-14 16:17:02:INFO: Successfully connected.
-2017-12-14 16:17:02:INFO: Create signalers.
-2017-12-14 16:17:02:INFO: Create traders.
-2017-12-14 16:20:29:INFO: Create connection.
-2017-12-14 16:20:35:INFO: Successfully connected.
-2017-12-14 16:20:35:INFO: Create signalers.
-2017-12-14 16:20:35:INFO: Create traders.
-2017-12-14 16:23:14:INFO: Create connection.
-2017-12-14 16:23:21:INFO: Successfully connected.
-2017-12-14 16:23:21:INFO: Create signalers.
-2017-12-14 16:23:21:INFO: Create traders.
-2017-12-14 16:25:29:INFO: Create connection.
-2017-12-14 16:25:35:INFO: Successfully connected.
-2017-12-14 16:25:35:INFO: Create signalers.
-2017-12-14 16:25:35:INFO: Create traders.
-2017-12-14 16:28:35:INFO: Create connection.
-2017-12-14 16:28:42:INFO: Successfully connected.
-2017-12-14 16:28:42:INFO: Create signalers.
-2017-12-14 16:28:42:INFO: Create traders.
-2017-12-14 16:31:06:INFO: Create connection.
-2017-12-14 16:31:13:INFO: Successfully connected.
-2017-12-14 16:31:13:INFO: Create signalers.
-2017-12-14 16:31:13:INFO: Create traders.
-2017-12-14 18:07:01:INFO: Create connection.
-2017-12-14 18:07:07:INFO: Successfully connected.
-2017-12-14 18:07:07:INFO: Create signalers.
-2017-12-14 18:07:07:INFO: Create traders.
-2017-12-15 11:39:03:INFO: Create connection.
-2017-12-15 11:39:09:INFO: Successfully connected.
-2017-12-15 11:39:09:INFO: Create signalers.
-2017-12-15 11:39:09:INFO: Create traders.
-2017-12-15 13:05:28:INFO: Create connection.
-2017-12-15 13:05:34:INFO: Successfully connected.
-2017-12-15 13:05:34:INFO: Create signalers.
-2017-12-15 13:05:34:INFO: Create traders.
-2017-12-15 13:10:23:INFO: Create connection.
-2017-12-15 13:10:29:INFO: Successfully connected.
-2017-12-15 13:10:29:INFO: Create signalers.
-2017-12-15 13:10:29:INFO: Create traders.
-2017-12-15 13:12:53:INFO: Create connection.
-2017-12-15 13:12:59:INFO: Successfully connected.
-2017-12-15 13:12:59:INFO: Create signalers.
-2017-12-15 13:12:59:INFO: Create traders.
-2017-12-16 18:35:18:INFO: Create connection.
-2017-12-16 18:35:25:INFO: Successfully connected.
-2017-12-16 18:43:43:INFO: Create connection.
-2017-12-16 18:43:49:INFO: Successfully connected.
-2017-12-16 18:47:43:INFO: Create connection.
-2017-12-16 18:47:49:INFO: Successfully connected.
-2017-12-16 18:47:49:INFO: Create signalers.
-2017-12-16 18:47:49:INFO: Create traders.
-2017-12-16 18:58:14:INFO: Create connection.
-2017-12-16 18:58:20:INFO: Successfully connected.
-2017-12-16 18:58:20:INFO: Create signalers.
-2017-12-16 18:58:20:INFO: Create traders.
-2017-12-16 18:59:31:INFO: Create connection.
-2017-12-16 18:59:37:INFO: Successfully connected.
-2017-12-16 18:59:37:INFO: Create signalers.
-2017-12-16 18:59:37:INFO: Create traders.
-2017-12-16 19:03:00:INFO: Create connection.
-2017-12-16 19:03:06:INFO: Successfully connected.
-2017-12-16 19:03:06:INFO: Create signalers.
-2017-12-16 19:03:06:INFO: Create traders.
-2017-12-18 10:55:51:INFO: Create connection.
-2017-12-18 10:55:58:INFO: Successfully connected.
-2017-12-18 10:55:58:INFO: Create signalers.
-2017-12-18 10:55:58:INFO: Create traders.
-2017-12-18 10:58:54:INFO: Create connection.
-2017-12-18 10:59:19:INFO: Create connection.
-2017-12-18 10:59:32:INFO: Create connection.
-2017-12-18 10:59:38:INFO: Successfully connected.
-2017-12-18 10:59:38:INFO: Create signalers.
-2017-12-18 10:59:38:INFO: Create traders.
-2017-12-18 11:01:51:INFO: Create connection.
-2017-12-18 11:02:58:INFO: Create connection.
-2017-12-18 11:03:10:INFO: Successfully connected.
-2017-12-18 11:03:10:INFO: Create signalers.
-2017-12-18 11:03:10:INFO: Create traders.
-2017-12-18 12:16:28:INFO: Create connection.
-2017-12-18 12:16:34:INFO: Successfully connected.
-2017-12-18 12:16:34:INFO: Create signalers.
-2017-12-18 12:16:34:INFO: Create traders.
-2017-12-18 12:18:27:INFO: Create connection.
-2017-12-18 12:18:33:INFO: Successfully connected.
-2017-12-18 12:18:33:INFO: Create signalers.
-2017-12-18 12:18:33:INFO: Create traders.
-2017-12-18 12:22:35:INFO: Create connection.
-2017-12-18 12:22:41:INFO: Successfully connected.
-2017-12-18 12:22:41:INFO: Create signalers.
-2017-12-18 12:22:41:INFO: Create traders.
-2017-12-18 12:26:21:INFO: Create connection.
-2017-12-18 12:26:28:INFO: Successfully connected.
-2017-12-18 12:26:28:INFO: Create signalers.
-2017-12-18 12:26:28:INFO: Create traders.
-2017-12-18 12:27:57:INFO: Create connection.
-2017-12-18 12:28:48:INFO: Create connection.
-2017-12-18 12:28:54:INFO: Successfully connected.
-2017-12-18 12:28:54:INFO: Create signalers.
-2017-12-18 12:28:54:INFO: Create traders.
+2017-12-19 09:11:04:INFO: Create connection.
+2017-12-19 09:11:10:INFO: Successfully connected.
+2017-12-19 09:11:10:INFO: Create signalers.
+2017-12-19 09:11:10:INFO: Create traders.
+2017-12-19 09:13:01:INFO: Upper Band:'1179019.876558', Lower Band: '1178569.409157'.
+2017-12-19 09:14:01:INFO: Upper Band:'1179051.670167', Lower Band: '1178584.758405'.
+2017-12-19 09:14:02:INFO: Upper Band:'1179051.670167', Lower Band: '1178584.758405'.
+2017-12-19 09:15:00:INFO: Upper Band:'1179074.928560', Lower Band: '1178610.785725'.
+2017-12-19 09:15:01:INFO: Upper Band:'1179074.928560', Lower Band: '1178610.785725'.
+2017-12-19 09:15:33:INFO: Create connection.
+2017-12-19 09:15:39:INFO: Successfully connected.
+2017-12-19 09:15:39:INFO: Create signalers.
+2017-12-19 09:15:39:INFO: Create traders.
+2017-12-19 09:16:44:INFO: Create connection.
+2017-12-19 09:16:50:INFO: Successfully connected.
+2017-12-19 09:16:50:INFO: Create signalers.
+2017-12-19 09:16:50:INFO: Create traders.
+2017-12-19 09:17:01:INFO: Upper Band:'1179094.174506', Lower Band: '1178630.825494'.
+2017-12-19 09:18:01:INFO: Upper Band:'1179054.070234', Lower Band: '1178700.215480'.
+2017-12-19 09:19:01:INFO: Upper Band:'1179054.249227', Lower Band: '1178697.179344'.
+2017-12-19 09:19:02:INFO: Upper Band:'1179054.249227', Lower Band: '1178697.179344'.
+2017-12-19 09:20:01:INFO: Upper Band:'1179039.980278', Lower Band: '1178695.734008'.
+2017-12-19 09:20:02:INFO: Upper Band:'1179039.980278', Lower Band: '1178695.734008'.
+2017-12-19 09:21:01:INFO: Upper Band:'1179040.603752', Lower Band: '1178701.539105'.
+2017-12-19 09:21:02:INFO: Upper Band:'1179040.603752', Lower Band: '1178701.539105'.
+2017-12-19 09:22:26:INFO: Create connection.
+2017-12-19 09:22:32:INFO: Successfully connected.
+2017-12-19 09:22:32:INFO: Create signalers.
+2017-12-19 09:22:32:INFO: Create traders.
+2017-12-19 09:23:00:INFO: Upper Band:'1724804.856729', Lower Band: '464534.428986'.
+2017-12-19 09:23:01:INFO: Upper Band:'1179035.371724', Lower Band: '1178710.342562'.
+2017-12-19 09:25:00:INFO: Upper Band:'1724805.418718', Lower Band: '464534.581282'.
+2017-12-19 09:25:01:INFO: Upper Band:'1179033.134027', Lower Band: '1178709.008830'.
+2017-12-19 09:25:49:INFO: Create connection.
+2017-12-19 09:25:55:INFO: Successfully connected.
+2017-12-19 09:25:55:INFO: Create signalers.
+2017-12-19 09:25:55:INFO: Create traders.
+2017-12-19 09:26:01:INFO: RSI for first candle '51.666667'.
+2017-12-19 09:26:01:INFO: Upper Band:'1179033.134027', Lower Band: '1178709.008830'.
+2017-12-19 09:26:02:INFO: RSI for first candle '51.666667'.
+2017-12-19 09:26:02:INFO: Upper Band:'1179033.134027', Lower Band: '1178709.008830'.
+2017-12-19 09:27:01:INFO: RSI for first candle '22.772277'.
+2017-12-19 09:27:01:INFO: Upper Band:'1179017.997041', Lower Band: '1178684.860102'.
+2017-12-19 09:27:02:INFO: RSI for first candle '22.772277'.
+2017-12-19 09:27:02:INFO: Upper Band:'1179017.997041', Lower Band: '1178684.860102'.
+2017-12-19 09:28:01:INFO: RSI for first candle '36.585366'.
+2017-12-19 09:28:01:INFO: Upper Band:'1178986.112297', Lower Band: '1178693.173418'.
+2017-12-19 09:28:02:INFO: RSI for first candle '36.585366'.
+2017-12-19 09:28:02:INFO: Upper Band:'1178986.112297', Lower Band: '1178693.173418'.
+2017-12-19 09:29:00:INFO: RSI for first candle '35.537190'.
+2017-12-19 09:29:00:INFO: Upper Band:'1178940.870892', Lower Band: '1178713.414822'.
+2017-12-19 09:29:01:INFO: RSI for first candle '35.537190'.
+2017-12-19 09:29:01:INFO: Upper Band:'1178940.870892', Lower Band: '1178713.414822'.
+2017-12-19 09:35:28:INFO: Create connection.
+2017-12-19 09:35:34:INFO: Successfully connected.
+2017-12-19 09:35:34:INFO: Create signalers.
+2017-12-19 09:35:34:INFO: Create traders.
+2017-12-19 09:38:08:INFO: Create connection.
+2017-12-19 09:38:14:INFO: Successfully connected.
+2017-12-19 09:38:14:INFO: Create signalers.
+2017-12-19 09:38:14:INFO: Create traders.
+2017-12-19 09:40:01:INFO: RSI for first candle '46'.
+2017-12-19 09:40:01:INFO: Upper Band:'1178967.421435', Lower Band: '1178724.721422'.
+2017-12-19 09:41:01:INFO: RSI for first candle '57'.
+2017-12-19 09:41:01:INFO: Upper Band:'1178954.831231', Lower Band: '1178745.883054'.
+2017-12-19 09:41:02:INFO: RSI for first candle '57'.
+2017-12-19 09:41:02:INFO: Upper Band:'1178954.831231', Lower Band: '1178745.883054'.
+2017-12-19 09:53:38:INFO: Create connection.
+2017-12-19 09:53:44:INFO: Successfully connected.
+2017-12-19 09:53:44:INFO: Create signalers.
+2017-12-19 09:53:44:INFO: Create traders.
+2017-12-19 09:54:00:INFO: RSI for first candle '64.285714'.
+2017-12-19 09:54:00:INFO: Upper Band:'1178901.263961', Lower Band: '1178716.593182'.
+2017-12-19 09:54:01:INFO: RSI for first candle '64.285714'.
+2017-12-19 09:54:01:INFO: Upper Band:'1178901.263961', Lower Band: '1178716.593182'.
+2017-12-19 09:54:01:INFO: RSI for first candle '64.285714'.
+2017-12-19 09:54:01:INFO: Upper Band:'1178901.263961', Lower Band: '1178716.593182'.
+2017-12-19 09:55:01:INFO: RSI for first candle '69.230769'.
+2017-12-19 09:55:01:INFO: Upper Band:'1178928.374304', Lower Band: '1178710.911411'.
+2017-12-19 09:55:02:INFO: RSI for first candle '69.230769'.
+2017-12-19 09:55:02:INFO: Upper Band:'1178928.374304', Lower Band: '1178710.911411'.
+2017-12-19 09:55:02:INFO: RSI for first candle '69.230769'.
+2017-12-19 09:55:02:INFO: Upper Band:'1178928.374304', Lower Band: '1178710.911411'.
+2017-12-19 09:56:01:INFO: RSI for first candle '62.068966'.
+2017-12-19 09:56:01:INFO: Upper Band:'1178921.255252', Lower Band: '1178733.030462'.
+2017-12-19 09:56:01:INFO: RSI for first candle '62.068966'.
+2017-12-19 09:56:01:INFO: Upper Band:'1178921.255252', Lower Band: '1178733.030462'.
+2017-12-19 09:56:02:INFO: RSI for first candle '62.068966'.
+2017-12-19 09:56:02:INFO: Upper Band:'1178921.255252', Lower Band: '1178733.030462'.
+2017-12-19 09:57:00:INFO: RSI for first candle '50.000000'.
+2017-12-19 09:57:00:INFO: Upper Band:'1178921.255252', Lower Band: '1178733.030462'.
+2017-12-19 09:57:01:INFO: RSI for first candle '50.000000'.
+2017-12-19 09:57:01:INFO: Upper Band:'1178921.255252', Lower Band: '1178733.030462'.
+2017-12-19 09:57:01:INFO: RSI for first candle '50.000000'.
+2017-12-19 09:57:01:INFO: Upper Band:'1178921.255252', Lower Band: '1178733.030462'.
+2017-12-19 09:58:01:INFO: RSI for first candle '51.111111'.
+2017-12-19 09:58:01:INFO: Upper Band:'1178920.403538', Lower Band: '1178735.310748'.
+2017-12-19 09:58:01:INFO: RSI for first candle '51.111111'.
+2017-12-19 09:58:01:INFO: Upper Band:'1178920.403538', Lower Band: '1178735.310748'.
+2017-12-19 09:58:02:INFO: RSI for first candle '51.111111'.
+2017-12-19 09:58:02:INFO: Upper Band:'1178920.403538', Lower Band: '1178735.310748'.
+2017-12-19 09:59:01:INFO: RSI for first candle '50.000000'.
+2017-12-19 09:59:01:INFO: Upper Band:'1178920.403538', Lower Band: '1178735.310748'.
+2017-12-19 09:59:02:INFO: RSI for first candle '50.000000'.
+2017-12-19 09:59:02:INFO: Upper Band:'1178920.403538', Lower Band: '1178735.310748'.
+2017-12-19 09:59:02:INFO: RSI for first candle '50.000000'.
+2017-12-19 09:59:02:INFO: Upper Band:'1178920.403538', Lower Band: '1178735.310748'.
+2017-12-19 10:00:01:INFO: RSI for first candle '44.086022'.
+2017-12-19 10:00:01:INFO: Upper Band:'1178925.771480', Lower Band: '1178722.085663'.
+2017-12-19 10:00:01:INFO: RSI for first candle '44.086022'.
+2017-12-19 10:00:01:INFO: Upper Band:'1178925.771480', Lower Band: '1178722.085663'.
+2017-12-19 10:00:02:INFO: RSI for first candle '44.086022'.
+2017-12-19 10:00:02:INFO: Upper Band:'1178925.771480', Lower Band: '1178722.085663'.
+2017-12-19 10:01:00:INFO: RSI for first candle '51.041667'.
+2017-12-19 10:01:00:INFO: Upper Band:'1178925.138880', Lower Band: '1178724.146835'.
+2017-12-19 10:01:01:INFO: RSI for first candle '51.041667'.
+2017-12-19 10:01:01:INFO: Upper Band:'1178925.138880', Lower Band: '1178724.146835'.
+2017-12-19 10:01:01:INFO: RSI for first candle '51.041667'.
+2017-12-19 10:01:01:INFO: Upper Band:'1178925.138880', Lower Band: '1178724.146835'.
+2017-12-19 10:03:01:INFO: RSI for first candle '44.565217'.
+2017-12-19 10:03:01:INFO: Upper Band:'1178923.496335', Lower Band: '1178720.789379'.
+2017-12-19 10:03:01:INFO: RSI for first candle '44.565217'.
+2017-12-19 10:03:01:INFO: Upper Band:'1178923.496335', Lower Band: '1178720.789379'.
+2017-12-19 10:03:02:INFO: RSI for first candle '44.565217'.
+2017-12-19 10:03:02:INFO: Upper Band:'1178923.496335', Lower Band: '1178720.789379'.
+2017-12-19 10:04:00:INFO: RSI for first candle '47.311828'.
+2017-12-19 10:04:00:INFO: Upper Band:'1178922.372548', Lower Band: '1178718.341738'.
+2017-12-19 10:04:01:INFO: RSI for first candle '47.311828'.
+2017-12-19 10:04:01:INFO: Upper Band:'1178922.372548', Lower Band: '1178718.341738'.
+2017-12-19 10:04:01:INFO: RSI for first candle '47.311828'.
+2017-12-19 10:04:01:INFO: Upper Band:'1178922.372548', Lower Band: '1178718.341738'.

@@ -21,7 +21,9 @@ class DBHLC(Base):
 
         if hasattr(candles, 'first_candle') and hasattr(candles, 'second_candle'):
             rsi = self.rsi(candles, 14)
-            if rsi[27] > 50.0:
-                if candles.first_candle.candle_high == candles.second_candle.candle_high:
-                    if candles.second_candle.candle_close <= candles.first_candle.candle_low:
-                        return True
+            up, lw = self.bolinger_bands(candles=candles)
+            if int(round(rsi[25])) > 50:
+                if candles.first_candle.candle_high >= int(round(up[25])):
+                    if candles.first_candle.candle_high == candles.second_candle.candle_high:
+                        if candles.second_candle.candle_close <= candles.first_candle.candle_low:
+                            return True

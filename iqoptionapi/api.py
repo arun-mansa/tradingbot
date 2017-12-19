@@ -50,6 +50,7 @@ class IQOptionAPI(object):
         :param str password: The password of a IQ Option server.
         :param dict proxies: (optional) The http request proxies.
         """
+        self.is_successful = True
         self.https_url = "https://{host}/api".format(host=host)
         self.wss_url = "wss://{host}/echo/websocket".format(host=host)
         self.websocket_client = None
@@ -59,7 +60,6 @@ class IQOptionAPI(object):
         self.username = username
         self.password = password
         self.proxies = proxies
-        self.is_successful = True
 
     def prepare_http_url(self, resource):
         """Construct http url from resource url.
@@ -103,13 +103,18 @@ class IQOptionAPI(object):
         return response
 
     @property
-    def is_successful(self):
+    def buy_status(self):
         """Property to get weather last call is_successful.
 
         :returns: Boolean.
         """
         return self.is_successful
 
+    @buy_status.setter
+    def buy_status(self, status):
+        """Method to set candles data."""
+        self.is_successful = status
+        
     @property
     def websocket(self):
         """Property to get websocket.

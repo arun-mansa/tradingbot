@@ -38,7 +38,7 @@ class WebsocketClient(object):
             self.api.candles.candles_data = message["msg"]["data"]
 
         if message["name"] == "buyComplete":
-            self.api.is_successful = message["msg"]["isSuccessful"]
+            self.api.buy_status = message["msg"]["isSuccessful"]
 
     @staticmethod
     def on_error(wss, error): # pylint: disable=unused-argument

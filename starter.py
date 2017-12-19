@@ -146,7 +146,6 @@ def start():
             signal = signaler.get_signal()
 
             if signal:
-
                 for trader in traders:
                     if signaler.active == trader.active:
                         trader.trade(signal)
