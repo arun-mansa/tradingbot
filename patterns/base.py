@@ -18,9 +18,8 @@ class Base(object):
     @property
     def candles(self):
         """Property to get candles."""
-        if (not self.api.buy_status) or self.api.timesync.server_datetime.second == 0:
+        if  self.api.timesync.server_datetime.second == 0:
             self.api.getcandles(self.active, 60, 28)
-            self.api.buy_status = True
             time.sleep(0.5)
             return self.api.candles
 
@@ -56,7 +55,7 @@ class Base(object):
             upper_band = rolling_mean + (rolling_std*num_of_std)
             lower_band = rolling_mean - (rolling_std*num_of_std)
 
-            logger.info("Upper Band:'%f', Lower Band: '%f'.", upper_band[26], lower_band[26])
+            # logger.info("Upper Band:'%f', Lower Band: '%f'.", upper_band[26], lower_band[26])
             return upper_band, lower_band
 
     def call(self):

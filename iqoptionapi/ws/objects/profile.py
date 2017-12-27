@@ -11,6 +11,7 @@ class Profile(Base):
         self.__name = "profile"
         self.__skey = None
         self.__balance = None
+        self.__balance_id = None
 
     @property
     def skey(self):
@@ -37,3 +38,16 @@ class Profile(Base):
     def balance(self, balance):
         """Method to set balance value."""
         self.__balance = balance
+
+    @property
+    def balance_id(self):
+        """Property to get balance_id value.
+
+        :returns: The balance value.
+        """
+        return self.__balance_id
+
+    @balance_id.setter
+    def balance_id(self, balance_id):
+        """Method to set balance_id value."""
+        self.__balance_id = balance_id

@@ -20,10 +20,20 @@ class DBHLC(Base):
         candles = self.candles
 
         if hasattr(candles, 'first_candle') and hasattr(candles, 'second_candle'):
-            rsi = self.rsi(candles, 14)
             up, lw = self.bolinger_bands(candles=candles)
-            if int(round(rsi[25])) > 50:
-                if candles.first_candle.candle_high >= int(round(up[25])):
-                    if candles.first_candle.candle_high == candles.second_candle.candle_high:
-                        if candles.second_candle.candle_close <= candles.first_candle.candle_low:
-                            return True
+
+            if candles.first_candle.candle_high >= int(round(up[25])):
+                if candles.first_candle.candle_close >= candles.second_candle.candle_high:
+                    if candles.second_candle.candle_close <= candles.first_candle.candle_low:
+                        return True
+
+    def call(self):
+        """Method to check call pattern."""
+        candles = self.candles
+
+        if hasattr(candles, 'first_candle') and hasattr(candles, 'second_candle'):
+            up, lw = self.bolinger_bands(candles=candles)
+            if candles.first_candle.candle_low <= int(round(lw[25])):
+                if candles.first_candle.candle_close <= candles.second_candle.candle_low:
+                    if candles.second_candle.candle_close >= candles.first_candle.candle_high:
+                        return True

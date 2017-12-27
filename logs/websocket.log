@@ -1,0 +1,3 @@
+2017-12-27 18:02:05:ERROR: error from callback <bound method WebsocketClient.on_message of <iqoptionapi.ws.client.WebsocketClient object at 0x7fe9e4ec6b90>>: 'skey'
+2017-12-27 18:02:05:ERROR: error from callback <bound method WebsocketClient.on_message of <iqoptionapi.ws.client.WebsocketClient object at 0x7fe9e4ec6b90>>: 'skey'
+2017-12-27 18:03:04:ERROR: error from callback <bound method WebsocketClient.on_message of <iqoptionapi.ws.client.WebsocketClient object at 0x7fe9e4ec6b90>>: 'skey'

@@ -25,7 +25,11 @@ class WebsocketClient(object):
         api_responce = message
         message = json.loads(str(message))
 
-        if not (message["name"] == "timeSync" or message["name"] == "heartbeat"):
+        if not (message["name"] == "timeSync" or
+                message["name"] == "heartbeat" or
+                message["name"] == "newChartData" or
+                message["name"] == "tradersPulse"
+               ):
             logger.debug(api_responce)
 
         if message["name"] == "timeSync":
@@ -33,6 +37,8 @@ class WebsocketClient(object):
 
         if message["name"] == "profile":
             self.api.profile.balance = message["msg"]["balance"]
+            self.api.profile.skey = message["msg"]["skey"]
+            self.api.profile.balance_id = message["msg"]["balance_id"]
 
         if message["name"] == "candles":
             self.api.candles.candles_data = message["msg"]["data"]

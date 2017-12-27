@@ -31,3 +31,131 @@
 2017-12-19 09:53:44:INFO: Signaler for active 'EURUSD' started.
 2017-12-19 09:53:44:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
 2017-12-19 09:53:44:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-19 11:42:21:INFO: Create signaler for active 'EURUSD'.
+2017-12-19 11:42:21:INFO: Signaler for active 'EURUSD' started.
+2017-12-19 11:42:21:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-19 11:42:21:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-20 11:46:39:INFO: Create signaler for active 'EURUSD'.
+2017-12-20 11:46:39:INFO: Signaler for active 'EURUSD' started.
+2017-12-20 11:46:39:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-20 11:46:39:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-20 11:46:39:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-20 11:46:39:INFO: Create signaler for active 'GBPUSD'.
+2017-12-20 11:46:39:INFO: Signaler for active 'GBPUSD' started.
+2017-12-20 11:46:39:INFO: Signaler for active 'GBPUSD' wait for pattern 'DBHLC'.
+2017-12-20 11:46:39:INFO: Signaler for active 'GBPUSD' wait for pattern 'DBLHC'.
+2017-12-20 11:46:39:INFO: Signaler for active 'GBPUSD' wait for pattern 'TEST'.
+2017-12-20 11:46:39:INFO: Create signaler for active 'EURJPY'.
+2017-12-20 11:46:39:INFO: Signaler for active 'EURJPY' started.
+2017-12-20 11:46:39:INFO: Signaler for active 'EURJPY' wait for pattern 'DBHLC'.
+2017-12-20 11:46:39:INFO: Signaler for active 'EURJPY' wait for pattern 'DBLHC'.
+2017-12-20 11:46:39:INFO: Signaler for active 'EURJPY' wait for pattern 'TEST'.
+2017-12-20 11:48:01:INFO: Signaler for active 'GBPUSD' recived pattern 'TEST' in direction 'call'.
+2017-12-20 11:49:02:INFO: Signaler for active 'GBPUSD' recived pattern 'TEST' in direction 'call'.
+2017-12-20 12:05:45:INFO: Create signaler for active 'EURUSD'.
+2017-12-20 12:05:45:INFO: Signaler for active 'EURUSD' started.
+2017-12-20 12:05:45:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-20 12:05:45:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-20 12:05:45:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-20 12:05:45:INFO: Create signaler for active 'GBPUSD'.
+2017-12-20 12:05:45:INFO: Signaler for active 'GBPUSD' started.
+2017-12-20 12:05:45:INFO: Signaler for active 'GBPUSD' wait for pattern 'DBHLC'.
+2017-12-20 12:05:45:INFO: Signaler for active 'GBPUSD' wait for pattern 'DBLHC'.
+2017-12-20 12:05:45:INFO: Signaler for active 'GBPUSD' wait for pattern 'TEST'.
+2017-12-20 12:05:45:INFO: Create signaler for active 'EURJPY'.
+2017-12-20 12:05:45:INFO: Signaler for active 'EURJPY' started.
+2017-12-20 12:05:45:INFO: Signaler for active 'EURJPY' wait for pattern 'DBHLC'.
+2017-12-20 12:05:45:INFO: Signaler for active 'EURJPY' wait for pattern 'DBLHC'.
+2017-12-20 12:05:45:INFO: Signaler for active 'EURJPY' wait for pattern 'TEST'.
+2017-12-20 12:07:02:INFO: Signaler for active 'EURJPY' recived pattern 'TEST' in direction 'call'.
+2017-12-20 12:13:17:INFO: Create signaler for active 'EURUSD'.
+2017-12-20 12:13:17:INFO: Signaler for active 'EURUSD' started.
+2017-12-20 12:13:17:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-20 12:13:17:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-20 12:13:17:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-20 12:13:17:INFO: Create signaler for active 'GBPUSD'.
+2017-12-20 12:13:17:INFO: Signaler for active 'GBPUSD' started.
+2017-12-20 12:13:17:INFO: Signaler for active 'GBPUSD' wait for pattern 'DBHLC'.
+2017-12-20 12:13:17:INFO: Signaler for active 'GBPUSD' wait for pattern 'DBLHC'.
+2017-12-20 12:13:17:INFO: Signaler for active 'GBPUSD' wait for pattern 'TEST'.
+2017-12-20 12:13:17:INFO: Create signaler for active 'EURJPY'.
+2017-12-20 12:13:17:INFO: Signaler for active 'EURJPY' started.
+2017-12-20 12:13:17:INFO: Signaler for active 'EURJPY' wait for pattern 'DBHLC'.
+2017-12-20 12:13:17:INFO: Signaler for active 'EURJPY' wait for pattern 'DBLHC'.
+2017-12-20 12:13:17:INFO: Signaler for active 'EURJPY' wait for pattern 'TEST'.
+2017-12-20 12:14:02:INFO: Signaler for active 'GBPUSD' recived pattern 'TEST' in direction 'call'.
+2017-12-20 12:17:02:INFO: Signaler for active 'GBPUSD' recived pattern 'TEST' in direction 'call'.
+2017-12-20 12:22:56:INFO: Create signaler for active 'EURUSD'.
+2017-12-20 12:22:56:INFO: Signaler for active 'EURUSD' started.
+2017-12-20 12:22:56:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-20 12:22:56:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-20 12:22:56:INFO: Create signaler for active 'GBPUSD'.
+2017-12-20 12:22:56:INFO: Signaler for active 'GBPUSD' started.
+2017-12-20 12:22:56:INFO: Signaler for active 'GBPUSD' wait for pattern 'DBHLC'.
+2017-12-20 12:22:56:INFO: Signaler for active 'GBPUSD' wait for pattern 'DBLHC'.
+2017-12-20 12:22:56:INFO: Create signaler for active 'EURJPY'.
+2017-12-20 12:22:56:INFO: Signaler for active 'EURJPY' started.
+2017-12-20 12:22:56:INFO: Signaler for active 'EURJPY' wait for pattern 'DBHLC'.
+2017-12-20 12:22:56:INFO: Signaler for active 'EURJPY' wait for pattern 'DBLHC'.
+2017-12-21 12:28:04:INFO: Create signaler for active 'EURUSD'.
+2017-12-21 12:28:04:INFO: Signaler for active 'EURUSD' started.
+2017-12-21 12:28:04:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-21 12:28:04:INFO: Signaler for active 'EURUSD' wait for pattern 'DBLHC'.
+2017-12-21 12:28:04:INFO: Create signaler for active 'GBPUSD'.
+2017-12-21 12:28:04:INFO: Signaler for active 'GBPUSD' started.
+2017-12-21 12:28:04:INFO: Signaler for active 'GBPUSD' wait for pattern 'TEST'.
+2017-12-21 12:28:04:INFO: Signaler for active 'GBPUSD' wait for pattern 'DBLHC'.
+2017-12-21 12:28:04:INFO: Create signaler for active 'EURJPY'.
+2017-12-21 12:28:04:INFO: Signaler for active 'EURJPY' started.
+2017-12-21 12:28:04:INFO: Signaler for active 'EURJPY' wait for pattern 'TEST'.
+2017-12-21 12:28:04:INFO: Signaler for active 'EURJPY' wait for pattern 'DBLHC'.
+2017-12-21 12:29:00:INFO: Signaler for active 'EURJPY' recived pattern 'TEST' in direction 'call'.
+2017-12-21 12:30:01:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2017-12-21 12:33:11:INFO: Create signaler for active 'EURUSD'.
+2017-12-21 12:33:11:INFO: Signaler for active 'EURUSD' started.
+2017-12-21 12:33:11:INFO: Signaler for active 'EURUSD' wait for pattern 'DBHLC'.
+2017-12-21 12:33:11:INFO: Create signaler for active 'GBPUSD'.
+2017-12-21 12:33:11:INFO: Signaler for active 'GBPUSD' started.
+2017-12-21 12:33:11:INFO: Signaler for active 'GBPUSD' wait for pattern 'DBHLC'.
+2017-12-21 12:33:11:INFO: Create signaler for active 'EURJPY'.
+2017-12-21 12:33:11:INFO: Signaler for active 'EURJPY' started.
+2017-12-21 12:33:11:INFO: Signaler for active 'EURJPY' wait for pattern 'DBHLC'.
+2017-12-21 12:52:01:INFO: Signaler for active 'EURUSD' recived pattern 'DBHLC' in direction 'put'.
+2017-12-21 13:24:02:INFO: Signaler for active 'EURJPY' recived pattern 'DBHLC' in direction 'call'.
+2017-12-21 13:25:01:INFO: Signaler for active 'EURJPY' recived pattern 'DBHLC' in direction 'call'.
+2017-12-21 14:27:02:INFO: Signaler for active 'EURUSD' recived pattern 'DBHLC' in direction 'put'.
+2017-12-21 15:01:01:INFO: Signaler for active 'EURJPY' recived pattern 'DBHLC' in direction 'put'.
+2017-12-21 15:37:01:INFO: Signaler for active 'EURJPY' recived pattern 'DBHLC' in direction 'call'.
+2017-12-21 16:12:02:INFO: Signaler for active 'EURUSD' recived pattern 'DBHLC' in direction 'call'.
+2017-12-21 16:22:02:INFO: Signaler for active 'EURUSD' recived pattern 'DBHLC' in direction 'call'.
+2017-12-27 16:35:28:INFO: Create signaler for active 'EURUSD'.
+2017-12-27 16:35:28:INFO: Signaler for active 'EURUSD' started.
+2017-12-27 16:35:28:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-27 16:41:52:INFO: Create signaler for active 'EURUSD'.
+2017-12-27 16:41:52:INFO: Signaler for active 'EURUSD' started.
+2017-12-27 16:41:52:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-27 17:31:09:INFO: Create signaler for active 'EURUSD'.
+2017-12-27 17:31:09:INFO: Signaler for active 'EURUSD' started.
+2017-12-27 17:31:09:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-27 17:35:35:INFO: Create signaler for active 'EURUSD'.
+2017-12-27 17:35:35:INFO: Signaler for active 'EURUSD' started.
+2017-12-27 17:35:35:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-27 17:35:51:INFO: Create signaler for active 'EURUSD'.
+2017-12-27 17:35:51:INFO: Signaler for active 'EURUSD' started.
+2017-12-27 17:35:51:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-27 17:36:16:INFO: Create signaler for active 'EURUSD'.
+2017-12-27 17:36:16:INFO: Signaler for active 'EURUSD' started.
+2017-12-27 17:36:16:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-27 17:42:31:INFO: Create signaler for active 'EURUSD'.
+2017-12-27 17:42:31:INFO: Signaler for active 'EURUSD' started.
+2017-12-27 17:42:31:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-27 17:48:55:INFO: Create signaler for active 'EURUSD'.
+2017-12-27 17:48:55:INFO: Signaler for active 'EURUSD' started.
+2017-12-27 17:48:55:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-27 17:49:03:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2017-12-27 17:50:01:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2017-12-27 18:01:34:INFO: Create signaler for active 'EURUSD'.
+2017-12-27 18:01:34:INFO: Signaler for active 'EURUSD' started.
+2017-12-27 18:01:34:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2017-12-27 18:02:01:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2017-12-27 18:03:01:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.

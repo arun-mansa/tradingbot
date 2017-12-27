@@ -9,8 +9,7 @@
             "EURUSD"
         ], 
         "patterns": [
-            "DBHLC",
-            "DBLHC"
+            "TEST"
         ]
     }
 }

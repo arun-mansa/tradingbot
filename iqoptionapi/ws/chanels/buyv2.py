@@ -1,7 +1,7 @@
 """Module for IQ Option buyV2 websocket chanel."""
 
 from iqoptionapi.ws.chanels.base import Base
-
+import numpy as np
 
 class Buyv2(Base):
     """Class for IQ option buy websocket chanel."""
@@ -19,10 +19,12 @@ class Buyv2(Base):
         """
         data = {"price": price,
                 "act": active,
-                "exp": self.api.timesync.expiration_timestamp,
+                "exp": np.int64(self.api.timesync.expiration_timestamp),
                 "type": option,
                 "direction": direction,
-                "time": self.api.timesync.server_timestamp
+                "user_balance_id": self.api.profile.balance_id,
+                "time": self.api.timesync.server_timestamp,
+                "skey": self.api.profile.skey
                }
 
         self.send_websocket_request(self.name, data)
