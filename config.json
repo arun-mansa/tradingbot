@@ -6,10 +6,13 @@
     }, 
     "trade_settings": {
         "actives": [
-            "EURUSD"
+            "EURUSD",
+            "AUDCAD",
+            "EURJPY"
         ], 
         "patterns": [
-            "TEST"
+            "DBHLC",
+            "DBLHC"
         ]
     }
 }
