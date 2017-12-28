@@ -21,7 +21,11 @@ class Base(object):
         if  self.api.timesync.server_datetime.second == 0:
             self.api.getcandles(self.active, 60, 28)
             time.sleep(0.5)
-            return self.api.candles
+
+            if self.active in self.api.activeCandles:
+                return self.api.activeCandles[self.active]
+            else:
+                return False
 
     def rsi(self, candles, period=14):
         """Method to get RSI on fetched candels."""

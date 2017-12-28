@@ -21,7 +21,10 @@ class TimeSync(Base):
 
         :returns: The server timestamp.
         """
-        return self.__server_timestamp / 1000
+        if not self.__server_timestamp is None:
+            return self.__server_timestamp / 1000
+        else:
+            return 0
 
     @server_timestamp.setter
     def server_timestamp(self, timestamp):

@@ -11,8 +11,7 @@
             "EURJPY"
         ], 
         "patterns": [
-            "DBHLC",
-            "DBLHC"
+            "TBH"
         ]
     }
 }

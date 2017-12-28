@@ -37,12 +37,13 @@ class WebsocketClient(object):
 
         if message["name"] == "profile":
             self.api.profile.balance = message["msg"]["balance"]
-            if(self.api.profile.skey == None):
+            if self.api.profile.skey is None:
                 self.api.profile.skey = message["msg"]["skey"]
             self.api.profile.balance_id = message["msg"]["balance_id"]
 
         if message["name"] == "candles":
             self.api.candles.candles_data = message["msg"]["data"]
+            self.api.activeCandles[message["msg"]["active_id"]] = self.api.candles
 
         if message["name"] == "buyComplete":
             self.api.buy_status = message["msg"]["isSuccessful"]

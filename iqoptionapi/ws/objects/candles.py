@@ -63,6 +63,18 @@ class Candle(object):
         elif self.candle_open > self.candle_close:
             return "red"
 
+    @property
+    def candle_height(self):
+        """Property to get candle height value.
+
+        :returns: The candle type value.
+        """
+        if self.candle_open < self.candle_close:
+            return self.candle_close - self.candle_open
+        elif self.candle_open > self.candle_close:
+            return self.candle_open - self.candle_close
+
+
 
 class Candles(Base):
     """Class for IQ Option Candles websocket object."""

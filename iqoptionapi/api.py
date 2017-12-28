@@ -42,6 +42,7 @@ class IQOptionAPI(object):
     timesync = TimeSync()
     profile = Profile()
     candles = Candles()
+    activeCandles = {}
 
     def __init__(self, host, username, password, proxies=None):
         """
@@ -75,7 +76,7 @@ class IQOptionAPI(object):
         """Send http request to IQ Option server.
 
         :param resource: The instance of
-            :class:`Resource <iqoptionapi.http.resource.Resource>`.
+        :class:`Resource <iqoptionapi.http.resource.Resource>`.
         :param str method: The http request method.
         :param dict data: (optional) The http request data.
         :param dict params: (optional) The http request params.
