@@ -3,6 +3,7 @@
 import os
 import argparse
 import logging
+import time
 
 from iqoptionapi.api import IQOptionAPI
 from config import parse_config
@@ -149,6 +150,7 @@ def start():
                 for trader in traders:
                     if signaler.active == trader.active:
                         trader.trade(signal)
+        time.sleep(1)
 
 
 def _parse_args():

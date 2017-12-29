@@ -325,3 +325,124 @@
 2017-12-28 18:49:50:INFO: Create signalers.
 2017-12-28 18:49:50:INFO: Create traders.
 2017-12-28 18:50:01:INFO: High Band:'134760182.363843', First candle close: '134718500.000000'.
+2017-12-28 21:22:28:INFO: Create connection.
+2017-12-28 21:22:39:INFO: Successfully connected.
+2017-12-28 21:22:39:INFO: Create signalers.
+2017-12-28 21:22:39:INFO: Create traders.
+2017-12-28 21:51:02:INFO: High Band:'1194853.661314', First candle close: '1194790.000000'.
+2017-12-28 22:12:12:INFO: Create connection.
+2017-12-28 22:12:26:INFO: Successfully connected.
+2017-12-28 22:12:26:INFO: Create signalers.
+2017-12-28 22:12:26:INFO: Create traders.
+2017-12-28 22:15:40:INFO: Create connection.
+2017-12-28 22:15:52:INFO: Successfully connected.
+2017-12-28 22:15:52:INFO: Create signalers.
+2017-12-28 22:15:52:INFO: Create traders.
+2017-12-28 22:16:01:INFO: High Band:'1748607.696717', Current candle close: '0.000000'.
+2017-12-28 22:16:02:INFO: High Band:'1748607.696717', Current candle close: '0.000000'.
+2017-12-28 22:16:03:INFO: High Band:'1195282.719708', Current candle close: '0.000000'.
+2017-12-28 22:17:01:INFO: High Band:'1195284.581310', Current candle close: '0.000000'.
+2017-12-28 22:17:02:INFO: High Band:'1195284.581310', Current candle close: '0.000000'.
+2017-12-28 22:18:29:INFO: Create connection.
+2017-12-28 22:18:37:INFO: Successfully connected.
+2017-12-28 22:18:37:INFO: Create signalers.
+2017-12-28 22:18:37:INFO: Create traders.
+2017-12-28 22:19:02:INFO: High Band:'1195306.732895', second candle close: '1195265.000000'.
+2017-12-28 22:20:02:INFO: High Band:'1195306.732895', second candle close: '1195265.000000'.
+2017-12-28 22:22:02:INFO: High Band:'1195324.316024', second candle close: '1195270.000000'.
+2017-12-28 22:23:01:INFO: High Band:'1748694.919385', second candle close: '1195185.000000'.
+2017-12-28 22:23:02:INFO: High Band:'1748694.919385', second candle close: '1195185.000000'.
+2017-12-28 22:23:03:INFO: High Band:'1748694.919385', second candle close: '1195185.000000'.
+2017-12-28 22:24:01:INFO: High Band:'1195339.151210', second candle close: '1195035.000000'.
+2017-12-28 22:24:02:INFO: High Band:'1195358.696604', second candle close: '1195305.000000'.
+2017-12-28 22:24:02:INFO: Lower Band:'1195070.851723', First candle close: '1195035.000000'.
+2017-12-28 22:25:09:INFO: High Band:'1195358.696604', second candle close: '1195305.000000'.
+2017-12-28 22:25:09:INFO: Lower Band:'1195070.851723', First candle close: '1195035.000000'.
+2017-12-28 22:27:02:INFO: High Band:'1195390.723795', second candle close: '1195145.000000'.
+2017-12-28 22:29:58:INFO: Create connection.
+2017-12-28 22:30:07:INFO: Successfully connected.
+2017-12-28 22:30:07:INFO: Create signalers.
+2017-12-28 22:30:07:INFO: Create traders.
+2017-12-28 22:33:34:INFO: Create connection.
+2017-12-28 22:33:43:INFO: Successfully connected.
+2017-12-28 22:33:43:INFO: Create signalers.
+2017-12-28 22:33:43:INFO: Create traders.
+2017-12-28 22:35:02:INFO: High Band:'1195424.722914', second candle close: '1195375.000000'.
+2017-12-28 22:36:01:INFO: High Band:'1195424.722914', second candle close: '1195375.000000'.
+2017-12-28 22:37:01:INFO: High Band:'1195429.912138', second candle close: '1195250.000000'.
+2017-12-28 22:37:02:INFO: High Band:'1195418.528046', second candle close: '1195240.000000'.
+2017-12-28 22:37:03:INFO: High Band:'1195418.528046', second candle close: '1195240.000000'.
+2017-12-28 22:37:04:INFO: High Band:'1195418.528046', second candle close: '1195240.000000'.
+2017-12-28 22:38:01:INFO: High Band:'1195418.528046', second candle close: '1195240.000000'.
+2017-12-28 22:38:02:INFO: High Band:'1195428.708469', second candle close: '1195350.000000'.
+2017-12-28 22:39:00:INFO: High Band:'1195428.708469', second candle close: '1195350.000000'.
+2017-12-28 22:39:01:INFO: High Band:'1748732.078698', second candle close: '1195350.000000'.
+2017-12-28 23:00:35:INFO: Create connection.
+2017-12-28 23:00:56:INFO: Successfully connected.
+2017-12-28 23:00:56:INFO: Create signalers.
+2017-12-28 23:00:56:INFO: Create traders.
+2017-12-28 23:02:01:INFO: High Band:'1195571.135986', second candle close: '1195185.000000'.
+2017-12-28 23:04:36:INFO: Create connection.
+2017-12-28 23:04:44:INFO: Successfully connected.
+2017-12-28 23:04:44:INFO: Create signalers.
+2017-12-28 23:04:44:INFO: Create traders.
+2017-12-28 23:05:01:INFO: High Band:'1748670.759933', second candle close: '1195335.000000'.
+2017-12-28 23:05:01:INFO: High Band:'1748670.759933', second candle close: '1195335.000000'.
+2017-12-28 23:05:02:INFO: High Band:'1195440.878577', second candle close: '1195235.000000'.
+2017-12-28 23:06:01:INFO: High Band:'1748655.558413', second candle close: '1195235.000000'.
+2017-12-28 23:06:01:INFO: High Band:'1748655.558413', second candle close: '1195235.000000'.
+2017-12-28 23:06:02:INFO: High Band:'1748655.558413', second candle close: '1195235.000000'.
+2017-12-28 23:06:46:INFO: Create connection.
+2017-12-28 23:06:58:INFO: Successfully connected.
+2017-12-28 23:06:58:INFO: Create signalers.
+2017-12-28 23:06:58:INFO: Create traders.
+2017-12-28 23:07:05:INFO: High Band:'1195394.911007', second candle close: '1195175.000000'.
+2017-12-28 23:08:01:INFO: High Band:'1195396.056807', second candle close: '1195210.000000'.
+2017-12-28 23:08:02:INFO: High Band:'1195396.056807', second candle close: '1195210.000000'.
+2017-12-28 23:09:02:INFO: High Band:'1195398.930783', second candle close: '1195190.000000'.
+2017-12-28 23:11:01:INFO: High Band:'1195398.930783', second candle close: '1195190.000000'.
+2017-12-28 23:11:02:INFO: High Band:'1748692.128981', second candle close: '1195285.000000'.
+2017-12-28 23:12:01:INFO: High Band:'1748727.582972', second candle close: '1195385.000000'.
+2017-12-28 23:12:02:INFO: High Band:'1195452.062923', second candle close: '1195315.000000'.
+2017-12-28 23:13:04:INFO: High Band:'1195452.062923', second candle close: '1195315.000000'.
+2017-12-28 23:14:02:INFO: High Band:'1195459.238395', second candle close: '1195360.000000'.
+2017-12-28 23:14:03:INFO: High Band:'1195459.238395', second candle close: '1195360.000000'.
+2017-12-28 23:14:04:INFO: High Band:'1195424.533596', second candle close: '1195340.000000'.
+2017-12-28 23:14:51:INFO: Create connection.
+2017-12-28 23:15:03:INFO: Successfully connected.
+2017-12-28 23:15:03:INFO: Create signalers.
+2017-12-28 23:15:03:INFO: Create traders.
+2017-12-28 23:17:02:INFO: High Band:'1195457.438572', First candle close: '1195485.000000'.
+2017-12-28 23:18:01:INFO: High Band:'1195457.438572', First candle close: '1195485.000000'.
+2017-12-28 23:19:03:INFO: Lower Band:'980171.405878', First candle close: '980055.000000'.
+2017-12-28 23:19:47:INFO: Create connection.
+2017-12-28 23:19:57:INFO: Successfully connected.
+2017-12-28 23:19:57:INFO: Create signalers.
+2017-12-28 23:19:57:INFO: Create traders.
+2017-12-29 09:25:24:INFO: Create connection.
+2017-12-29 09:25:34:INFO: Successfully connected.
+2017-12-29 09:25:34:INFO: Create signalers.
+2017-12-29 09:25:34:INFO: Create traders.
+2017-12-29 09:38:38:INFO: Create connection.
+2017-12-29 09:38:49:INFO: Successfully connected.
+2017-12-29 09:38:49:INFO: Create signalers.
+2017-12-29 09:38:49:INFO: Create traders.
+2017-12-29 09:40:01:INFO: Create connection.
+2017-12-29 09:40:19:INFO: Create connection.
+2017-12-29 09:40:29:INFO: Successfully connected.
+2017-12-29 09:40:29:INFO: Create signalers.
+2017-12-29 09:40:29:INFO: Create traders.
+2017-12-29 09:57:22:INFO: Create connection.
+2017-12-29 09:57:37:INFO: Create connection.
+2017-12-29 09:57:45:INFO: Successfully connected.
+2017-12-29 09:57:45:INFO: Create signalers.
+2017-12-29 09:57:45:INFO: Create traders.
+2017-12-29 09:58:55:INFO: Create connection.
+2017-12-29 09:59:05:INFO: Successfully connected.
+2017-12-29 09:59:05:INFO: Create signalers.
+2017-12-29 09:59:05:INFO: Create traders.
+2017-12-29 10:00:13:INFO: Create connection.
+2017-12-29 10:00:25:INFO: Create connection.
+2017-12-29 10:00:33:INFO: Successfully connected.
+2017-12-29 10:00:33:INFO: Create signalers.
+2017-12-29 10:00:33:INFO: Create traders.

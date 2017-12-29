@@ -338,3 +338,126 @@
 2017-12-28 18:49:50:INFO: Trader for active 'EURJPY' wait for signal.
 2017-12-28 18:50:01:INFO: Trader for active 'EURJPY' recived signal 'put'.
 2017-12-28 18:50:01:INFO: Trader for active 'EURJPY' successfully buy in direction 'put'.
+2017-12-28 21:22:39:INFO: Create trader for active 'EURUSD'.
+2017-12-28 21:22:39:INFO: Trader for active 'EURUSD' started.
+2017-12-28 21:22:39:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-28 21:22:39:INFO: Create trader for active 'AUDCAD'.
+2017-12-28 21:22:39:INFO: Trader for active 'AUDCAD' started.
+2017-12-28 21:22:39:INFO: Trader for active 'AUDCAD' wait for signal.
+2017-12-28 21:22:39:INFO: Create trader for active 'EURJPY'.
+2017-12-28 21:22:39:INFO: Trader for active 'EURJPY' started.
+2017-12-28 21:22:39:INFO: Trader for active 'EURJPY' wait for signal.
+2017-12-28 21:51:03:INFO: Trader for active 'EURUSD' recived signal 'put'.
+2017-12-28 21:51:03:INFO: Trader for active 'EURUSD' successfully buy in direction 'put'.
+2017-12-28 22:12:26:INFO: Create trader for active 'EURUSD'.
+2017-12-28 22:12:26:INFO: Trader for active 'EURUSD' started.
+2017-12-28 22:12:26:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-28 22:12:26:INFO: Create trader for active 'AUDCAD'.
+2017-12-28 22:12:26:INFO: Trader for active 'AUDCAD' started.
+2017-12-28 22:12:26:INFO: Trader for active 'AUDCAD' wait for signal.
+2017-12-28 22:12:26:INFO: Create trader for active 'EURJPY'.
+2017-12-28 22:12:26:INFO: Trader for active 'EURJPY' started.
+2017-12-28 22:12:26:INFO: Trader for active 'EURJPY' wait for signal.
+2017-12-28 22:15:52:INFO: Create trader for active 'EURUSD'.
+2017-12-28 22:15:52:INFO: Trader for active 'EURUSD' started.
+2017-12-28 22:15:52:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-28 22:18:37:INFO: Create trader for active 'EURUSD'.
+2017-12-28 22:18:37:INFO: Trader for active 'EURUSD' started.
+2017-12-28 22:18:37:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-28 22:24:02:INFO: Trader for active 'EURUSD' recived signal 'call'.
+2017-12-28 22:24:02:INFO: Trader for active 'EURUSD' successfully buy in direction 'call'.
+2017-12-28 22:25:09:INFO: Trader for active 'EURUSD' recived signal 'call'.
+2017-12-28 22:25:09:INFO: Trader for active 'EURUSD' successfully buy in direction 'call'.
+2017-12-28 22:30:07:INFO: Create trader for active 'EURUSD'.
+2017-12-28 22:30:07:INFO: Trader for active 'EURUSD' started.
+2017-12-28 22:30:07:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-28 22:33:43:INFO: Create trader for active 'EURUSD'.
+2017-12-28 22:33:43:INFO: Trader for active 'EURUSD' started.
+2017-12-28 22:33:43:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-28 23:00:56:INFO: Create trader for active 'EURUSD'.
+2017-12-28 23:00:56:INFO: Trader for active 'EURUSD' started.
+2017-12-28 23:00:56:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-28 23:04:44:INFO: Create trader for active 'EURUSD'.
+2017-12-28 23:04:44:INFO: Trader for active 'EURUSD' started.
+2017-12-28 23:04:44:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-28 23:06:58:INFO: Create trader for active 'EURUSD'.
+2017-12-28 23:06:58:INFO: Trader for active 'EURUSD' started.
+2017-12-28 23:06:58:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-28 23:15:03:INFO: Create trader for active 'EURUSD'.
+2017-12-28 23:15:03:INFO: Trader for active 'EURUSD' started.
+2017-12-28 23:15:03:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-28 23:15:03:INFO: Create trader for active 'AUDCAD'.
+2017-12-28 23:15:03:INFO: Trader for active 'AUDCAD' started.
+2017-12-28 23:15:03:INFO: Trader for active 'AUDCAD' wait for signal.
+2017-12-28 23:15:03:INFO: Create trader for active 'EURJPY'.
+2017-12-28 23:15:03:INFO: Trader for active 'EURJPY' started.
+2017-12-28 23:15:03:INFO: Trader for active 'EURJPY' wait for signal.
+2017-12-28 23:17:02:INFO: Trader for active 'EURUSD' recived signal 'put'.
+2017-12-28 23:17:02:INFO: Trader for active 'EURUSD' successfully buy in direction 'put'.
+2017-12-28 23:18:01:INFO: Trader for active 'EURUSD' recived signal 'put'.
+2017-12-28 23:18:01:INFO: Trader for active 'EURUSD' successfully buy in direction 'put'.
+2017-12-28 23:19:03:INFO: Trader for active 'AUDCAD' recived signal 'call'.
+2017-12-28 23:19:03:INFO: Trader for active 'AUDCAD' successfully buy in direction 'call'.
+2017-12-28 23:19:57:INFO: Create trader for active 'EURUSD'.
+2017-12-28 23:19:57:INFO: Trader for active 'EURUSD' started.
+2017-12-28 23:19:57:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-28 23:19:57:INFO: Create trader for active 'AUDCAD'.
+2017-12-28 23:19:57:INFO: Trader for active 'AUDCAD' started.
+2017-12-28 23:19:57:INFO: Trader for active 'AUDCAD' wait for signal.
+2017-12-28 23:19:57:INFO: Create trader for active 'EURJPY'.
+2017-12-28 23:19:57:INFO: Trader for active 'EURJPY' started.
+2017-12-28 23:19:57:INFO: Trader for active 'EURJPY' wait for signal.
+2017-12-29 09:25:34:INFO: Create trader for active 'EURUSD'.
+2017-12-29 09:25:34:INFO: Trader for active 'EURUSD' started.
+2017-12-29 09:25:34:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-29 09:25:34:INFO: Create trader for active 'AUDCAD'.
+2017-12-29 09:25:34:INFO: Trader for active 'AUDCAD' started.
+2017-12-29 09:25:34:INFO: Trader for active 'AUDCAD' wait for signal.
+2017-12-29 09:25:34:INFO: Create trader for active 'EURJPY'.
+2017-12-29 09:25:34:INFO: Trader for active 'EURJPY' started.
+2017-12-29 09:25:34:INFO: Trader for active 'EURJPY' wait for signal.
+2017-12-29 09:38:49:INFO: Create trader for active 'EURUSD'.
+2017-12-29 09:38:49:INFO: Trader for active 'EURUSD' started.
+2017-12-29 09:38:49:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-29 09:38:49:INFO: Create trader for active 'AUDCAD'.
+2017-12-29 09:38:49:INFO: Trader for active 'AUDCAD' started.
+2017-12-29 09:38:49:INFO: Trader for active 'AUDCAD' wait for signal.
+2017-12-29 09:38:49:INFO: Create trader for active 'EURJPY'.
+2017-12-29 09:38:49:INFO: Trader for active 'EURJPY' started.
+2017-12-29 09:38:49:INFO: Trader for active 'EURJPY' wait for signal.
+2017-12-29 09:40:29:INFO: Create trader for active 'EURUSD'.
+2017-12-29 09:40:29:INFO: Trader for active 'EURUSD' started.
+2017-12-29 09:40:29:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-29 09:40:29:INFO: Create trader for active 'AUDCAD'.
+2017-12-29 09:40:29:INFO: Trader for active 'AUDCAD' started.
+2017-12-29 09:40:29:INFO: Trader for active 'AUDCAD' wait for signal.
+2017-12-29 09:40:29:INFO: Create trader for active 'EURJPY'.
+2017-12-29 09:40:29:INFO: Trader for active 'EURJPY' started.
+2017-12-29 09:40:29:INFO: Trader for active 'EURJPY' wait for signal.
+2017-12-29 09:57:45:INFO: Create trader for active 'EURUSD'.
+2017-12-29 09:57:45:INFO: Trader for active 'EURUSD' started.
+2017-12-29 09:57:45:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-29 09:57:45:INFO: Create trader for active 'AUDCAD'.
+2017-12-29 09:57:45:INFO: Trader for active 'AUDCAD' started.
+2017-12-29 09:57:45:INFO: Trader for active 'AUDCAD' wait for signal.
+2017-12-29 09:57:45:INFO: Create trader for active 'EURJPY'.
+2017-12-29 09:57:45:INFO: Trader for active 'EURJPY' started.
+2017-12-29 09:57:45:INFO: Trader for active 'EURJPY' wait for signal.
+2017-12-29 09:59:05:INFO: Create trader for active 'EURUSD'.
+2017-12-29 09:59:05:INFO: Trader for active 'EURUSD' started.
+2017-12-29 09:59:05:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-29 09:59:05:INFO: Create trader for active 'AUDCAD'.
+2017-12-29 09:59:05:INFO: Trader for active 'AUDCAD' started.
+2017-12-29 09:59:05:INFO: Trader for active 'AUDCAD' wait for signal.
+2017-12-29 09:59:05:INFO: Create trader for active 'EURJPY'.
+2017-12-29 09:59:05:INFO: Trader for active 'EURJPY' started.
+2017-12-29 09:59:05:INFO: Trader for active 'EURJPY' wait for signal.
+2017-12-29 10:00:33:INFO: Create trader for active 'EURUSD'.
+2017-12-29 10:00:33:INFO: Trader for active 'EURUSD' started.
+2017-12-29 10:00:33:INFO: Trader for active 'EURUSD' wait for signal.
+2017-12-29 10:00:33:INFO: Create trader for active 'AUDCAD'.
+2017-12-29 10:00:33:INFO: Trader for active 'AUDCAD' started.
+2017-12-29 10:00:33:INFO: Trader for active 'AUDCAD' wait for signal.
+2017-12-29 10:00:33:INFO: Create trader for active 'EURJPY'.
+2017-12-29 10:00:33:INFO: Trader for active 'EURJPY' started.
+2017-12-29 10:00:33:INFO: Trader for active 'EURJPY' wait for signal.

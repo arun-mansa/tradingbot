@@ -14,18 +14,16 @@ class Base(object):
         """
         self.api = api
         self.active = active
+        self.fetchedCandles = {self.active: False, 'time': self.api.timesync.server_datetime }
 
     @property
     def candles(self):
         """Property to get candles."""
-        if  self.api.timesync.server_datetime.second == 0:
-            self.api.getcandles(self.active, 60, 28)
-            time.sleep(0.5)
-
-            if self.active in self.api.activeCandles:
-                return self.api.activeCandles[self.active]
-            else:
-                return False
+        if self.active in self.api.activeCandles:
+            return self.api.activeCandles[self.active]
+        else:
+            return False
+            
 
     def rsi(self, candles, period=14):
         """Method to get RSI on fetched candels."""
@@ -69,3 +67,19 @@ class Base(object):
     def put(self):
         """Method to check put pattern."""
         pass
+
+    def fetch_candles(self):
+        """ Methond to fetch candles form IQOptions Websocket api"""
+        time_diff = self.api.timesync.server_datetime - self.fetchedCandles['time']
+        print(time_diff.seconds)
+        if self.api.timesync.server_datetime.second == 0:
+            self.fetchedCandles[self.active] = False
+
+        if not self.fetchedCandles[self.active]:
+            self.api.getcandles(self.active, 60, 28)
+            self.fetchedCandles[self.active] = True
+            self.fetchedCandles['time'] = self.api.timesync.server_datetime
+            return True
+        else:
+            return False
+            
