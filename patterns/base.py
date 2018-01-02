@@ -14,7 +14,7 @@ class Base(object):
         """
         self.api = api
         self.active = active
-        self.fetchedCandles = {self.active: False, 'time': self.api.timesync.server_datetime }
+        self.fetched_candles = {self.active: False, 'time': self.api.timesync.server_datetime}
 
     @property
     def candles(self):
@@ -23,11 +23,10 @@ class Base(object):
             return self.api.activeCandles[self.active]
         else:
             return False
-            
 
     def rsi(self, candles, period=14):
         """Method to get RSI on fetched candels."""
-        logger = logging.getLogger("__main__")
+        # logger = logging.getLogger("__main__")
         if hasattr(candles, 'candles_array'):
             candel_array = candles.candles_array
             prices = pd.Series([candle.candle_close for candle in candel_array])
@@ -42,23 +41,24 @@ class Base(object):
 
             relativestrength = rol_up / rol_down
             rsi = 100.0 - (100.0 / (1.0 + relativestrength))
-            logger.info("RSI for first candle '%f'.", rsi[26])
+            # logger.info("RSI for first candle '%f'.", rsi[26])
             return rsi
 
     def bolinger_bands(self, candles, period=14, num_of_std=2):
         """Method to get BB on fetched candels."""
-        logger = logging.getLogger("__main__")
+        # logger = logging.getLogger("__main__")
         if hasattr(candles, 'candles_array'):
             candel_array = candles.candles_array
             prices = pd.Series([candle.candle_close for candle in candel_array])
 
             rolling_mean = prices.rolling(window=period).mean()
-            rolling_std  = prices.rolling(window=period).std()
+            rolling_std = prices.rolling(window=period).std()
             upper_band = rolling_mean + (rolling_std*num_of_std)
             lower_band = rolling_mean - (rolling_std*num_of_std)
+            height = upper_band - lower_band
 
             # logger.info("Upper Band:'%f', Lower Band: '%f'.", upper_band[26], lower_band[26])
-            return upper_band, lower_band
+            return upper_band, lower_band, height
 
     def call(self):
         """Method to check call pattern."""
@@ -70,16 +70,21 @@ class Base(object):
 
     def fetch_candles(self):
         """ Methond to fetch candles form IQOptions Websocket api"""
-        time_diff = self.api.timesync.server_datetime - self.fetchedCandles['time']
-        print(time_diff.seconds)
-        if self.api.timesync.server_datetime.second == 0:
-            self.fetchedCandles[self.active] = False
+        time_diff = self.api.timesync.server_datetime - self.fetched_candles['time']
 
-        if not self.fetchedCandles[self.active]:
+        if time_diff.seconds > 15 and self.api.timesync.server_datetime.second < 2:
+            del self.api.activeCandles[self.active]
+            self.fetched_candles[self.active] = False
+
+        if not self.fetched_candles[self.active]:
             self.api.getcandles(self.active, 60, 28)
-            self.fetchedCandles[self.active] = True
-            self.fetchedCandles['time'] = self.api.timesync.server_datetime
+
+            self.fetched_candles[self.active] = True
+            self.fetched_candles['time'] = self.api.timesync.server_datetime
+
+            time.sleep(1)
+
             return True
         else:
             return False
-            
+

@@ -6,9 +6,7 @@
     }, 
     "trade_settings": {
         "actives": [
-            "EURUSD",
-            "AUDCAD",
-            "EURJPY"
+            "EURUSD"
         ], 
         "patterns": [
             "TBH"

@@ -20,9 +20,9 @@ class TBH(Base):
         candles = self.candles
 
         if hasattr(candles, 'first_candle') and hasattr(candles, 'second_candle'):
-            up, lw = self.bolinger_bands(candles=candles)
+            up, lw, height = self.bolinger_bands(candles=candles)
 
-            # logger.info("High Band:'%f', second candle close: '%f'.", up[27], candles.second_candle.candle_close)
+            logger.info("BB Height:'%f', Lower BB: '%f'.", height[25], lw[25])
 
             if candles.first_candle.candle_close < lw[25]:
                 if candles.first_candle.candle_type == "red" and candles.second_candle.candle_type == "green":
@@ -36,7 +36,9 @@ class TBH(Base):
         candles = self.candles
 
         if hasattr(candles, 'first_candle') and hasattr(candles, 'second_candle'):
-            up, lw = self.bolinger_bands(candles=candles)
+            up, lw, height = self.bolinger_bands(candles=candles)
+
+            logger.info("BB Height:'%f', Upper BB: '%f'.", height[25], up[25])
 
             if candles.first_candle.candle_close > up[25]:
                 if candles.first_candle.candle_type == "green" and candles.second_candle.candle_type == "red":
