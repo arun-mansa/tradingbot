@@ -73,8 +73,9 @@ class Base(object):
         time_diff = self.api.timesync.server_datetime - self.fetched_candles['time']
 
         if time_diff.seconds > 15 and self.api.timesync.server_datetime.second < 2:
-            del self.api.activeCandles[self.active]
             self.fetched_candles[self.active] = False
+            if self.active in self.api.activeCandles:
+                del self.api.activeCandles[self.active]
 
         if not self.fetched_candles[self.active]:
             self.api.getcandles(self.active, 60, 28)

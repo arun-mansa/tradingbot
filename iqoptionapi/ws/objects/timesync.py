@@ -61,6 +61,8 @@ class TimeSync(Base):
 
         :returns: The expiration datetime.
         """
+        self.server_datetime.second = 0
+        
         return self.server_datetime + datetime.timedelta(minutes=self.expiration_time)
 
     @property
