@@ -61,9 +61,10 @@ class TimeSync(Base):
 
         :returns: The expiration datetime.
         """
-        self.server_datetime.second = 0
+        expiration_time = self.expiration_time
+        expiration_time = expiration_time - self.server_datetime.second
         
-        return self.server_datetime + datetime.timedelta(minutes=self.expiration_time)
+        return self.server_datetime + datetime.timedelta(seconds=expiration_time)
 
     @property
     def expiration_timestamp(self):

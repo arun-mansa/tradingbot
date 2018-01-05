@@ -6,10 +6,10 @@
     }, 
     "trade_settings": {
         "actives": [
-            "EURUSD"
+            "EURNZD"
         ], 
         "patterns": [
-            "TEST"
+            "TBH"
         ]
     }
 }

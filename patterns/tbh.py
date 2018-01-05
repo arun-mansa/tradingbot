@@ -24,7 +24,7 @@ class TBH(Base):
 
             logger.info("BB Height:'%f', Lower BB: '%f'.", height[25], lw[25])
 
-            if candles.first_candle.candle_close < lw[25]:
+            if candles.first_candle.candle_close < lw[25] and height[25] > 900:
                 if candles.first_candle.candle_type == "red" and candles.second_candle.candle_type == "green":
                     if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
                         logger.info("Lower Band:'%f', First candle close: '%f'.", lw[25], candles.first_candle.candle_close)
@@ -40,7 +40,7 @@ class TBH(Base):
 
             logger.info("BB Height:'%f', Upper BB: '%f'.", height[25], up[25])
 
-            if candles.first_candle.candle_close > up[25]:
+            if candles.first_candle.candle_close > up[25] and height[25] > 900:
                 if candles.first_candle.candle_type == "green" and candles.second_candle.candle_type == "red":
                     if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
                         logger.info("High Band:'%f', First candle close: '%f'.", up[25], candles.first_candle.candle_close)

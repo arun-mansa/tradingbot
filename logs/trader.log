@@ -537,3 +537,12 @@
 2018-01-03 09:58:02:INFO: Trader for active 'EURUSD' successfully buy in direction 'call'.
 2018-01-03 10:00:03:INFO: Trader for active 'EURUSD' recived signal 'call'.
 2018-01-03 10:00:03:INFO: Trader for active 'EURUSD' successfully buy in direction 'call'.
+2018-01-03 10:13:47:INFO: Create trader for active 'EURUSD'.
+2018-01-03 10:13:47:INFO: Trader for active 'EURUSD' started.
+2018-01-03 10:13:47:INFO: Trader for active 'EURUSD' wait for signal.
+2018-01-03 10:15:01:INFO: Trader for active 'EURUSD' recived signal 'call'.
+2018-01-04 22:02:15:INFO: Create trader for active 'EURNZD'.
+2018-01-04 22:02:15:INFO: Trader for active 'EURNZD' started.
+2018-01-04 22:02:15:INFO: Trader for active 'EURNZD' wait for signal.
+2018-01-04 22:27:02:INFO: Trader for active 'EURNZD' recived signal 'call'.
+2018-01-04 22:27:02:INFO: Trader for active 'EURNZD' successfully buy in direction 'call'.
