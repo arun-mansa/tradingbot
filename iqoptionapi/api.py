@@ -42,6 +42,7 @@ class IQOptionAPI(object):
     timesync = TimeSync()
     profile = Profile()
     candles = Candles()
+    candle5Mins = Candles()
     activeCandles = {}
 
     def __init__(self, host, username, password, proxies=None):
@@ -124,7 +125,7 @@ class IQOptionAPI(object):
         """
         return self.websocket_client.wss
 
-    def send_websocket_request(self, name, msg):
+    def send_websocket_request(self, name, msg, requestid=None):
         """Send websocket request to IQ Option server.
 
         :param str name: The websocket request name.
@@ -133,7 +134,8 @@ class IQOptionAPI(object):
         logger = logging.getLogger(__name__)
 
         data = json.dumps(dict(name=name,
-                               msg=msg))
+                               msg=msg,
+                               request_id=requestid))
         logger.debug(data)
         self.websocket.send(data)
 

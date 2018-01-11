@@ -79,6 +79,7 @@ class Base(object):
 
         if not self.fetched_candles[self.active]:
             self.api.getcandles(self.active, 60, 28)
+            self.api.getcandles(self.active, 60 * 5, 28)
 
             self.fetched_candles[self.active] = True
             self.fetched_candles['time'] = self.api.timesync.server_datetime

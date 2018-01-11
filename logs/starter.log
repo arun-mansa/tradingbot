@@ -1,1013 +1,352 @@
-2017-12-19 09:11:04:INFO: Create connection.
-2017-12-19 09:11:10:INFO: Successfully connected.
-2017-12-19 09:11:10:INFO: Create signalers.
-2017-12-19 09:11:10:INFO: Create traders.
-2017-12-19 09:13:01:INFO: Upper Band:'1179019.876558', Lower Band: '1178569.409157'.
-2017-12-19 09:14:01:INFO: Upper Band:'1179051.670167', Lower Band: '1178584.758405'.
-2017-12-19 09:14:02:INFO: Upper Band:'1179051.670167', Lower Band: '1178584.758405'.
-2017-12-19 09:15:00:INFO: Upper Band:'1179074.928560', Lower Band: '1178610.785725'.
-2017-12-19 09:15:01:INFO: Upper Band:'1179074.928560', Lower Band: '1178610.785725'.
-2017-12-19 09:15:33:INFO: Create connection.
-2017-12-19 09:15:39:INFO: Successfully connected.
-2017-12-19 09:15:39:INFO: Create signalers.
-2017-12-19 09:15:39:INFO: Create traders.
-2017-12-19 09:16:44:INFO: Create connection.
-2017-12-19 09:16:50:INFO: Successfully connected.
-2017-12-19 09:16:50:INFO: Create signalers.
-2017-12-19 09:16:50:INFO: Create traders.
-2017-12-19 09:17:01:INFO: Upper Band:'1179094.174506', Lower Band: '1178630.825494'.
-2017-12-19 09:18:01:INFO: Upper Band:'1179054.070234', Lower Band: '1178700.215480'.
-2017-12-19 09:19:01:INFO: Upper Band:'1179054.249227', Lower Band: '1178697.179344'.
-2017-12-19 09:19:02:INFO: Upper Band:'1179054.249227', Lower Band: '1178697.179344'.
-2017-12-19 09:20:01:INFO: Upper Band:'1179039.980278', Lower Band: '1178695.734008'.
-2017-12-19 09:20:02:INFO: Upper Band:'1179039.980278', Lower Band: '1178695.734008'.
-2017-12-19 09:21:01:INFO: Upper Band:'1179040.603752', Lower Band: '1178701.539105'.
-2017-12-19 09:21:02:INFO: Upper Band:'1179040.603752', Lower Band: '1178701.539105'.
-2017-12-19 09:22:26:INFO: Create connection.
-2017-12-19 09:22:32:INFO: Successfully connected.
-2017-12-19 09:22:32:INFO: Create signalers.
-2017-12-19 09:22:32:INFO: Create traders.
-2017-12-19 09:23:00:INFO: Upper Band:'1724804.856729', Lower Band: '464534.428986'.
-2017-12-19 09:23:01:INFO: Upper Band:'1179035.371724', Lower Band: '1178710.342562'.
-2017-12-19 09:25:00:INFO: Upper Band:'1724805.418718', Lower Band: '464534.581282'.
-2017-12-19 09:25:01:INFO: Upper Band:'1179033.134027', Lower Band: '1178709.008830'.
-2017-12-19 09:25:49:INFO: Create connection.
-2017-12-19 09:25:55:INFO: Successfully connected.
-2017-12-19 09:25:55:INFO: Create signalers.
-2017-12-19 09:25:55:INFO: Create traders.
-2017-12-19 09:26:01:INFO: RSI for first candle '51.666667'.
-2017-12-19 09:26:01:INFO: Upper Band:'1179033.134027', Lower Band: '1178709.008830'.
-2017-12-19 09:26:02:INFO: RSI for first candle '51.666667'.
-2017-12-19 09:26:02:INFO: Upper Band:'1179033.134027', Lower Band: '1178709.008830'.
-2017-12-19 09:27:01:INFO: RSI for first candle '22.772277'.
-2017-12-19 09:27:01:INFO: Upper Band:'1179017.997041', Lower Band: '1178684.860102'.
-2017-12-19 09:27:02:INFO: RSI for first candle '22.772277'.
-2017-12-19 09:27:02:INFO: Upper Band:'1179017.997041', Lower Band: '1178684.860102'.
-2017-12-19 09:28:01:INFO: RSI for first candle '36.585366'.
-2017-12-19 09:28:01:INFO: Upper Band:'1178986.112297', Lower Band: '1178693.173418'.
-2017-12-19 09:28:02:INFO: RSI for first candle '36.585366'.
-2017-12-19 09:28:02:INFO: Upper Band:'1178986.112297', Lower Band: '1178693.173418'.
-2017-12-19 09:29:00:INFO: RSI for first candle '35.537190'.
-2017-12-19 09:29:00:INFO: Upper Band:'1178940.870892', Lower Band: '1178713.414822'.
-2017-12-19 09:29:01:INFO: RSI for first candle '35.537190'.
-2017-12-19 09:29:01:INFO: Upper Band:'1178940.870892', Lower Band: '1178713.414822'.
-2017-12-19 09:35:28:INFO: Create connection.
-2017-12-19 09:35:34:INFO: Successfully connected.
-2017-12-19 09:35:34:INFO: Create signalers.
-2017-12-19 09:35:34:INFO: Create traders.
-2017-12-19 09:38:08:INFO: Create connection.
-2017-12-19 09:38:14:INFO: Successfully connected.
-2017-12-19 09:38:14:INFO: Create signalers.
-2017-12-19 09:38:14:INFO: Create traders.
-2017-12-19 09:40:01:INFO: RSI for first candle '46'.
-2017-12-19 09:40:01:INFO: Upper Band:'1178967.421435', Lower Band: '1178724.721422'.
-2017-12-19 09:41:01:INFO: RSI for first candle '57'.
-2017-12-19 09:41:01:INFO: Upper Band:'1178954.831231', Lower Band: '1178745.883054'.
-2017-12-19 09:41:02:INFO: RSI for first candle '57'.
-2017-12-19 09:41:02:INFO: Upper Band:'1178954.831231', Lower Band: '1178745.883054'.
-2017-12-19 09:53:38:INFO: Create connection.
-2017-12-19 09:53:44:INFO: Successfully connected.
-2017-12-19 09:53:44:INFO: Create signalers.
-2017-12-19 09:53:44:INFO: Create traders.
-2017-12-19 09:54:00:INFO: RSI for first candle '64.285714'.
-2017-12-19 09:54:00:INFO: Upper Band:'1178901.263961', Lower Band: '1178716.593182'.
-2017-12-19 09:54:01:INFO: RSI for first candle '64.285714'.
-2017-12-19 09:54:01:INFO: Upper Band:'1178901.263961', Lower Band: '1178716.593182'.
-2017-12-19 09:54:01:INFO: RSI for first candle '64.285714'.
-2017-12-19 09:54:01:INFO: Upper Band:'1178901.263961', Lower Band: '1178716.593182'.
-2017-12-19 09:55:01:INFO: RSI for first candle '69.230769'.
-2017-12-19 09:55:01:INFO: Upper Band:'1178928.374304', Lower Band: '1178710.911411'.
-2017-12-19 09:55:02:INFO: RSI for first candle '69.230769'.
-2017-12-19 09:55:02:INFO: Upper Band:'1178928.374304', Lower Band: '1178710.911411'.
-2017-12-19 09:55:02:INFO: RSI for first candle '69.230769'.
-2017-12-19 09:55:02:INFO: Upper Band:'1178928.374304', Lower Band: '1178710.911411'.
-2017-12-19 09:56:01:INFO: RSI for first candle '62.068966'.
-2017-12-19 09:56:01:INFO: Upper Band:'1178921.255252', Lower Band: '1178733.030462'.
-2017-12-19 09:56:01:INFO: RSI for first candle '62.068966'.
-2017-12-19 09:56:01:INFO: Upper Band:'1178921.255252', Lower Band: '1178733.030462'.
-2017-12-19 09:56:02:INFO: RSI for first candle '62.068966'.
-2017-12-19 09:56:02:INFO: Upper Band:'1178921.255252', Lower Band: '1178733.030462'.
-2017-12-19 09:57:00:INFO: RSI for first candle '50.000000'.
-2017-12-19 09:57:00:INFO: Upper Band:'1178921.255252', Lower Band: '1178733.030462'.
-2017-12-19 09:57:01:INFO: RSI for first candle '50.000000'.
-2017-12-19 09:57:01:INFO: Upper Band:'1178921.255252', Lower Band: '1178733.030462'.
-2017-12-19 09:57:01:INFO: RSI for first candle '50.000000'.
-2017-12-19 09:57:01:INFO: Upper Band:'1178921.255252', Lower Band: '1178733.030462'.
-2017-12-19 09:58:01:INFO: RSI for first candle '51.111111'.
-2017-12-19 09:58:01:INFO: Upper Band:'1178920.403538', Lower Band: '1178735.310748'.
-2017-12-19 09:58:01:INFO: RSI for first candle '51.111111'.
-2017-12-19 09:58:01:INFO: Upper Band:'1178920.403538', Lower Band: '1178735.310748'.
-2017-12-19 09:58:02:INFO: RSI for first candle '51.111111'.
-2017-12-19 09:58:02:INFO: Upper Band:'1178920.403538', Lower Band: '1178735.310748'.
-2017-12-19 09:59:01:INFO: RSI for first candle '50.000000'.
-2017-12-19 09:59:01:INFO: Upper Band:'1178920.403538', Lower Band: '1178735.310748'.
-2017-12-19 09:59:02:INFO: RSI for first candle '50.000000'.
-2017-12-19 09:59:02:INFO: Upper Band:'1178920.403538', Lower Band: '1178735.310748'.
-2017-12-19 09:59:02:INFO: RSI for first candle '50.000000'.
-2017-12-19 09:59:02:INFO: Upper Band:'1178920.403538', Lower Band: '1178735.310748'.
-2017-12-19 10:00:01:INFO: RSI for first candle '44.086022'.
-2017-12-19 10:00:01:INFO: Upper Band:'1178925.771480', Lower Band: '1178722.085663'.
-2017-12-19 10:00:01:INFO: RSI for first candle '44.086022'.
-2017-12-19 10:00:01:INFO: Upper Band:'1178925.771480', Lower Band: '1178722.085663'.
-2017-12-19 10:00:02:INFO: RSI for first candle '44.086022'.
-2017-12-19 10:00:02:INFO: Upper Band:'1178925.771480', Lower Band: '1178722.085663'.
-2017-12-19 10:01:00:INFO: RSI for first candle '51.041667'.
-2017-12-19 10:01:00:INFO: Upper Band:'1178925.138880', Lower Band: '1178724.146835'.
-2017-12-19 10:01:01:INFO: RSI for first candle '51.041667'.
-2017-12-19 10:01:01:INFO: Upper Band:'1178925.138880', Lower Band: '1178724.146835'.
-2017-12-19 10:01:01:INFO: RSI for first candle '51.041667'.
-2017-12-19 10:01:01:INFO: Upper Band:'1178925.138880', Lower Band: '1178724.146835'.
-2017-12-19 10:03:01:INFO: RSI for first candle '44.565217'.
-2017-12-19 10:03:01:INFO: Upper Band:'1178923.496335', Lower Band: '1178720.789379'.
-2017-12-19 10:03:01:INFO: RSI for first candle '44.565217'.
-2017-12-19 10:03:01:INFO: Upper Band:'1178923.496335', Lower Band: '1178720.789379'.
-2017-12-19 10:03:02:INFO: RSI for first candle '44.565217'.
-2017-12-19 10:03:02:INFO: Upper Band:'1178923.496335', Lower Band: '1178720.789379'.
-2017-12-19 10:04:00:INFO: RSI for first candle '47.311828'.
-2017-12-19 10:04:00:INFO: Upper Band:'1178922.372548', Lower Band: '1178718.341738'.
-2017-12-19 10:04:01:INFO: RSI for first candle '47.311828'.
-2017-12-19 10:04:01:INFO: Upper Band:'1178922.372548', Lower Band: '1178718.341738'.
-2017-12-19 10:04:01:INFO: RSI for first candle '47.311828'.
-2017-12-19 10:04:01:INFO: Upper Band:'1178922.372548', Lower Band: '1178718.341738'.
-2017-12-19 11:42:15:INFO: Create connection.
-2017-12-19 11:42:21:INFO: Successfully connected.
-2017-12-19 11:42:21:INFO: Create signalers.
-2017-12-19 11:42:21:INFO: Create traders.
-2017-12-19 11:43:01:INFO: RSI for first candle '62.921348'.
-2017-12-19 11:43:01:INFO: Upper Band:'1179397.454999', Lower Band: '1179138.259286'.
-2017-12-19 11:43:02:INFO: RSI for first candle '62.921348'.
-2017-12-19 11:43:02:INFO: Upper Band:'1179397.454999', Lower Band: '1179138.259286'.
-2017-12-19 11:44:01:INFO: RSI for first candle '60.215054'.
-2017-12-19 11:44:01:INFO: Upper Band:'1179412.174072', Lower Band: '1179137.111642'.
-2017-12-19 11:44:02:INFO: RSI for first candle '60.215054'.
-2017-12-19 11:44:02:INFO: Upper Band:'1179412.174072', Lower Band: '1179137.111642'.
-2017-12-19 11:44:02:INFO: RSI for first candle '60.215054'.
-2017-12-19 11:44:02:INFO: Upper Band:'1179412.174072', Lower Band: '1179137.111642'.
-2017-12-20 11:46:32:INFO: Create connection.
-2017-12-20 11:46:39:INFO: Successfully connected.
-2017-12-20 11:46:39:INFO: Create signalers.
-2017-12-20 11:46:39:INFO: Create traders.
-2017-12-20 12:05:38:INFO: Create connection.
-2017-12-20 12:05:45:INFO: Successfully connected.
-2017-12-20 12:05:45:INFO: Create signalers.
-2017-12-20 12:05:45:INFO: Create traders.
-2017-12-20 12:13:10:INFO: Create connection.
-2017-12-20 12:13:17:INFO: Successfully connected.
-2017-12-20 12:13:17:INFO: Create signalers.
-2017-12-20 12:13:17:INFO: Create traders.
-2017-12-20 12:22:49:INFO: Create connection.
-2017-12-20 12:22:56:INFO: Successfully connected.
-2017-12-20 12:22:56:INFO: Create signalers.
-2017-12-20 12:22:56:INFO: Create traders.
-2017-12-21 12:27:58:INFO: Create connection.
-2017-12-21 12:28:04:INFO: Successfully connected.
-2017-12-21 12:28:04:INFO: Create signalers.
-2017-12-21 12:28:04:INFO: Create traders.
-2017-12-21 12:33:05:INFO: Create connection.
-2017-12-21 12:33:11:INFO: Successfully connected.
-2017-12-21 12:33:11:INFO: Create signalers.
-2017-12-21 12:33:11:INFO: Create traders.
-2017-12-27 16:35:15:INFO: Create connection.
-2017-12-27 16:35:28:INFO: Successfully connected.
-2017-12-27 16:35:28:INFO: Create signalers.
-2017-12-27 16:35:28:INFO: Create traders.
-2017-12-27 16:41:41:INFO: Create connection.
-2017-12-27 16:41:52:INFO: Successfully connected.
-2017-12-27 16:41:52:INFO: Create signalers.
-2017-12-27 16:41:52:INFO: Create traders.
-2017-12-27 17:31:00:INFO: Create connection.
-2017-12-27 17:31:09:INFO: Successfully connected.
-2017-12-27 17:31:09:INFO: Create signalers.
-2017-12-27 17:31:09:INFO: Create traders.
-2017-12-27 17:35:22:INFO: Create connection.
-2017-12-27 17:35:35:INFO: Successfully connected.
-2017-12-27 17:35:35:INFO: Create signalers.
-2017-12-27 17:35:35:INFO: Create traders.
-2017-12-27 17:35:40:INFO: Create connection.
-2017-12-27 17:35:51:INFO: Successfully connected.
-2017-12-27 17:35:51:INFO: Create signalers.
-2017-12-27 17:35:51:INFO: Create traders.
-2017-12-27 17:36:04:INFO: Create connection.
-2017-12-27 17:36:16:INFO: Successfully connected.
-2017-12-27 17:36:16:INFO: Create signalers.
-2017-12-27 17:36:16:INFO: Create traders.
-2017-12-27 17:42:17:INFO: Create connection.
-2017-12-27 17:42:31:INFO: Successfully connected.
-2017-12-27 17:42:31:INFO: Create signalers.
-2017-12-27 17:42:31:INFO: Create traders.
-2017-12-27 17:48:25:INFO: Create connection.
-2017-12-27 17:48:46:INFO: Create connection.
-2017-12-27 17:48:55:INFO: Successfully connected.
-2017-12-27 17:48:55:INFO: Create signalers.
-2017-12-27 17:48:55:INFO: Create traders.
-2017-12-27 18:01:22:INFO: Create connection.
-2017-12-27 18:01:34:INFO: Successfully connected.
-2017-12-27 18:01:34:INFO: Create signalers.
-2017-12-27 18:01:34:INFO: Create traders.
-2017-12-27 19:23:44:INFO: Create connection.
-2017-12-27 19:23:59:INFO: Successfully connected.
-2017-12-27 19:23:59:INFO: Create signalers.
-2017-12-27 19:23:59:INFO: Create traders.
-2017-12-27 20:10:39:INFO: Create connection.
-2017-12-27 20:10:49:INFO: Successfully connected.
-2017-12-27 20:10:49:INFO: Create signalers.
-2017-12-27 20:10:49:INFO: Create traders.
-2017-12-27 23:02:48:INFO: Create connection.
-2017-12-27 23:03:00:INFO: Successfully connected.
-2017-12-27 23:03:00:INFO: Create signalers.
-2017-12-27 23:03:00:INFO: Create traders.
-2017-12-27 23:18:23:INFO: Create connection.
-2017-12-27 23:18:33:INFO: Successfully connected.
-2017-12-27 23:18:33:INFO: Create signalers.
-2017-12-27 23:18:33:INFO: Create traders.
-2017-12-27 23:20:43:INFO: Create connection.
-2017-12-27 23:20:56:INFO: Successfully connected.
-2017-12-27 23:20:56:INFO: Create signalers.
-2017-12-27 23:20:56:INFO: Create traders.
-2017-12-27 23:22:21:INFO: Create connection.
-2017-12-27 23:22:32:INFO: Successfully connected.
-2017-12-27 23:22:32:INFO: Create signalers.
-2017-12-27 23:22:32:INFO: Create traders.
-2017-12-27 23:28:12:INFO: Create connection.
-2017-12-27 23:28:25:INFO: Successfully connected.
-2017-12-27 23:28:25:INFO: Create signalers.
-2017-12-27 23:28:25:INFO: Create traders.
-2017-12-27 23:31:23:INFO: Create connection.
-2017-12-27 23:31:33:INFO: Successfully connected.
-2017-12-27 23:31:33:INFO: Create signalers.
-2017-12-27 23:31:33:INFO: Create traders.
-2017-12-27 23:40:13:INFO: Create connection.
-2017-12-27 23:40:27:INFO: Successfully connected.
-2017-12-27 23:40:27:INFO: Create signalers.
-2017-12-27 23:40:27:INFO: Create traders.
-2017-12-27 23:46:02:INFO: Create connection.
-2017-12-27 23:46:11:INFO: Successfully connected.
-2017-12-27 23:46:11:INFO: Create signalers.
-2017-12-27 23:46:11:INFO: Create traders.
-2017-12-27 23:48:09:INFO: Create connection.
-2017-12-27 23:48:20:INFO: Successfully connected.
-2017-12-27 23:48:20:INFO: Create signalers.
-2017-12-27 23:48:20:INFO: Create traders.
-2017-12-28 01:29:00:INFO: Create connection.
-2017-12-28 01:29:20:INFO: Successfully connected.
-2017-12-28 01:29:20:INFO: Create signalers.
-2017-12-28 01:29:20:INFO: Create traders.
-2017-12-28 01:47:28:INFO: Create connection.
-2017-12-28 01:47:37:INFO: Successfully connected.
-2017-12-28 01:47:37:INFO: Create signalers.
-2017-12-28 01:47:37:INFO: Create traders.
-2017-12-28 01:49:58:INFO: Create connection.
-2017-12-28 01:50:07:INFO: Successfully connected.
-2017-12-28 01:50:07:INFO: Create signalers.
-2017-12-28 01:50:07:INFO: Create traders.
-2017-12-28 11:03:42:INFO: Create connection.
-2017-12-28 11:03:50:INFO: Successfully connected.
-2017-12-28 11:03:50:INFO: Create signalers.
-2017-12-28 11:03:50:INFO: Create traders.
-2017-12-28 13:10:02:INFO: Create connection.
-2017-12-28 13:10:13:INFO: Successfully connected.
-2017-12-28 13:10:13:INFO: Create signalers.
-2017-12-28 13:10:13:INFO: Create traders.
-2017-12-28 13:11:32:INFO: Create connection.
-2017-12-28 13:11:39:INFO: Successfully connected.
-2017-12-28 13:11:39:INFO: Create signalers.
-2017-12-28 13:11:39:INFO: Create traders.
-2017-12-28 13:14:03:INFO: Create connection.
-2017-12-28 13:14:19:INFO: Successfully connected.
-2017-12-28 13:14:19:INFO: Create signalers.
-2017-12-28 13:14:19:INFO: Create traders.
-2017-12-28 13:14:28:INFO: Create connection.
-2017-12-28 13:14:44:INFO: Successfully connected.
-2017-12-28 13:14:44:INFO: Create signalers.
-2017-12-28 13:14:44:INFO: Create traders.
-2017-12-28 13:14:47:INFO: Create connection.
-2017-12-28 13:14:58:INFO: Successfully connected.
-2017-12-28 13:14:58:INFO: Create signalers.
-2017-12-28 13:14:58:INFO: Create traders.
-2017-12-28 13:17:33:INFO: Create connection.
-2017-12-28 13:17:41:INFO: Successfully connected.
-2017-12-28 13:17:41:INFO: Create signalers.
-2017-12-28 13:17:41:INFO: Create traders.
-2017-12-28 16:41:07:INFO: Create connection.
-2017-12-28 16:41:18:INFO: Successfully connected.
-2017-12-28 16:41:18:INFO: Create signalers.
-2017-12-28 16:41:18:INFO: Create traders.
-2017-12-28 17:25:48:INFO: Create connection.
-2017-12-28 17:29:44:INFO: Create connection.
-2017-12-28 17:29:53:INFO: Successfully connected.
-2017-12-28 17:29:53:INFO: Create signalers.
-2017-12-28 17:29:53:INFO: Create traders.
-2017-12-28 17:48:55:INFO: Create connection.
-2017-12-28 17:49:05:INFO: Successfully connected.
-2017-12-28 17:49:05:INFO: Create signalers.
-2017-12-28 17:50:12:INFO: Create connection.
-2017-12-28 17:50:24:INFO: Successfully connected.
-2017-12-28 17:50:24:INFO: Create signalers.
-2017-12-28 17:50:54:INFO: Create connection.
-2017-12-28 17:51:02:INFO: Successfully connected.
-2017-12-28 17:51:02:INFO: Create signalers.
-2017-12-28 17:51:02:INFO: Create traders.
-2017-12-28 17:52:03:INFO: Lower Band:'1193300.617545', First candle close: '1193255.000000'.
-2017-12-28 18:41:18:INFO: Create connection.
-2017-12-28 18:41:28:INFO: Successfully connected.
-2017-12-28 18:41:28:INFO: Create signalers.
-2017-12-28 18:41:28:INFO: Create traders.
-2017-12-28 18:42:54:INFO: Create connection.
-2017-12-28 18:43:04:INFO: Successfully connected.
-2017-12-28 18:43:04:INFO: Create signalers.
-2017-12-28 18:43:04:INFO: Create traders.
-2017-12-28 18:45:37:INFO: Create connection.
-2017-12-28 18:45:51:INFO: Successfully connected.
-2017-12-28 18:45:51:INFO: Create signalers.
-2017-12-28 18:45:51:INFO: Create traders.
-2017-12-28 18:49:41:INFO: Create connection.
-2017-12-28 18:49:50:INFO: Successfully connected.
-2017-12-28 18:49:50:INFO: Create signalers.
-2017-12-28 18:49:50:INFO: Create traders.
-2017-12-28 18:50:01:INFO: High Band:'134760182.363843', First candle close: '134718500.000000'.
-2017-12-28 21:22:28:INFO: Create connection.
-2017-12-28 21:22:39:INFO: Successfully connected.
-2017-12-28 21:22:39:INFO: Create signalers.
-2017-12-28 21:22:39:INFO: Create traders.
-2017-12-28 21:51:02:INFO: High Band:'1194853.661314', First candle close: '1194790.000000'.
-2017-12-28 22:12:12:INFO: Create connection.
-2017-12-28 22:12:26:INFO: Successfully connected.
-2017-12-28 22:12:26:INFO: Create signalers.
-2017-12-28 22:12:26:INFO: Create traders.
-2017-12-28 22:15:40:INFO: Create connection.
-2017-12-28 22:15:52:INFO: Successfully connected.
-2017-12-28 22:15:52:INFO: Create signalers.
-2017-12-28 22:15:52:INFO: Create traders.
-2017-12-28 22:16:01:INFO: High Band:'1748607.696717', Current candle close: '0.000000'.
-2017-12-28 22:16:02:INFO: High Band:'1748607.696717', Current candle close: '0.000000'.
-2017-12-28 22:16:03:INFO: High Band:'1195282.719708', Current candle close: '0.000000'.
-2017-12-28 22:17:01:INFO: High Band:'1195284.581310', Current candle close: '0.000000'.
-2017-12-28 22:17:02:INFO: High Band:'1195284.581310', Current candle close: '0.000000'.
-2017-12-28 22:18:29:INFO: Create connection.
-2017-12-28 22:18:37:INFO: Successfully connected.
-2017-12-28 22:18:37:INFO: Create signalers.
-2017-12-28 22:18:37:INFO: Create traders.
-2017-12-28 22:19:02:INFO: High Band:'1195306.732895', second candle close: '1195265.000000'.
-2017-12-28 22:20:02:INFO: High Band:'1195306.732895', second candle close: '1195265.000000'.
-2017-12-28 22:22:02:INFO: High Band:'1195324.316024', second candle close: '1195270.000000'.
-2017-12-28 22:23:01:INFO: High Band:'1748694.919385', second candle close: '1195185.000000'.
-2017-12-28 22:23:02:INFO: High Band:'1748694.919385', second candle close: '1195185.000000'.
-2017-12-28 22:23:03:INFO: High Band:'1748694.919385', second candle close: '1195185.000000'.
-2017-12-28 22:24:01:INFO: High Band:'1195339.151210', second candle close: '1195035.000000'.
-2017-12-28 22:24:02:INFO: High Band:'1195358.696604', second candle close: '1195305.000000'.
-2017-12-28 22:24:02:INFO: Lower Band:'1195070.851723', First candle close: '1195035.000000'.
-2017-12-28 22:25:09:INFO: High Band:'1195358.696604', second candle close: '1195305.000000'.
-2017-12-28 22:25:09:INFO: Lower Band:'1195070.851723', First candle close: '1195035.000000'.
-2017-12-28 22:27:02:INFO: High Band:'1195390.723795', second candle close: '1195145.000000'.
-2017-12-28 22:29:58:INFO: Create connection.
-2017-12-28 22:30:07:INFO: Successfully connected.
-2017-12-28 22:30:07:INFO: Create signalers.
-2017-12-28 22:30:07:INFO: Create traders.
-2017-12-28 22:33:34:INFO: Create connection.
-2017-12-28 22:33:43:INFO: Successfully connected.
-2017-12-28 22:33:43:INFO: Create signalers.
-2017-12-28 22:33:43:INFO: Create traders.
-2017-12-28 22:35:02:INFO: High Band:'1195424.722914', second candle close: '1195375.000000'.
-2017-12-28 22:36:01:INFO: High Band:'1195424.722914', second candle close: '1195375.000000'.
-2017-12-28 22:37:01:INFO: High Band:'1195429.912138', second candle close: '1195250.000000'.
-2017-12-28 22:37:02:INFO: High Band:'1195418.528046', second candle close: '1195240.000000'.
-2017-12-28 22:37:03:INFO: High Band:'1195418.528046', second candle close: '1195240.000000'.
-2017-12-28 22:37:04:INFO: High Band:'1195418.528046', second candle close: '1195240.000000'.
-2017-12-28 22:38:01:INFO: High Band:'1195418.528046', second candle close: '1195240.000000'.
-2017-12-28 22:38:02:INFO: High Band:'1195428.708469', second candle close: '1195350.000000'.
-2017-12-28 22:39:00:INFO: High Band:'1195428.708469', second candle close: '1195350.000000'.
-2017-12-28 22:39:01:INFO: High Band:'1748732.078698', second candle close: '1195350.000000'.
-2017-12-28 23:00:35:INFO: Create connection.
-2017-12-28 23:00:56:INFO: Successfully connected.
-2017-12-28 23:00:56:INFO: Create signalers.
-2017-12-28 23:00:56:INFO: Create traders.
-2017-12-28 23:02:01:INFO: High Band:'1195571.135986', second candle close: '1195185.000000'.
-2017-12-28 23:04:36:INFO: Create connection.
-2017-12-28 23:04:44:INFO: Successfully connected.
-2017-12-28 23:04:44:INFO: Create signalers.
-2017-12-28 23:04:44:INFO: Create traders.
-2017-12-28 23:05:01:INFO: High Band:'1748670.759933', second candle close: '1195335.000000'.
-2017-12-28 23:05:01:INFO: High Band:'1748670.759933', second candle close: '1195335.000000'.
-2017-12-28 23:05:02:INFO: High Band:'1195440.878577', second candle close: '1195235.000000'.
-2017-12-28 23:06:01:INFO: High Band:'1748655.558413', second candle close: '1195235.000000'.
-2017-12-28 23:06:01:INFO: High Band:'1748655.558413', second candle close: '1195235.000000'.
-2017-12-28 23:06:02:INFO: High Band:'1748655.558413', second candle close: '1195235.000000'.
-2017-12-28 23:06:46:INFO: Create connection.
-2017-12-28 23:06:58:INFO: Successfully connected.
-2017-12-28 23:06:58:INFO: Create signalers.
-2017-12-28 23:06:58:INFO: Create traders.
-2017-12-28 23:07:05:INFO: High Band:'1195394.911007', second candle close: '1195175.000000'.
-2017-12-28 23:08:01:INFO: High Band:'1195396.056807', second candle close: '1195210.000000'.
-2017-12-28 23:08:02:INFO: High Band:'1195396.056807', second candle close: '1195210.000000'.
-2017-12-28 23:09:02:INFO: High Band:'1195398.930783', second candle close: '1195190.000000'.
-2017-12-28 23:11:01:INFO: High Band:'1195398.930783', second candle close: '1195190.000000'.
-2017-12-28 23:11:02:INFO: High Band:'1748692.128981', second candle close: '1195285.000000'.
-2017-12-28 23:12:01:INFO: High Band:'1748727.582972', second candle close: '1195385.000000'.
-2017-12-28 23:12:02:INFO: High Band:'1195452.062923', second candle close: '1195315.000000'.
-2017-12-28 23:13:04:INFO: High Band:'1195452.062923', second candle close: '1195315.000000'.
-2017-12-28 23:14:02:INFO: High Band:'1195459.238395', second candle close: '1195360.000000'.
-2017-12-28 23:14:03:INFO: High Band:'1195459.238395', second candle close: '1195360.000000'.
-2017-12-28 23:14:04:INFO: High Band:'1195424.533596', second candle close: '1195340.000000'.
-2017-12-28 23:14:51:INFO: Create connection.
-2017-12-28 23:15:03:INFO: Successfully connected.
-2017-12-28 23:15:03:INFO: Create signalers.
-2017-12-28 23:15:03:INFO: Create traders.
-2017-12-28 23:17:02:INFO: High Band:'1195457.438572', First candle close: '1195485.000000'.
-2017-12-28 23:18:01:INFO: High Band:'1195457.438572', First candle close: '1195485.000000'.
-2017-12-28 23:19:03:INFO: Lower Band:'980171.405878', First candle close: '980055.000000'.
-2017-12-28 23:19:47:INFO: Create connection.
-2017-12-28 23:19:57:INFO: Successfully connected.
-2017-12-28 23:19:57:INFO: Create signalers.
-2017-12-28 23:19:57:INFO: Create traders.
-2017-12-29 09:25:24:INFO: Create connection.
-2017-12-29 09:25:34:INFO: Successfully connected.
-2017-12-29 09:25:34:INFO: Create signalers.
-2017-12-29 09:25:34:INFO: Create traders.
-2017-12-29 09:38:38:INFO: Create connection.
-2017-12-29 09:38:49:INFO: Successfully connected.
-2017-12-29 09:38:49:INFO: Create signalers.
-2017-12-29 09:38:49:INFO: Create traders.
-2017-12-29 09:40:01:INFO: Create connection.
-2017-12-29 09:40:19:INFO: Create connection.
-2017-12-29 09:40:29:INFO: Successfully connected.
-2017-12-29 09:40:29:INFO: Create signalers.
-2017-12-29 09:40:29:INFO: Create traders.
-2017-12-29 09:57:22:INFO: Create connection.
-2017-12-29 09:57:37:INFO: Create connection.
-2017-12-29 09:57:45:INFO: Successfully connected.
-2017-12-29 09:57:45:INFO: Create signalers.
-2017-12-29 09:57:45:INFO: Create traders.
-2017-12-29 09:58:55:INFO: Create connection.
-2017-12-29 09:59:05:INFO: Successfully connected.
-2017-12-29 09:59:05:INFO: Create signalers.
-2017-12-29 09:59:05:INFO: Create traders.
-2017-12-29 10:00:13:INFO: Create connection.
-2017-12-29 10:00:25:INFO: Create connection.
-2017-12-29 10:00:33:INFO: Successfully connected.
-2017-12-29 10:00:33:INFO: Create signalers.
-2017-12-29 10:00:33:INFO: Create traders.
-2018-01-02 17:09:35:INFO: Create connection.
-2018-01-02 17:09:44:INFO: Successfully connected.
-2018-01-02 17:09:44:INFO: Create signalers.
-2018-01-02 17:09:44:INFO: Create traders.
-2018-01-02 17:10:44:INFO: Create connection.
-2018-01-02 17:10:52:INFO: Successfully connected.
-2018-01-02 17:10:52:INFO: Create signalers.
-2018-01-02 17:10:52:INFO: Create traders.
-2018-01-02 17:10:53:INFO: BB Height:'587.533492', Lower BB: '1206294.804682'.
-2018-01-02 17:10:55:INFO: BB Height:'109536.586291', Lower BB: '135332838.849712'.
-2018-01-02 17:12:02:INFO: BB Height:'576.232554', Lower BB: '1206324.740866'.
-2018-01-02 17:12:03:INFO: BB Height:'537.141396', Lower BB: '982121.786445'.
-2018-01-02 17:13:02:INFO: BB Height:'526.810849', Lower BB: '1206377.308861'.
-2018-01-02 17:13:03:INFO: BB Height:'582.876535', Lower BB: '982092.847447'.
-2018-01-02 17:14:02:INFO: BB Height:'500.068127', Lower BB: '1206406.751651'.
-2018-01-02 17:16:02:INFO: BB Height:'496.555166', Lower BB: '1206409.579560'.
-2018-01-02 17:16:03:INFO: BB Height:'1044.088540', Lower BB: '981773.312873'.
-2018-01-02 17:17:50:INFO: Create connection.
-2018-01-02 17:17:57:INFO: Successfully connected.
-2018-01-02 17:17:57:INFO: Create signalers.
-2018-01-02 17:17:57:INFO: Create traders.
-2018-01-02 17:17:58:INFO: BB Height:'415.501815', Lower BB: '1206473.677664'.
-2018-01-02 17:19:01:INFO: BB Height:'369.594372', Lower BB: '1206507.702814'.
-2018-01-02 17:19:02:INFO: BB Height:'1278.085794', Lower BB: '981502.385674'.
-2018-01-02 17:19:46:INFO: Create connection.
-2018-01-02 17:19:57:INFO: Successfully connected.
-2018-01-02 17:19:57:INFO: Create signalers.
-2018-01-02 17:19:57:INFO: Create traders.
-2018-01-02 17:19:58:INFO: BB Height:'346.159463', Lower BB: '1206527.991697'.
-2018-01-02 17:19:59:INFO: BB Height:'1278.085794', Lower BB: '981502.385674'.
-2018-01-02 17:20:00:INFO: BB Height:'66562.867911', Lower BB: '135390968.566044'.
-2018-01-02 17:21:01:INFO: BB Height:'376.989229', Lower BB: '1206506.862528'.
-2018-01-02 17:21:02:INFO: BB Height:'1282.963602', Lower BB: '981362.089628'.
-2018-01-02 17:21:50:INFO: Create connection.
-2018-01-02 17:22:00:INFO: Create connection.
-2018-01-02 17:22:11:INFO: Successfully connected.
-2018-01-02 17:22:11:INFO: Create signalers.
-2018-01-02 17:22:11:INFO: Create traders.
-2018-01-02 17:23:02:INFO: BB Height:'507.932677', Lower BB: '1206399.605090'.
-2018-01-02 17:24:02:INFO: BB Height:'461.314414', Lower BB: '1206395.414221'.
-2018-01-02 17:25:02:INFO: BB Height:'523.353514', Lower BB: '1206334.037528'.
-2018-01-02 17:25:25:INFO: Create connection.
-2018-01-02 17:25:33:INFO: Successfully connected.
-2018-01-02 17:25:33:INFO: Create signalers.
-2018-01-02 17:25:33:INFO: Create traders.
-2018-01-02 17:25:34:INFO: BB Height:'557.514106', Lower BB: '1206286.957233'.
-2018-01-02 17:25:34:INFO: BB Height:'557.514106', Upper BB: '1206844.471339'.
-2018-01-02 17:26:02:INFO: BB Height:'557.514106', Lower BB: '1206286.957233'.
-2018-01-02 17:26:02:INFO: BB Height:'557.514106', Upper BB: '1206844.471339'.
-2018-01-02 17:27:02:INFO: BB Height:'555.668096', Lower BB: '1206257.523095'.
-2018-01-02 17:27:02:INFO: BB Height:'555.668096', Upper BB: '1206813.191191'.
-2018-01-02 17:28:02:INFO: BB Height:'540.305164', Lower BB: '1206235.561704'.
-2018-01-02 17:28:02:INFO: BB Height:'540.305164', Upper BB: '1206775.866868'.
-2018-01-02 20:15:59:INFO: Create connection.
-2018-01-02 20:16:08:INFO: Successfully connected.
-2018-01-02 20:16:08:INFO: Create signalers.
-2018-01-02 20:16:08:INFO: Create traders.
-2018-01-02 20:17:38:INFO: Create connection.
-2018-01-02 20:17:46:INFO: Successfully connected.
-2018-01-02 20:17:46:INFO: Create signalers.
-2018-01-02 20:17:46:INFO: Create traders.
-2018-01-02 20:18:02:INFO: BB Height:'815.828306', Lower BB: '1204280.300133'.
-2018-01-02 20:18:02:INFO: BB Height:'815.828306', Upper BB: '1205096.128439'.
-2018-01-02 20:18:38:INFO: Create connection.
-2018-01-02 20:25:05:INFO: Create connection.
-2018-01-02 20:25:15:INFO: Successfully connected.
-2018-01-02 20:25:15:INFO: Create signalers.
-2018-01-02 20:25:15:INFO: Create traders.
-2018-01-02 20:26:04:INFO: BB Height:'764.032103', Lower BB: '1204113.698234'.
-2018-01-02 20:26:04:INFO: Lower Band:'1204113.698234', First candle close: '1203875.000000'.
-2018-01-02 20:28:02:INFO: BB Height:'1087.438769', Lower BB: '1203861.280615'.
-2018-01-02 20:28:02:INFO: BB Height:'1087.438769', Upper BB: '1204948.719385'.
-2018-01-02 20:29:02:INFO: BB Height:'1337.552299', Lower BB: '1203656.223850'.
-2018-01-02 20:29:02:INFO: BB Height:'1337.552299', Upper BB: '1204993.776150'.
-2018-01-02 20:30:02:INFO: BB Height:'1396.224107', Lower BB: '1203563.316518'.
-2018-01-02 20:30:02:INFO: BB Height:'1396.224107', Upper BB: '1204959.540625'.
-2018-01-02 20:31:02:INFO: BB Height:'1335.286939', Lower BB: '1203545.570816'.
-2018-01-02 20:31:02:INFO: BB Height:'1335.286939', Upper BB: '1204880.857755'.
-2018-01-02 20:33:02:INFO: BB Height:'1278.047962', Lower BB: '1203475.261733'.
-2018-01-02 20:33:02:INFO: BB Height:'1278.047962', Upper BB: '1204753.309695'.
-2018-01-02 20:35:03:INFO: BB Height:'1097.058004', Lower BB: '1203511.113855'.
-2018-01-02 20:35:03:INFO: BB Height:'1097.058004', Upper BB: '1204608.171859'.
-2018-01-02 20:38:03:INFO: BB Height:'715.420417', Lower BB: '1203506.218363'.
-2018-01-02 20:38:03:INFO: BB Height:'715.420417', Upper BB: '1204221.638780'.
-2018-01-02 20:39:03:INFO: BB Height:'701.535208', Lower BB: '1203508.875253'.
-2018-01-02 20:39:03:INFO: BB Height:'701.535208', Upper BB: '1204210.410461'.
-2018-01-02 20:41:02:INFO: BB Height:'706.708825', Lower BB: '1203510.931302'.
-2018-01-02 20:41:02:INFO: BB Height:'706.708825', Upper BB: '1204217.640127'.
-2018-01-02 20:42:03:INFO: BB Height:'656.010252', Lower BB: '1203568.066303'.
-2018-01-02 20:42:03:INFO: BB Height:'656.010252', Upper BB: '1204224.076555'.
-2018-01-02 20:44:02:INFO: BB Height:'658.177637', Lower BB: '1203586.268324'.
-2018-01-02 20:44:02:INFO: BB Height:'658.177637', Upper BB: '1204244.445961'.
-2018-01-02 20:46:04:INFO: BB Height:'666.089127', Lower BB: '1203594.098294'.
-2018-01-02 20:46:04:INFO: BB Height:'666.089127', Upper BB: '1204260.187421'.
-2018-01-02 20:54:03:INFO: BB Height:'821.234664', Lower BB: '1203427.954096'.
-2018-01-02 20:54:03:INFO: BB Height:'821.234664', Upper BB: '1204249.188761'.
-2018-01-02 20:56:02:INFO: BB Height:'896.117388', Lower BB: '1203358.012734'.
-2018-01-02 20:56:02:INFO: BB Height:'896.117388', Upper BB: '1204254.130123'.
-2018-01-02 21:00:02:INFO: BB Height:'702.004978', Lower BB: '1203355.068940'.
-2018-01-02 21:00:02:INFO: BB Height:'702.004978', Upper BB: '1204057.073918'.
-2018-01-02 21:06:02:INFO: BB Height:'1397.523713', Lower BB: '1202677.666715'.
-2018-01-02 21:06:02:INFO: BB Height:'1397.523713', Upper BB: '1204075.190428'.
-2018-01-02 21:18:03:INFO: BB Height:'821.958262', Lower BB: '1202676.520869'.
-2018-01-02 21:18:03:INFO: BB Height:'821.958262', Upper BB: '1203498.479131'.
-2018-01-02 21:20:03:INFO: BB Height:'755.550887', Lower BB: '1202810.795985'.
-2018-01-02 21:20:03:INFO: BB Height:'755.550887', Upper BB: '1203566.346872'.
-2018-01-02 21:23:02:INFO: BB Height:'626.774404', Lower BB: '1202954.112798'.
-2018-01-02 21:23:02:INFO: BB Height:'626.774404', Upper BB: '1203580.887202'.
-2018-01-02 21:25:03:INFO: BB Height:'1009.976607', Lower BB: '1202894.297411'.
-2018-01-02 21:25:03:INFO: BB Height:'1009.976607', Upper BB: '1203904.274018'.
-2018-01-02 21:28:03:INFO: BB Height:'917.411552', Lower BB: '1203018.437081'.
-2018-01-02 21:28:03:INFO: BB Height:'917.411552', Upper BB: '1203935.848633'.
-2018-01-02 21:36:04:INFO: BB Height:'2057.341184', Lower BB: '1203094.543694'.
-2018-01-02 21:36:04:INFO: BB Height:'2057.341184', Upper BB: '1205151.884878'.
-2018-01-02 21:37:06:INFO: BB Height:'2069.542605', Lower BB: '1203260.942983'.
-2018-01-02 21:37:06:INFO: BB Height:'2069.542605', Upper BB: '1205330.485588'.
-2018-01-02 21:43:02:INFO: BB Height:'1071.719374', Lower BB: '1204259.497456'.
-2018-01-02 21:43:02:INFO: BB Height:'1071.719374', Upper BB: '1205331.216830'.
-2018-01-02 21:45:03:INFO: BB Height:'785.619375', Lower BB: '1204552.547455'.
-2018-01-02 21:45:03:INFO: BB Height:'785.619375', Upper BB: '1205338.166830'.
-2018-01-02 21:46:02:INFO: BB Height:'785.619375', Lower BB: '1204552.547455'.
-2018-01-02 21:46:02:INFO: BB Height:'785.619375', Upper BB: '1205338.166830'.
-2018-01-02 21:48:02:INFO: BB Height:'742.767323', Lower BB: '1204662.544910'.
-2018-01-02 21:48:02:INFO: BB Height:'742.767323', Upper BB: '1205405.312233'.
-2018-01-02 21:58:03:INFO: BB Height:'699.370203', Lower BB: '1204901.386327'.
-2018-01-02 21:58:03:INFO: BB Height:'699.370203', Upper BB: '1205600.756530'.
-2018-01-02 22:01:03:INFO: BB Height:'1081.997542', Lower BB: '1204620.072657'.
-2018-01-02 22:01:03:INFO: BB Height:'1081.997542', Upper BB: '1205702.070200'.
-2018-01-02 22:02:02:INFO: BB Height:'1081.997542', Lower BB: '1204620.072657'.
-2018-01-02 22:02:02:INFO: Lower Band:'1204620.072657', First candle close: '1204545.000000'.
-2018-01-02 22:05:03:INFO: BB Height:'1226.614209', Lower BB: '1204407.050038'.
-2018-01-02 22:05:03:INFO: BB Height:'1226.614209', Upper BB: '1205633.664247'.
-2018-01-02 22:06:03:INFO: BB Height:'1094.011672', Lower BB: '1204422.994164'.
-2018-01-02 22:06:03:INFO: BB Height:'1094.011672', Upper BB: '1205517.005836'.
-2018-01-02 22:07:03:INFO: BB Height:'967.876343', Lower BB: '1204433.561828'.
-2018-01-02 22:07:03:INFO: BB Height:'967.876343', Upper BB: '1205401.438172'.
-2018-01-02 22:08:02:INFO: BB Height:'926.955314', Lower BB: '1204429.022343'.
-2018-01-02 22:08:02:INFO: BB Height:'926.955314', Upper BB: '1205355.977657'.
-2018-01-02 22:09:02:INFO: BB Height:'822.021095', Lower BB: '1204447.560881'.
-2018-01-02 22:09:02:INFO: BB Height:'822.021095', Upper BB: '1205269.581976'.
-2018-01-02 22:10:02:INFO: BB Height:'694.178303', Lower BB: '1204456.125134'.
-2018-01-02 22:10:02:INFO: BB Height:'694.178303', Upper BB: '1205150.303437'.
-2018-01-02 22:11:02:INFO: BB Height:'618.917879', Lower BB: '1204452.683918'.
-2018-01-02 22:11:02:INFO: BB Height:'618.917879', Upper BB: '1205071.601797'.
-2018-01-02 22:12:02:INFO: BB Height:'428.565201', Lower BB: '1204512.503114'.
-2018-01-02 22:12:02:INFO: BB Height:'428.565201', Upper BB: '1204941.068315'.
-2018-01-02 22:15:02:INFO: BB Height:'725.170689', Lower BB: '1204405.986084'.
-2018-01-02 22:15:02:INFO: BB Height:'725.170689', Upper BB: '1205131.156773'.
-2018-01-02 22:16:03:INFO: BB Height:'826.138908', Lower BB: '1204424.073403'.
-2018-01-02 22:16:03:INFO: BB Height:'826.138908', Upper BB: '1205250.212311'.
-2018-01-02 22:17:03:INFO: BB Height:'826.138908', Lower BB: '1204424.073403'.
-2018-01-02 22:17:03:INFO: BB Height:'826.138908', Upper BB: '1205250.212311'.
-2018-01-02 22:18:03:INFO: BB Height:'911.151910', Lower BB: '1204417.281188'.
-2018-01-02 22:18:03:INFO: BB Height:'911.151910', Upper BB: '1205328.433098'.
-2018-01-02 22:19:02:INFO: BB Height:'1108.369756', Lower BB: '1204365.100836'.
-2018-01-02 22:19:02:INFO: BB Height:'1108.369756', Upper BB: '1205473.470592'.
-2018-01-02 22:19:02:INFO: High Band:'1205473.470592', First candle close: '1205495.000000'.
-2018-01-02 22:20:02:INFO: BB Height:'1258.662294', Lower BB: '1204338.168853'.
-2018-01-02 22:20:02:INFO: BB Height:'1258.662294', Upper BB: '1205596.831147'.
-2018-01-02 22:21:02:INFO: BB Height:'1289.355406', Lower BB: '1204368.536583'.
-2018-01-02 22:21:02:INFO: BB Height:'1289.355406', Upper BB: '1205657.891989'.
-2018-01-02 22:22:02:INFO: BB Height:'1368.541375', Lower BB: '1204377.872170'.
-2018-01-02 22:22:02:INFO: BB Height:'1368.541375', Upper BB: '1205746.413545'.
-2018-01-02 22:23:01:INFO: BB Height:'1549.063524', Lower BB: '1204360.825381'.
-2018-01-02 22:23:01:INFO: BB Height:'1549.063524', Upper BB: '1205909.888905'.
-2018-01-02 22:24:02:INFO: BB Height:'1441.989621', Lower BB: '1204590.076618'.
-2018-01-02 22:24:02:INFO: BB Height:'1441.989621', Upper BB: '1206032.066239'.
-2018-01-02 22:26:02:INFO: BB Height:'1219.700017', Lower BB: '1204833.364277'.
-2018-01-02 22:26:02:INFO: BB Height:'1219.700017', Upper BB: '1206053.064294'.
-2018-01-02 22:27:02:INFO: BB Height:'1219.700017', Lower BB: '1204833.364277'.
-2018-01-02 22:27:02:INFO: BB Height:'1219.700017', Upper BB: '1206053.064294'.
-2018-01-02 22:28:02:INFO: BB Height:'1036.716075', Lower BB: '1204957.713391'.
-2018-01-02 22:28:02:INFO: BB Height:'1036.716075', Upper BB: '1205994.429466'.
-2018-01-02 22:29:02:INFO: BB Height:'1106.468494', Lower BB: '1204908.194325'.
-2018-01-02 22:29:02:INFO: BB Height:'1106.468494', Upper BB: '1206014.662818'.
-2018-01-02 22:30:02:INFO: BB Height:'1211.056210', Lower BB: '1204843.400467'.
-2018-01-02 22:30:02:INFO: Lower Band:'1204843.400467', First candle close: '1204780.000000'.
-2018-01-02 22:31:02:INFO: BB Height:'1391.352413', Lower BB: '1204721.823793'.
-2018-01-02 22:31:02:INFO: BB Height:'1391.352413', Upper BB: '1206113.176207'.
-2018-01-02 22:33:03:INFO: BB Height:'1559.436359', Lower BB: '1204576.710392'.
-2018-01-02 22:33:03:INFO: BB Height:'1559.436359', Upper BB: '1206136.146751'.
-2018-01-02 22:34:02:INFO: BB Height:'1605.138041', Lower BB: '1204515.645265'.
-2018-01-02 22:34:02:INFO: BB Height:'1605.138041', Upper BB: '1206120.783306'.
-2018-01-02 22:36:02:INFO: BB Height:'1709.821660', Lower BB: '1204382.946313'.
-2018-01-02 22:36:02:INFO: BB Height:'1709.821660', Upper BB: '1206092.767973'.
-2018-01-02 22:37:01:INFO: BB Height:'1612.792268', Lower BB: '1204362.889580'.
-2018-01-02 22:37:01:INFO: BB Height:'1612.792268', Upper BB: '1205975.681848'.
-2018-01-02 22:39:02:INFO: BB Height:'1008.103431', Lower BB: '1204469.519713'.
-2018-01-02 22:39:02:INFO: BB Height:'1008.103431', Upper BB: '1205477.623144'.
-2018-01-02 22:41:02:INFO: BB Height:'564.730802', Lower BB: '1204632.277456'.
-2018-01-02 22:41:02:INFO: BB Height:'564.730802', Upper BB: '1205197.008258'.
-2018-01-02 22:42:01:INFO: BB Height:'315.563337', Lower BB: '1204721.146903'.
-2018-01-02 22:42:01:INFO: BB Height:'315.563337', Upper BB: '1205036.710240'.
-2018-01-02 22:44:03:INFO: BB Height:'308.045951', Lower BB: '1204695.977025'.
-2018-01-02 22:44:03:INFO: BB Height:'308.045951', Upper BB: '1205004.022975'.
-2018-01-02 22:45:02:INFO: BB Height:'306.690953', Lower BB: '1204697.011666'.
-2018-01-02 22:45:02:INFO: BB Height:'306.690953', Upper BB: '1205003.702619'.
-2018-01-02 22:46:02:INFO: BB Height:'304.071276', Lower BB: '1204697.607219'.
-2018-01-02 22:46:02:INFO: BB Height:'304.071276', Upper BB: '1205001.678495'.
-2018-01-02 22:47:02:INFO: BB Height:'293.923815', Lower BB: '1204698.752378'.
-2018-01-02 22:47:02:INFO: Lower Band:'1204698.752378', First candle close: '1204585.000000'.
-2018-01-02 22:48:02:INFO: BB Height:'376.312356', Lower BB: '1204630.772394'.
-2018-01-02 22:48:02:INFO: BB Height:'376.312356', Upper BB: '1205007.084749'.
-2018-01-02 22:49:02:INFO: BB Height:'354.896673', Lower BB: '1204634.694521'.
-2018-01-02 22:49:02:INFO: BB Height:'354.896673', Upper BB: '1204989.591194'.
-2018-01-02 22:50:02:INFO: BB Height:'430.221001', Lower BB: '1204617.746642'.
-2018-01-02 22:50:02:INFO: BB Height:'430.221001', Upper BB: '1205047.967643'.
-2018-01-02 22:51:02:INFO: BB Height:'430.221001', Lower BB: '1204617.746642'.
-2018-01-02 22:51:02:INFO: BB Height:'430.221001', Upper BB: '1205047.967643'.
-2018-01-02 22:54:02:INFO: BB Height:'447.058764', Lower BB: '1204623.970618'.
-2018-01-02 22:54:02:INFO: BB Height:'447.058764', Upper BB: '1205071.029382'.
-2018-01-02 22:55:03:INFO: BB Height:'541.191197', Lower BB: '1204605.832973'.
-2018-01-02 22:55:03:INFO: BB Height:'541.191197', Upper BB: '1205147.024170'.
-2018-01-02 22:57:03:INFO: BB Height:'712.987832', Lower BB: '1204595.648941'.
-2018-01-02 22:57:03:INFO: BB Height:'712.987832', Upper BB: '1205308.636773'.
-2018-01-02 22:58:02:INFO: BB Height:'712.987832', Lower BB: '1204595.648941'.
-2018-01-02 22:58:02:INFO: BB Height:'712.987832', Upper BB: '1205308.636773'.
-2018-01-02 22:59:02:INFO: BB Height:'708.828162', Lower BB: '1204622.371634'.
-2018-01-02 22:59:02:INFO: BB Height:'708.828162', Upper BB: '1205331.199795'.
-2018-01-02 23:00:03:INFO: BB Height:'719.940474', Lower BB: '1204631.815477'.
-2018-01-02 23:00:03:INFO: BB Height:'719.940474', Upper BB: '1205351.755951'.
-2018-01-02 23:02:02:INFO: BB Height:'637.032958', Lower BB: '1204682.912093'.
-2018-01-02 23:02:02:INFO: Lower Band:'1204682.912093', First candle close: '1204660.000000'.
-2018-01-02 23:04:03:INFO: BB Height:'723.623361', Lower BB: '1204618.188319'.
-2018-01-02 23:04:03:INFO: BB Height:'723.623361', Upper BB: '1205341.811681'.
-2018-01-02 23:05:01:INFO: BB Height:'723.623361', Lower BB: '1204618.188319'.
-2018-01-02 23:05:01:INFO: BB Height:'723.623361', Upper BB: '1205341.811681'.
-2018-01-02 23:06:03:INFO: BB Height:'726.873479', Lower BB: '1204614.777546'.
-2018-01-02 23:06:03:INFO: BB Height:'726.873479', Upper BB: '1205341.651025'.
-2018-01-02 23:09:03:INFO: BB Height:'771.070328', Lower BB: '1204550.893407'.
-2018-01-02 23:09:03:INFO: BB Height:'771.070328', Upper BB: '1205321.963735'.
-2018-01-02 23:10:02:INFO: BB Height:'771.070328', Lower BB: '1204550.893407'.
-2018-01-02 23:10:02:INFO: BB Height:'771.070328', Upper BB: '1205321.963735'.
-2018-01-02 23:12:03:INFO: BB Height:'515.340493', Lower BB: '1204569.115468'.
-2018-01-02 23:12:03:INFO: BB Height:'515.340493', Upper BB: '1205084.455961'.
-2018-01-02 23:13:02:INFO: BB Height:'515.340493', Lower BB: '1204569.115468'.
-2018-01-02 23:13:02:INFO: BB Height:'515.340493', Upper BB: '1205084.455961'.
-2018-01-02 23:14:03:INFO: BB Height:'405.015262', Lower BB: '1204594.278083'.
-2018-01-02 23:14:03:INFO: BB Height:'405.015262', Upper BB: '1204999.293345'.
-2018-01-02 23:15:02:INFO: BB Height:'396.966519', Lower BB: '1204594.373883'.
-2018-01-02 23:15:02:INFO: BB Height:'396.966519', Upper BB: '1204991.340403'.
-2018-01-02 23:17:02:INFO: BB Height:'400.321300', Lower BB: '1204628.767922'.
-2018-01-02 23:17:02:INFO: BB Height:'400.321300', Upper BB: '1205029.089221'.
-2018-01-02 23:18:02:INFO: BB Height:'399.108898', Lower BB: '1204629.016980'.
-2018-01-02 23:18:02:INFO: BB Height:'399.108898', Upper BB: '1205028.125877'.
-2018-01-02 23:19:01:INFO: BB Height:'388.485365', Lower BB: '1204631.114460'.
-2018-01-02 23:19:01:INFO: BB Height:'388.485365', Upper BB: '1205019.599826'.
-2018-01-02 23:20:02:INFO: BB Height:'381.333692', Lower BB: '1204629.333154'.
-2018-01-02 23:20:02:INFO: BB Height:'381.333692', Upper BB: '1205010.666846'.
-2018-01-02 23:21:02:INFO: BB Height:'367.040436', Lower BB: '1204625.408354'.
-2018-01-02 23:21:02:INFO: BB Height:'367.040436', Upper BB: '1204992.448789'.
-2018-01-02 23:22:01:INFO: BB Height:'434.554211', Lower BB: '1204565.937180'.
-2018-01-02 23:22:01:INFO: BB Height:'434.554211', Upper BB: '1205000.491391'.
-2018-01-02 23:23:03:INFO: BB Height:'631.794931', Lower BB: '1204437.673963'.
-2018-01-02 23:23:03:INFO: BB Height:'631.794931', Upper BB: '1205069.468894'.
-2018-01-02 23:24:03:INFO: BB Height:'809.775440', Lower BB: '1204302.255137'.
-2018-01-02 23:24:03:INFO: BB Height:'809.775440', Upper BB: '1205112.030577'.
-2018-01-02 23:25:02:INFO: BB Height:'809.775440', Lower BB: '1204302.255137'.
-2018-01-02 23:25:02:INFO: BB Height:'809.775440', Upper BB: '1205112.030577'.
-2018-01-02 23:27:03:INFO: BB Height:'999.398720', Lower BB: '1204150.657783'.
-2018-01-02 23:27:03:INFO: BB Height:'999.398720', Upper BB: '1205150.056503'.
-2018-01-02 23:29:02:INFO: BB Height:'1082.146828', Lower BB: '1204047.498014'.
-2018-01-02 23:29:02:INFO: BB Height:'1082.146828', Upper BB: '1205129.644843'.
-2018-01-02 23:30:03:INFO: BB Height:'940.109884', Lower BB: '1204034.230772'.
-2018-01-02 23:30:03:INFO: BB Height:'940.109884', Upper BB: '1204974.340656'.
-2018-01-02 23:32:02:INFO: BB Height:'819.161995', Lower BB: '1204064.347574'.
-2018-01-02 23:32:02:INFO: BB Height:'819.161995', Upper BB: '1204883.509569'.
-2018-01-02 23:34:01:INFO: BB Height:'525.181287', Lower BB: '1204157.409356'.
-2018-01-02 23:34:01:INFO: BB Height:'525.181287', Upper BB: '1204682.590644'.
-2018-01-02 23:36:02:INFO: BB Height:'319.481035', Lower BB: '1204232.045197'.
-2018-01-02 23:36:02:INFO: BB Height:'319.481035', Upper BB: '1204551.526232'.
-2018-01-02 23:37:03:INFO: BB Height:'425.164480', Lower BB: '1204200.989189'.
-2018-01-02 23:37:03:INFO: BB Height:'425.164480', Upper BB: '1204626.153669'.
-2018-01-02 23:38:02:INFO: BB Height:'565.508621', Lower BB: '1204159.745690'.
-2018-01-02 23:38:02:INFO: BB Height:'565.508621', Upper BB: '1204725.254310'.
-2018-01-02 23:39:02:INFO: BB Height:'665.501546', Lower BB: '1204132.249227'.
-2018-01-02 23:39:02:INFO: BB Height:'665.501546', Upper BB: '1204797.750773'.
-2018-01-02 23:42:02:INFO: BB Height:'713.764205', Lower BB: '1204215.260755'.
-2018-01-02 23:42:02:INFO: BB Height:'713.764205', Upper BB: '1204929.024960'.
-2018-01-02 23:44:02:INFO: BB Height:'571.992853', Lower BB: '1204325.789288'.
-2018-01-02 23:44:02:INFO: BB Height:'571.992853', Upper BB: '1204897.782141'.
-2018-01-02 23:46:02:INFO: BB Height:'592.244752', Lower BB: '1204311.377624'.
-2018-01-02 23:46:02:INFO: BB Height:'592.244752', Upper BB: '1204903.622376'.
-2018-01-02 23:47:01:INFO: BB Height:'619.350954', Lower BB: '1204291.753094'.
-2018-01-02 23:47:01:INFO: BB Height:'619.350954', Upper BB: '1204911.104048'.
-2018-01-02 23:48:02:INFO: BB Height:'650.796638', Lower BB: '1204269.958824'.
-2018-01-02 23:48:02:INFO: BB Height:'650.796638', Upper BB: '1204920.755462'.
-2018-01-02 23:49:02:INFO: BB Height:'654.191893', Lower BB: '1204267.546911'.
-2018-01-02 23:49:02:INFO: BB Height:'654.191893', Upper BB: '1204921.738804'.
-2018-01-02 23:52:02:INFO: BB Height:'649.828380', Lower BB: '1204230.085810'.
-2018-01-02 23:52:02:INFO: BB Height:'649.828380', Upper BB: '1204879.914190'.
-2018-01-02 23:54:01:INFO: BB Height:'538.343001', Lower BB: '1204246.185642'.
-2018-01-02 23:54:01:INFO: BB Height:'538.343001', Upper BB: '1204784.528643'.
-2018-01-02 23:55:02:INFO: BB Height:'409.515930', Lower BB: '1204289.170607'.
-2018-01-02 23:55:02:INFO: BB Height:'409.515930', Upper BB: '1204698.686536'.
-2018-01-02 23:56:02:INFO: BB Height:'262.163442', Lower BB: '1204344.632565'.
-2018-01-02 23:56:02:INFO: BB Height:'262.163442', Upper BB: '1204606.796007'.
-2018-01-02 23:57:01:INFO: BB Height:'273.507940', Lower BB: '1204341.460316'.
-2018-01-02 23:57:01:INFO: BB Height:'273.507940', Upper BB: '1204614.968256'.
-2018-01-02 23:58:02:INFO: BB Height:'282.733906', Lower BB: '1204338.633047'.
-2018-01-02 23:58:02:INFO: BB Height:'282.733906', Upper BB: '1204621.366953'.
-2018-01-02 23:59:02:INFO: BB Height:'338.750127', Lower BB: '1204317.767794'.
-2018-01-02 23:59:02:INFO: BB Height:'338.750127', Upper BB: '1204656.517921'.
-2018-01-02 23:59:02:INFO: High Band:'1204656.517921', First candle close: '1204765.000000'.
-2018-01-03 00:01:01:INFO: BB Height:'471.278364', Lower BB: '1204298.289389'.
-2018-01-03 00:01:01:INFO: BB Height:'471.278364', Upper BB: '1204769.567754'.
-2018-01-03 00:02:04:INFO: BB Height:'510.291879', Lower BB: '1204310.211203'.
-2018-01-03 00:02:04:INFO: BB Height:'510.291879', Upper BB: '1204820.503083'.
-2018-01-03 00:02:04:INFO: High Band:'1204820.503083', First candle close: '1204870.000000'.
-2018-01-03 00:03:02:INFO: BB Height:'571.239254', Lower BB: '1204312.594659'.
-2018-01-03 00:03:02:INFO: BB Height:'571.239254', Upper BB: '1204883.833913'.
-2018-01-03 00:04:02:INFO: BB Height:'587.338942', Lower BB: '1204329.187672'.
-2018-01-03 00:04:02:INFO: BB Height:'587.338942', Upper BB: '1204916.526614'.
-2018-01-03 00:05:02:INFO: BB Height:'600.190446', Lower BB: '1204342.761920'.
-2018-01-03 00:05:02:INFO: BB Height:'600.190446', Upper BB: '1204942.952366'.
-2018-01-03 00:06:02:INFO: BB Height:'554.321682', Lower BB: '1204393.910587'.
-2018-01-03 00:06:02:INFO: BB Height:'554.321682', Upper BB: '1204948.232270'.
-2018-01-03 00:07:02:INFO: BB Height:'528.720205', Lower BB: '1204433.854183'.
-2018-01-03 00:07:02:INFO: BB Height:'528.720205', Upper BB: '1204962.574388'.
-2018-01-03 00:08:02:INFO: BB Height:'497.733324', Lower BB: '1204468.633338'.
-2018-01-03 00:08:02:INFO: BB Height:'497.733324', Upper BB: '1204966.366662'.
-2018-01-03 00:09:02:INFO: BB Height:'372.154405', Lower BB: '1204572.137083'.
-2018-01-03 00:09:02:INFO: BB Height:'372.154405', Upper BB: '1204944.291488'.
-2018-01-03 00:11:02:INFO: BB Height:'300.943571', Lower BB: '1204661.671072'.
-2018-01-03 00:11:02:INFO: BB Height:'300.943571', Upper BB: '1204962.614643'.
-2018-01-03 00:12:02:INFO: BB Height:'261.142881', Lower BB: '1204695.499988'.
-2018-01-03 00:12:02:INFO: BB Height:'261.142881', Upper BB: '1204956.642869'.
-2018-01-03 00:13:02:INFO: BB Height:'261.142881', Lower BB: '1204695.499988'.
-2018-01-03 00:13:02:INFO: BB Height:'261.142881', Upper BB: '1204956.642869'.
-2018-01-03 00:14:01:INFO: BB Height:'263.722298', Lower BB: '1204704.210279'.
-2018-01-03 00:14:01:INFO: BB Height:'263.722298', Upper BB: '1204967.932578'.
-2018-01-03 00:16:02:INFO: BB Height:'227.049881', Lower BB: '1204729.332202'.
-2018-01-03 00:16:02:INFO: BB Height:'227.049881', Upper BB: '1204956.382083'.
-2018-01-03 00:18:02:INFO: BB Height:'224.465176', Lower BB: '1204735.267412'.
-2018-01-03 00:18:02:INFO: BB Height:'224.465176', Upper BB: '1204959.732588'.
-2018-01-03 00:19:02:INFO: BB Height:'231.141458', Lower BB: '1204730.500700'.
-2018-01-03 00:19:02:INFO: BB Height:'231.141458', Upper BB: '1204961.642158'.
-2018-01-03 00:20:02:INFO: BB Height:'240.535118', Lower BB: '1204723.661013'.
-2018-01-03 00:20:02:INFO: BB Height:'240.535118', Upper BB: '1204964.196130'.
-2018-01-03 00:21:02:INFO: BB Height:'260.616345', Lower BB: '1204706.834685'.
-2018-01-03 00:21:02:INFO: BB Height:'260.616345', Upper BB: '1204967.451029'.
-2018-01-03 00:22:02:INFO: BB Height:'273.684667', Lower BB: '1204697.086238'.
-2018-01-03 00:22:02:INFO: BB Height:'273.684667', Upper BB: '1204970.770905'.
-2018-01-03 00:23:02:INFO: BB Height:'333.614899', Lower BB: '1204656.406836'.
-2018-01-03 00:23:02:INFO: BB Height:'333.614899', Upper BB: '1204990.021735'.
-2018-01-03 00:25:02:INFO: BB Height:'481.054245', Lower BB: '1204534.830020'.
-2018-01-03 00:25:02:INFO: Lower Band:'1204534.830020', First candle close: '1204340.000000'.
-2018-01-03 00:26:01:INFO: BB Height:'637.998243', Lower BB: '1204414.572307'.
-2018-01-03 00:26:01:INFO: BB Height:'637.998243', Upper BB: '1205052.570550'.
-2018-01-03 00:27:01:INFO: BB Height:'664.696907', Lower BB: '1204374.437261'.
-2018-01-03 00:27:01:INFO: BB Height:'664.696907', Upper BB: '1205039.134168'.
-2018-01-03 00:28:02:INFO: BB Height:'739.937627', Lower BB: '1204295.031186'.
-2018-01-03 00:28:02:INFO: BB Height:'739.937627', Upper BB: '1205034.968814'.
-2018-01-03 00:29:03:INFO: BB Height:'908.112400', Lower BB: '1204130.229514'.
-2018-01-03 00:29:03:INFO: BB Height:'908.112400', Upper BB: '1205038.341915'.
-2018-01-03 00:31:02:INFO: BB Height:'909.635841', Lower BB: '1204084.467794'.
-2018-01-03 00:31:02:INFO: BB Height:'909.635841', Upper BB: '1204994.103635'.
-2018-01-03 00:32:03:INFO: BB Height:'777.498101', Lower BB: '1204095.179521'.
-2018-01-03 00:32:03:INFO: BB Height:'777.498101', Upper BB: '1204872.677622'.
-2018-01-03 09:57:27:INFO: Create connection.
-2018-01-03 09:57:34:INFO: Successfully connected.
-2018-01-03 09:57:34:INFO: Create signalers.
-2018-01-03 09:57:34:INFO: Create traders.
-2018-01-03 10:13:40:INFO: Create connection.
-2018-01-03 10:13:47:INFO: Successfully connected.
-2018-01-03 10:13:47:INFO: Create signalers.
-2018-01-03 10:13:47:INFO: Create traders.
-2018-01-04 22:02:08:INFO: Create connection.
-2018-01-04 22:02:15:INFO: Successfully connected.
-2018-01-04 22:02:15:INFO: Create signalers.
-2018-01-04 22:02:15:INFO: Create traders.
-2018-01-04 22:02:16:INFO: BB Height:'569.179089', Lower BB: '1688778.981884'.
-2018-01-04 22:02:16:INFO: BB Height:'569.179089', Upper BB: '1689348.160973'.
-2018-01-04 22:03:01:INFO: BB Height:'569.179089', Lower BB: '1688778.981884'.
-2018-01-04 22:03:01:INFO: BB Height:'569.179089', Upper BB: '1689348.160973'.
-2018-01-04 22:04:02:INFO: BB Height:'554.747740', Lower BB: '1688796.911844'.
-2018-01-04 22:04:02:INFO: BB Height:'554.747740', Upper BB: '1689351.659584'.
-2018-01-04 22:05:02:INFO: BB Height:'544.036602', Lower BB: '1688809.767413'.
-2018-01-04 22:05:02:INFO: BB Height:'544.036602', Upper BB: '1689353.804015'.
-2018-01-04 22:06:02:INFO: BB Height:'496.289529', Lower BB: '1688868.283807'.
-2018-01-04 22:06:02:INFO: BB Height:'496.289529', Upper BB: '1689364.573336'.
-2018-01-04 22:07:02:INFO: BB Height:'555.626564', Lower BB: '1688874.329575'.
-2018-01-04 22:07:02:INFO: BB Height:'555.626564', Upper BB: '1689429.956139'.
-2018-01-04 22:08:02:INFO: BB Height:'675.071018', Lower BB: '1688837.821634'.
-2018-01-04 22:08:02:INFO: BB Height:'675.071018', Upper BB: '1689512.892652'.
-2018-01-04 22:09:02:INFO: BB Height:'786.569964', Lower BB: '1688809.215018'.
-2018-01-04 22:09:02:INFO: BB Height:'786.569964', Upper BB: '1689595.784982'.
-2018-01-04 22:10:02:INFO: BB Height:'787.106259', Lower BB: '1688811.089727'.
-2018-01-04 22:10:02:INFO: BB Height:'787.106259', Upper BB: '1689598.195987'.
-2018-01-04 22:11:02:INFO: BB Height:'787.106259', Lower BB: '1688811.089727'.
-2018-01-04 22:11:02:INFO: BB Height:'787.106259', Upper BB: '1689598.195987'.
-2018-01-04 22:12:02:INFO: BB Height:'816.597067', Lower BB: '1688786.701467'.
-2018-01-04 22:12:02:INFO: BB Height:'816.597067', Upper BB: '1689603.298533'.
-2018-01-04 22:13:02:INFO: BB Height:'821.936871', Lower BB: '1688817.960136'.
-2018-01-04 22:13:02:INFO: BB Height:'821.936871', Upper BB: '1689639.897007'.
-2018-01-04 22:14:02:INFO: BB Height:'821.936871', Lower BB: '1688817.960136'.
-2018-01-04 22:14:02:INFO: BB Height:'821.936871', Upper BB: '1689639.897007'.
-2018-01-04 22:15:01:INFO: BB Height:'765.520723', Lower BB: '1688896.525353'.
-2018-01-04 22:15:01:INFO: BB Height:'765.520723', Upper BB: '1689662.046076'.
-2018-01-04 22:16:01:INFO: BB Height:'754.830597', Lower BB: '1688920.084701'.
-2018-01-04 22:16:01:INFO: BB Height:'754.830597', Upper BB: '1689674.915299'.
-2018-01-04 22:17:01:INFO: BB Height:'683.327347', Lower BB: '1688981.193469'.
-2018-01-04 22:17:02:INFO: BB Height:'683.327347', Upper BB: '1689664.520817'.
-2018-01-04 22:18:02:INFO: BB Height:'658.890176', Lower BB: '1688998.412055'.
-2018-01-04 22:18:02:INFO: BB Height:'658.890176', Upper BB: '1689657.302231'.
-2018-01-04 22:19:02:INFO: BB Height:'654.425341', Lower BB: '1689001.358758'.
-2018-01-04 22:19:02:INFO: BB Height:'654.425341', Upper BB: '1689655.784099'.
-2018-01-04 22:20:02:INFO: BB Height:'844.857749', Lower BB: '1688872.571126'.
-2018-01-04 22:20:02:INFO: BB Height:'844.857749', Upper BB: '1689717.428874'.
-2018-01-04 22:21:02:INFO: BB Height:'977.641252', Lower BB: '1688760.822231'.
-2018-01-04 22:21:02:INFO: BB Height:'977.641252', Upper BB: '1689738.463483'.
-2018-01-04 22:22:02:INFO: BB Height:'1006.843615', Lower BB: '1688700.506764'.
-2018-01-04 22:22:02:INFO: BB Height:'1006.843615', Upper BB: '1689707.350379'.
-2018-01-04 22:23:02:INFO: BB Height:'1004.631035', Lower BB: '1688653.398768'.
-2018-01-04 22:23:02:INFO: BB Height:'1004.631035', Upper BB: '1689658.029803'.
-2018-01-04 22:24:01:INFO: BB Height:'978.207601', Lower BB: '1688655.539057'.
-2018-01-04 22:24:01:INFO: BB Height:'978.207601', Upper BB: '1689633.746657'.
-2018-01-04 22:25:02:INFO: BB Height:'983.601813', Lower BB: '1688636.770522'.
-2018-01-04 22:25:02:INFO: BB Height:'983.601813', Upper BB: '1689620.372335'.
-2018-01-04 22:26:01:INFO: BB Height:'1001.036825', Lower BB: '1688622.338730'.
-2018-01-04 22:26:01:INFO: BB Height:'1001.036825', Upper BB: '1689623.375555'.
-2018-01-04 22:27:02:INFO: BB Height:'1057.025684', Lower BB: '1688555.415729'.
-2018-01-04 22:27:02:INFO: Lower Band:'1688555.415729', First candle close: '1688510.000000'.
-2018-01-04 22:28:01:INFO: BB Height:'1161.156112', Lower BB: '1688441.207658'.
-2018-01-04 22:28:01:INFO: BB Height:'1161.156112', Upper BB: '1689602.363770'.
-2018-01-04 22:29:01:INFO: BB Height:'1005.423753', Lower BB: '1688464.788124'.
-2018-01-04 22:29:01:INFO: BB Height:'1005.423753', Upper BB: '1689470.211876'.
-2018-01-04 22:30:02:INFO: BB Height:'881.892321', Lower BB: '1688490.125268'.
-2018-01-04 22:30:02:INFO: BB Height:'881.892321', Upper BB: '1689372.017589'.
-2018-01-04 22:31:03:INFO: BB Height:'796.394347', Lower BB: '1688431.445684'.
-2018-01-04 22:31:03:INFO: BB Height:'796.394347', Upper BB: '1689227.840031'.
-2018-01-04 22:32:02:INFO: BB Height:'796.394347', Lower BB: '1688431.445684'.
-2018-01-04 22:32:02:INFO: BB Height:'796.394347', Upper BB: '1689227.840031'.
-2018-01-04 22:33:02:INFO: BB Height:'771.907869', Lower BB: '1688407.617494'.
-2018-01-04 22:33:02:INFO: BB Height:'771.907869', Upper BB: '1689179.525363'.
-2018-01-04 22:34:02:INFO: BB Height:'843.608159', Lower BB: '1688346.053064'.
-2018-01-04 22:34:02:INFO: BB Height:'843.608159', Upper BB: '1689189.661222'.
-2018-01-04 22:35:02:INFO: BB Height:'865.784279', Lower BB: '1688319.250718'.
-2018-01-04 22:35:02:INFO: BB Height:'865.784279', Upper BB: '1689185.034997'.
-2018-01-04 22:36:02:INFO: BB Height:'877.198337', Lower BB: '1688291.400831'.
-2018-01-04 22:36:02:INFO: BB Height:'877.198337', Upper BB: '1689168.599169'.
-2018-01-04 22:37:02:INFO: BB Height:'879.280425', Lower BB: '1688271.788359'.
-2018-01-04 22:37:02:INFO: BB Height:'879.280425', Upper BB: '1689151.068784'.
-2018-01-04 22:38:02:INFO: BB Height:'574.086948', Lower BB: '1688341.170812'.
-2018-01-04 22:38:02:INFO: BB Height:'574.086948', Upper BB: '1688915.257760'.
-2018-01-04 22:39:01:INFO: BB Height:'574.086948', Lower BB: '1688341.170812'.
-2018-01-04 22:39:01:INFO: BB Height:'574.086948', Upper BB: '1688915.257760'.
-2018-01-04 22:40:02:INFO: BB Height:'486.379312', Lower BB: '1688370.738915'.
-2018-01-04 22:40:02:INFO: BB Height:'486.379312', Upper BB: '1688857.118227'.
-2018-01-04 22:41:01:INFO: BB Height:'465.003840', Lower BB: '1688374.640937'.
-2018-01-04 22:41:01:INFO: BB Height:'465.003840', Upper BB: '1688839.644777'.
-2018-01-04 22:42:02:INFO: BB Height:'455.831567', Lower BB: '1688382.441359'.
-2018-01-04 22:42:02:INFO: BB Height:'455.831567', Upper BB: '1688838.272926'.
-2018-01-04 22:43:02:INFO: BB Height:'411.365990', Lower BB: '1688385.031291'.
-2018-01-04 22:43:02:INFO: BB Height:'411.365990', Upper BB: '1688796.397281'.
-2018-01-04 22:44:02:INFO: BB Height:'311.073999', Lower BB: '1688399.820143'.
-2018-01-04 22:44:02:INFO: BB Height:'311.073999', Upper BB: '1688710.894142'.
-2018-01-04 22:45:02:INFO: BB Height:'322.435785', Lower BB: '1688385.210679'.
-2018-01-04 22:45:02:INFO: BB Height:'322.435785', Upper BB: '1688707.646464'.
-2018-01-04 22:46:02:INFO: BB Height:'406.802055', Lower BB: '1688327.670401'.
-2018-01-04 22:46:02:INFO: BB Height:'406.802055', Upper BB: '1688734.472456'.
-2018-01-04 22:47:02:INFO: BB Height:'485.900094', Lower BB: '1688265.264239'.
-2018-01-04 22:47:02:INFO: BB Height:'485.900094', Upper BB: '1688751.164333'.
-2018-01-04 22:48:01:INFO: BB Height:'495.839836', Lower BB: '1688256.008653'.
-2018-01-04 22:48:01:INFO: BB Height:'495.839836', Upper BB: '1688751.848489'.
-2018-01-04 22:49:02:INFO: BB Height:'488.120414', Lower BB: '1688253.439793'.
-2018-01-04 22:49:02:INFO: BB Height:'488.120414', Upper BB: '1688741.560207'.
-2018-01-04 22:50:02:INFO: BB Height:'514.854082', Lower BB: '1688247.215816'.
-2018-01-04 22:50:02:INFO: BB Height:'514.854082', Upper BB: '1688762.069898'.
-2018-01-04 22:51:01:INFO: BB Height:'630.673807', Lower BB: '1688208.234525'.
-2018-01-04 22:51:01:INFO: BB Height:'630.673807', Upper BB: '1688838.908332'.
-2018-01-04 22:52:02:INFO: BB Height:'729.081916', Lower BB: '1688181.173328'.
-2018-01-04 22:52:02:INFO: BB Height:'729.081916', Upper BB: '1688910.255243'.
-2018-01-04 22:53:01:INFO: BB Height:'788.181939', Lower BB: '1688175.909030'.
-2018-01-04 22:53:01:INFO: BB Height:'788.181939', Upper BB: '1688964.090970'.
-2018-01-04 22:54:01:INFO: BB Height:'872.324166', Lower BB: '1688150.266488'.
-2018-01-04 22:54:01:INFO: BB Height:'872.324166', Upper BB: '1689022.590654'.
-2018-01-04 22:55:01:INFO: BB Height:'933.541055', Lower BB: '1688137.515187'.
-2018-01-04 22:55:01:INFO: BB Height:'933.541055', Upper BB: '1689071.056242'.
-2018-01-04 22:56:01:INFO: BB Height:'944.086278', Lower BB: '1688146.171147'.
-2018-01-04 22:56:01:INFO: BB Height:'944.086278', Upper BB: '1689090.257425'.
-2018-01-04 22:57:02:INFO: BB Height:'943.274633', Lower BB: '1688161.219826'.
-2018-01-04 22:57:02:INFO: BB Height:'943.274633', Upper BB: '1689104.494459'.
-2018-01-04 22:58:02:INFO: BB Height:'899.538343', Lower BB: '1688200.230828'.
-2018-01-04 22:58:02:INFO: BB Height:'899.538343', Upper BB: '1689099.769172'.
-2018-01-04 22:59:02:INFO: BB Height:'877.088089', Lower BB: '1688220.741670'.
-2018-01-04 22:59:02:INFO: BB Height:'877.088089', Upper BB: '1689097.829759'.
-2018-01-04 23:00:02:INFO: BB Height:'826.537861', Lower BB: '1688290.302498'.
-2018-01-04 23:00:02:INFO: BB Height:'826.537861', Upper BB: '1689116.840359'.
-2018-01-04 23:01:02:INFO: BB Height:'741.369389', Lower BB: '1688388.958162'.
-2018-01-04 23:01:02:INFO: BB Height:'741.369389', Upper BB: '1689130.327552'.
-2018-01-04 23:02:02:INFO: BB Height:'702.023762', Lower BB: '1688457.202405'.
-2018-01-04 23:02:02:INFO: BB Height:'702.023762', Upper BB: '1689159.226167'.
-2018-01-04 23:03:01:INFO: BB Height:'650.370985', Lower BB: '1688524.457365'.
-2018-01-04 23:03:01:INFO: BB Height:'650.370985', Upper BB: '1689174.828349'.
-2018-01-04 23:04:02:INFO: BB Height:'657.856994', Lower BB: '1688519.285789'.
-2018-01-04 23:04:02:INFO: BB Height:'657.856994', Upper BB: '1689177.142783'.
-2018-01-04 23:05:01:INFO: BB Height:'719.719115', Lower BB: '1688468.711871'.
-2018-01-04 23:05:01:INFO: BB Height:'719.719115', Upper BB: '1689188.430986'.
-2018-01-04 23:06:01:INFO: BB Height:'730.003763', Lower BB: '1688452.140975'.
-2018-01-04 23:06:01:INFO: BB Height:'730.003763', Upper BB: '1689182.144739'.
-2018-01-04 23:07:02:INFO: BB Height:'733.093700', Lower BB: '1688444.524578'.
-2018-01-04 23:07:02:INFO: BB Height:'733.093700', Upper BB: '1689177.618279'.
-2018-01-04 23:08:01:INFO: BB Height:'747.908439', Lower BB: '1688413.188638'.
-2018-01-04 23:08:01:INFO: BB Height:'747.908439', Upper BB: '1689161.097077'.
-2018-01-04 23:09:02:INFO: BB Height:'772.676240', Lower BB: '1688376.519023'.
-2018-01-04 23:09:02:INFO: BB Height:'772.676240', Upper BB: '1689149.195263'.
-2018-01-04 23:10:02:INFO: BB Height:'826.144228', Lower BB: '1688331.213600'.
-2018-01-04 23:10:02:INFO: BB Height:'826.144228', Upper BB: '1689157.357828'.
-2018-01-04 23:11:02:INFO: BB Height:'1033.198384', Lower BB: '1688187.686522'.
-2018-01-04 23:11:02:INFO: BB Height:'1033.198384', Upper BB: '1689220.884906'.
-2018-01-04 23:12:02:INFO: BB Height:'1201.197205', Lower BB: '1688057.258540'.
-2018-01-04 23:12:02:INFO: BB Height:'1201.197205', Upper BB: '1689258.455745'.
-2018-01-04 23:13:02:INFO: BB Height:'1201.197205', Lower BB: '1688057.258540'.
-2018-01-04 23:13:02:INFO: BB Height:'1201.197205', Upper BB: '1689258.455745'.
-2018-01-04 23:14:02:INFO: BB Height:'1296.829608', Lower BB: '1687878.728053'.
-2018-01-04 23:14:02:INFO: BB Height:'1296.829608', Upper BB: '1689175.557661'.
-2018-01-04 23:15:01:INFO: BB Height:'1296.829608', Lower BB: '1687878.728053'.
-2018-01-04 23:15:01:INFO: BB Height:'1296.829608', Upper BB: '1689175.557661'.
-2018-01-04 23:16:02:INFO: BB Height:'966.830099', Lower BB: '1687940.870665'.
-2018-01-04 23:16:02:INFO: BB Height:'966.830099', Upper BB: '1688907.700764'.
-2018-01-04 23:17:01:INFO: BB Height:'966.830099', Lower BB: '1687940.870665'.
-2018-01-04 23:17:01:INFO: BB Height:'966.830099', Upper BB: '1688907.700764'.
-2018-01-04 23:18:02:INFO: BB Height:'995.894871', Lower BB: '1687932.766850'.
-2018-01-04 23:18:02:INFO: BB Height:'995.894871', Upper BB: '1688928.661721'.
-2018-01-04 23:19:02:INFO: BB Height:'1015.013669', Lower BB: '1687929.278880'.
-2018-01-04 23:19:02:INFO: BB Height:'1015.013669', Upper BB: '1688944.292549'.
-2018-01-04 23:20:01:INFO: BB Height:'1054.597470', Lower BB: '1687916.986979'.
-2018-01-04 23:20:01:INFO: BB Height:'1054.597470', Upper BB: '1688971.584449'.
-2018-01-04 23:21:02:INFO: BB Height:'1133.114933', Lower BB: '1687892.371105'.
-2018-01-04 23:21:02:INFO: BB Height:'1133.114933', Upper BB: '1689025.486038'.
-2018-01-04 23:22:01:INFO: BB Height:'1133.114933', Lower BB: '1687892.371105'.
-2018-01-04 23:22:01:INFO: BB Height:'1133.114933', Upper BB: '1689025.486038'.
-2018-01-04 23:23:03:INFO: BB Height:'1158.093355', Lower BB: '1687889.881894'.
-2018-01-04 23:23:03:INFO: BB Height:'1158.093355', Upper BB: '1689047.975249'.
-2018-01-04 23:24:02:INFO: BB Height:'1183.149085', Lower BB: '1687891.996886'.
-2018-01-04 23:24:02:INFO: BB Height:'1183.149085', Upper BB: '1689075.145971'.
-2018-01-04 23:25:02:INFO: BB Height:'1132.535811', Lower BB: '1687933.017809'.
-2018-01-04 23:25:02:INFO: BB Height:'1132.535811', Upper BB: '1689065.553620'.
-2018-01-04 23:26:02:INFO: BB Height:'1098.746539', Lower BB: '1687972.769588'.
-2018-01-04 23:26:02:INFO: BB Height:'1098.746539', Upper BB: '1689071.516126'.
-2018-01-04 23:27:01:INFO: BB Height:'1077.666384', Lower BB: '1687992.238237'.
-2018-01-04 23:27:01:INFO: BB Height:'1077.666384', Upper BB: '1689069.904621'.
-2018-01-04 23:28:02:INFO: BB Height:'964.947189', Lower BB: '1688070.026406'.
-2018-01-04 23:28:02:INFO: BB Height:'964.947189', Upper BB: '1689034.973594'.
-2018-01-04 23:29:02:INFO: BB Height:'840.226291', Lower BB: '1688150.958283'.
-2018-01-04 23:29:02:INFO: BB Height:'840.226291', Upper BB: '1688991.184574'.
-2018-01-04 23:30:01:INFO: BB Height:'815.698986', Lower BB: '1688166.079079'.
-2018-01-04 23:30:01:INFO: BB Height:'815.698986', Upper BB: '1688981.778064'.
-2018-01-04 23:31:02:INFO: BB Height:'905.800599', Lower BB: '1688094.242558'.
-2018-01-04 23:31:02:INFO: BB Height:'905.800599', Upper BB: '1689000.043157'.
-2018-01-04 23:32:01:INFO: BB Height:'995.241425', Lower BB: '1688004.522145'.
-2018-01-04 23:32:01:INFO: BB Height:'995.241425', Upper BB: '1688999.763570'.
-2018-01-04 23:33:01:INFO: BB Height:'996.231360', Lower BB: '1688004.384320'.
-2018-01-04 23:33:01:INFO: BB Height:'996.231360', Upper BB: '1689000.615680'.
-2018-01-04 23:34:01:INFO: BB Height:'977.758144', Lower BB: '1687970.049499'.
-2018-01-04 23:34:01:INFO: BB Height:'977.758144', Upper BB: '1688947.807644'.
-2018-01-04 23:35:02:INFO: BB Height:'823.757139', Lower BB: '1687968.835716'.
-2018-01-04 23:35:02:INFO: BB Height:'823.757139', Upper BB: '1688792.592855'.
-2018-01-04 23:36:02:INFO: BB Height:'823.757139', Lower BB: '1687968.835716'.
-2018-01-04 23:36:02:INFO: BB Height:'823.757139', Upper BB: '1688792.592855'.
-2018-01-04 23:37:02:INFO: BB Height:'740.087610', Lower BB: '1687981.741909'.
-2018-01-04 23:37:02:INFO: BB Height:'740.087610', Upper BB: '1688721.829519'.
-2018-01-04 23:38:02:INFO: BB Height:'629.098430', Lower BB: '1688006.522213'.
-2018-01-04 23:38:02:INFO: BB Height:'629.098430', Upper BB: '1688635.620644'.
+2018-01-07 10:06:34:INFO: Create connection.
+2018-01-07 10:06:41:INFO: Successfully connected.
+2018-01-07 10:06:41:INFO: Create signalers.
+2018-01-07 10:06:41:INFO: Create traders.
+2018-01-07 10:07:03:INFO: BB Height:'389.531248', Lower BB: '1176098.448662'.
+2018-01-07 10:08:02:INFO: BB Height:'389.531248', Lower BB: '1176098.448662'.
+2018-01-07 10:09:02:INFO: BB Height:'400.939994', Lower BB: '1176080.672860'.
+2018-01-07 10:10:02:INFO: BB Height:'402.235948', Lower BB: '1176069.453454'.
+2018-01-07 10:11:02:INFO: BB Height:'370.348574', Lower BB: '1176060.897142'.
+2018-01-07 10:12:02:INFO: BB Height:'336.798241', Lower BB: '1176053.815165'.
+2018-01-07 10:13:02:INFO: BB Height:'294.121303', Lower BB: '1176056.582206'.
+2018-01-07 10:14:02:INFO: BB Height:'263.722298', Lower BB: '1176052.210279'.
+2018-01-07 10:15:01:INFO: BB Height:'219.794109', Lower BB: '1176061.531517'.
+2018-01-07 10:16:01:INFO: BB Height:'206.285623', Lower BB: '1176064.928617'.
+2018-01-07 10:17:01:INFO: BB Height:'201.150318', Lower BB: '1176060.353412'.
+2018-01-07 10:18:01:INFO: BB Height:'239.454325', Lower BB: '1176028.701409'.
+2018-01-07 10:19:01:INFO: BB Height:'228.758138', Lower BB: '1176030.406645'.
+2018-01-07 10:20:02:INFO: BB Height:'192.401595', Lower BB: '1176042.227774'.
+2018-01-07 10:21:03:INFO: BB Height:'202.530150', Lower BB: '1176039.234925'.
+2018-01-07 10:22:02:INFO: BB Height:'217.701277', Lower BB: '1176036.649361'.
+2018-01-07 10:23:02:INFO: BB Height:'280.096059', Lower BB: '1176014.809113'.
+2018-01-07 10:24:02:INFO: BB Height:'351.686799', Lower BB: '1175990.228029'.
+2018-01-07 10:25:02:INFO: BB Height:'370.289581', Lower BB: '1175993.426638'.
+2018-01-07 10:26:02:INFO: BB Height:'369.255384', Lower BB: '1176006.372308'.
+2018-01-07 10:27:02:INFO: BB Height:'362.194047', Lower BB: '1176013.331548'.
+2018-01-07 10:28:02:INFO: BB Height:'342.158244', Lower BB: '1176028.563735'.
+2018-01-07 10:29:02:INFO: BB Height:'335.023175', Lower BB: '1176035.916984'.
+2018-01-07 10:30:01:INFO: BB Height:'342.940997', Lower BB: '1176037.458073'.
+2018-01-07 10:31:01:INFO: BB Height:'336.419936', Lower BB: '1176052.218603'.
+2018-01-07 10:32:01:INFO: BB Height:'292.900463', Lower BB: '1176098.621197'.
+2018-01-07 10:33:02:INFO: BB Height:'296.963830', Lower BB: '1176110.303799'.
+2018-01-07 10:34:02:INFO: BB Height:'340.262342', Lower BB: '1176108.868829'.
+2018-01-07 10:35:02:INFO: BB Height:'381.514391', Lower BB: '1176106.242804'.
+2018-01-07 10:36:02:INFO: BB Height:'405.833615', Lower BB: '1176111.583192'.
+2018-01-07 10:37:02:INFO: BB Height:'423.515481', Lower BB: '1176111.027974'.
+2018-01-07 10:38:01:INFO: BB Height:'427.605755', Lower BB: '1176111.125694'.
+2018-01-07 10:39:01:INFO: BB Height:'452.233918', Lower BB: '1176111.597327'.
+2018-01-07 10:40:01:INFO: BB Height:'470.645944', Lower BB: '1176117.748457'.
+2018-01-07 10:41:01:INFO: BB Height:'433.361408', Lower BB: '1176156.676439'.
+2018-01-07 10:42:02:INFO: BB Height:'361.714598', Lower BB: '1176214.571272'.
+2018-01-07 10:43:02:INFO: BB Height:'275.665030', Lower BB: '1176274.881771'.
+2018-01-07 10:44:02:INFO: BB Height:'233.925507', Lower BB: '1176301.965818'.
+2018-01-07 10:45:02:INFO: BB Height:'178.074932', Lower BB: '1176338.033963'.
+2018-01-07 10:46:02:INFO: BB Height:'167.799986', Lower BB: '1176348.528579'.
+2018-01-07 10:47:02:INFO: BB Height:'159.628415', Lower BB: '1176353.685793'.
+2018-01-07 10:48:02:INFO: BB Height:'169.893050', Lower BB: '1176343.196332'.
+2018-01-07 10:49:02:INFO: BB Height:'189.480957', Lower BB: '1176324.616664'.
+2018-01-07 10:50:02:INFO: BB Height:'190.428551', Lower BB: '1176317.642867'.
+2018-01-07 10:51:02:INFO: BB Height:'261.689691', Lower BB: '1176268.798012'.
+2018-01-07 10:52:02:INFO: BB Height:'284.607615', Lower BB: '1176250.839050'.
+2018-01-07 10:53:02:INFO: BB Height:'286.476587', Lower BB: '1176237.690278'.
+2018-01-07 10:54:02:INFO: BB Height:'262.732388', Lower BB: '1176239.133806'.
+2018-01-07 10:55:02:INFO: BB Height:'283.748379', Lower BB: '1176212.197239'.
+2018-01-07 10:56:02:INFO: BB Height:'316.457313', Lower BB: '1176174.771344'.
+2018-01-07 10:57:01:INFO: BB Height:'317.089650', Lower BB: '1176158.955175'.
+2018-01-07 10:58:01:INFO: BB Height:'314.954314', Lower BB: '1176154.594272'.
+2018-01-07 10:59:01:INFO: BB Height:'299.094017', Lower BB: '1176155.452992'.
+2018-01-07 11:00:02:INFO: BB Height:'250.811430', Lower BB: '1176167.022856'.
+2018-01-07 11:01:02:INFO: BB Height:'247.306368', Lower BB: '1176168.061102'.
+2018-01-07 11:02:02:INFO: BB Height:'271.937452', Lower BB: '1176159.245560'.
+2018-01-07 11:03:02:INFO: BB Height:'307.943908', Lower BB: '1176148.099475'.
+2018-01-07 11:04:02:INFO: BB Height:'359.012075', Lower BB: '1176130.779677'.
+2018-01-07 11:05:02:INFO: BB Height:'374.232108', Lower BB: '1176137.098232'.
+2018-01-07 11:06:02:INFO: BB Height:'372.804754', Lower BB: '1176140.597623'.
+2018-01-07 11:07:01:INFO: BB Height:'427.409884', Lower BB: '1176129.580772'.
+2018-01-07 11:08:01:INFO: BB Height:'459.307458', Lower BB: '1176125.203414'.
+2018-01-07 11:09:01:INFO: BB Height:'530.729541', Lower BB: '1176119.635229'.
+2018-01-07 11:10:01:INFO: BB Height:'562.319607', Lower BB: '1176141.197339'.
+2018-01-07 11:11:01:INFO: BB Height:'564.386587', Lower BB: '1176172.235278'.
+2018-01-07 11:12:01:INFO: BB Height:'535.956780', Lower BB: '1176205.235896'.
+2018-01-07 11:13:02:INFO: BB Height:'501.187425', Lower BB: '1176240.334859'.
+2018-01-07 11:14:02:INFO: BB Height:'437.281613', Lower BB: '1176285.144908'.
+2018-01-07 11:15:02:INFO: BB Height:'433.290807', Lower BB: '1176287.854597'.
+2018-01-07 11:16:02:INFO: BB Height:'533.438195', Lower BB: '1176222.280903'.
+2018-01-07 11:17:02:INFO: BB Height:'559.814176', Lower BB: '1176201.164340'.
+2018-01-07 11:18:02:INFO: BB Height:'590.866229', Lower BB: '1176172.781171'.
+2018-01-07 11:19:02:INFO: BB Height:'655.526498', Lower BB: '1176123.665323'.
+2018-01-07 11:20:02:INFO: BB Height:'686.740286', Lower BB: '1176100.701286'.
+2018-01-07 11:21:02:INFO: BB Height:'680.071683', Lower BB: '1176097.607015'.
+2018-01-07 11:22:01:INFO: BB Height:'676.220655', Lower BB: '1176095.318244'.
+2018-01-07 11:23:01:INFO: BB Height:'629.476392', Lower BB: '1176103.690376'.
+2018-01-07 11:24:01:INFO: BB Height:'568.606780', Lower BB: '1176123.910896'.
+2018-01-07 11:25:01:INFO: BB Height:'562.582429', Lower BB: '1176126.137357'.
+2018-01-07 11:26:01:INFO: BB Height:'601.425486', Lower BB: '1176113.787257'.
+2018-01-07 11:27:02:INFO: BB Height:'626.580183', Lower BB: '1176106.567052'.
+2018-01-07 11:28:02:INFO: BB Height:'667.722651', Lower BB: '1176099.138675'.
+2018-01-07 11:29:02:INFO: BB Height:'727.033775', Lower BB: '1176094.340255'.
+2018-01-07 11:30:02:INFO: BB Height:'683.521136', Lower BB: '1176145.310861'.
+2018-01-07 11:31:02:INFO: BB Height:'662.552971', Lower BB: '1176173.937800'.
+2018-01-07 11:32:02:INFO: BB Height:'621.078891', Lower BB: '1176211.531983'.
+2018-01-07 11:33:02:INFO: BB Height:'500.814370', Lower BB: '1176295.949958'.
+2018-01-07 11:34:02:INFO: BB Height:'375.444528', Lower BB: '1176372.992022'.
+2018-01-07 11:35:02:INFO: BB Height:'382.708566', Lower BB: '1176368.145717'.
+2018-01-07 11:36:02:INFO: BB Height:'387.428944', Lower BB: '1176364.928385'.
+2018-01-07 11:37:02:INFO: BB Height:'367.004866', Lower BB: '1176380.354710'.
+2018-01-07 11:38:02:INFO: BB Height:'385.996299', Lower BB: '1176363.930422'.
+2018-01-07 11:39:02:INFO: BB Height:'442.304952', Lower BB: '1176312.061810'.
+2018-01-07 11:40:02:INFO: BB Height:'470.724296', Lower BB: '1176275.352138'.
+2018-01-07 11:41:02:INFO: BB Height:'482.000593', Lower BB: '1176250.142561'.
+2018-01-07 11:42:02:INFO: BB Height:'488.991966', Lower BB: '1176223.075446'.
+2018-01-07 11:43:02:INFO: BB Height:'424.859589', Lower BB: '1176225.855920'.
+2018-01-07 11:44:02:INFO: BB Height:'432.391459', Lower BB: '1176193.732842'.
+2018-01-07 11:45:02:INFO: BB Height:'418.203063', Lower BB: '1176177.255611'.
+2018-01-07 11:46:02:INFO: BB Height:'429.220300', Lower BB: '1176146.461279'.
+2018-01-07 11:47:02:INFO: BB Height:'395.683523', Lower BB: '1176140.729667'.
+2018-01-07 11:48:02:INFO: BB Height:'427.798967', Lower BB: '1176104.457659'.
+2018-01-07 11:49:02:INFO: BB Height:'420.614725', Lower BB: '1176094.406923'.
+2018-01-07 11:50:02:INFO: BB Height:'399.607390', Lower BB: '1176099.267734'.
+2018-01-07 11:51:02:INFO: BB Height:'316.188843', Lower BB: '1176125.905578'.
+2018-01-07 11:52:02:INFO: BB Height:'251.345741', Lower BB: '1176143.755701'.
+2018-01-07 11:53:02:INFO: BB Height:'290.989521', Lower BB: '1176109.290954'.
+2018-01-07 11:54:02:INFO: BB Height:'328.726614', Lower BB: '1176072.779550'.
+2018-01-07 11:55:01:INFO: BB Height:'373.658832', Lower BB: '1176027.170584'.
+2018-01-07 11:56:01:INFO: BB Height:'419.993930', Lower BB: '1175982.288749'.
+2018-01-07 11:57:02:INFO: BB Height:'399.459965', Lower BB: '1175982.627160'.
+2018-01-07 11:58:02:INFO: BB Height:'439.322555', Lower BB: '1175947.338722'.
+2018-01-07 11:59:02:INFO: BB Height:'447.391364', Lower BB: '1175928.661461'.
+2018-01-07 12:00:02:INFO: BB Height:'445.798456', Lower BB: '1175927.457915'.
+2018-01-07 12:01:02:INFO: BB Height:'440.359094', Lower BB: '1175924.106167'.
+2018-01-07 12:02:01:INFO: BB Height:'440.359094', Lower BB: '1175924.106167'.
+2018-01-07 12:03:01:INFO: BB Height:'429.864993', Lower BB: '1175924.138932'.
+2018-01-07 12:04:01:INFO: BB Height:'356.330011', Lower BB: '1175941.834994'.
+2018-01-07 12:05:01:INFO: BB Height:'292.026794', Lower BB: '1175962.843746'.
+2018-01-07 12:06:01:INFO: BB Height:'428.026188', Lower BB: '1175907.629763'.
+2018-01-07 12:07:01:INFO: BB Height:'574.152409', Lower BB: '1175860.495224'.
+2018-01-07 12:08:01:INFO: BB Height:'756.294495', Lower BB: '1175807.567038'.
+2018-01-07 12:08:01:INFO: Into first step put
+2018-01-07 12:09:02:INFO: BB Height:'879.635739', Lower BB: '1175790.824988'.
+2018-01-07 12:10:02:INFO: BB Height:'917.981014', Lower BB: '1175814.080921'.
+2018-01-07 12:11:02:INFO: BB Height:'937.565564', Lower BB: '1175827.574361'.
+2018-01-07 12:12:02:INFO: BB Height:'931.308237', Lower BB: '1175874.488738'.
+2018-01-07 12:13:01:INFO: BB Height:'910.690259', Lower BB: '1175926.440585'.
+2018-01-07 12:14:01:INFO: BB Height:'963.782521', Lower BB: '1175944.323025'.
+2018-01-07 12:15:01:INFO: BB Height:'940.865349', Lower BB: '1175987.138754'.
+2018-01-07 12:16:01:INFO: BB Height:'870.197754', Lower BB: '1176061.186837'.
+2018-01-07 12:16:15:INFO: Create connection.
+2018-01-07 12:16:21:INFO: Successfully connected.
+2018-01-07 12:16:21:INFO: Create signalers.
+2018-01-07 12:16:22:INFO: Create traders.
+2018-01-07 12:16:23:INFO: BB Height:'634.440205', Lower BB: '1176134.236786'.
+2018-01-07 12:17:02:INFO: BB Height:'634.440205', Lower BB: '1176134.236786'.
+2018-01-07 12:18:02:INFO: BB Height:'387.462526', Lower BB: '1176264.851326'.
+2018-01-07 12:19:02:INFO: BB Height:'355.885770', Lower BB: '1176420.054451'.
+2018-01-07 12:20:02:INFO: BB Height:'351.241065', Lower BB: '1176440.128544'.
+2018-01-07 12:21:02:INFO: BB Height:'391.071450', Lower BB: '1176443.165182'.
+2018-01-07 12:22:02:INFO: BB Height:'397.516798', Lower BB: '1176411.821418'.
+2018-01-07 12:23:02:INFO: BB Height:'403.351672', Lower BB: '1176388.298607'.
+2018-01-07 12:24:01:INFO: BB Height:'403.351672', Lower BB: '1176388.298607'.
+2018-01-07 12:25:01:INFO: BB Height:'454.345659', Lower BB: '1176391.467021'.
+2018-01-07 12:26:01:INFO: BB Height:'462.031444', Lower BB: '1176350.041456'.
+2018-01-07 12:27:01:INFO: BB Height:'408.451485', Lower BB: '1176335.698564'.
+2018-01-07 12:28:01:INFO: BB Height:'409.399882', Lower BB: '1176338.274258'.
+2018-01-07 12:29:01:INFO: BB Height:'398.005688', Lower BB: '1176325.442916'.
+2018-01-07 12:30:03:INFO: BB Height:'322.935437', Lower BB: '1176314.925728'.
+2018-01-07 12:31:02:INFO: BB Height:'200.226685', Lower BB: '1176336.960853'.
+2018-01-07 12:32:02:INFO: BB Height:'154.965859', Lower BB: '1176376.743800'.
+2018-01-07 12:33:02:INFO: BB Height:'153.862790', Lower BB: '1176392.374213'.
+2018-01-07 12:34:02:INFO: BB Height:'176.688961', Lower BB: '1176391.140033'.
+2018-01-07 12:35:02:INFO: BB Height:'175.971027', Lower BB: '1176384.084091'.
+2018-01-07 12:36:02:INFO: BB Height:'167.988487', Lower BB: '1176385.871630'.
+2018-01-07 12:37:01:INFO: BB Height:'199.666535', Lower BB: '1176385.291471'.
+2018-01-07 12:38:01:INFO: BB Height:'220.587228', Lower BB: '1176358.023875'.
+2018-01-07 12:39:01:INFO: BB Height:'241.329650', Lower BB: '1176336.349243'.
+2018-01-07 12:40:02:INFO: BB Height:'254.990627', Lower BB: '1176322.335175'.
+2018-01-07 12:41:02:INFO: BB Height:'261.934813', Lower BB: '1176306.576115'.
+2018-01-07 12:42:01:INFO: BB Height:'273.442362', Lower BB: '1176298.532594'.
+2018-01-07 12:43:02:INFO: BB Height:'290.746973', Lower BB: '1176285.921676'.
+2018-01-07 12:44:02:INFO: BB Height:'341.802848', Lower BB: '1176270.483656'.
+2018-01-07 12:45:02:INFO: BB Height:'358.325777', Lower BB: '1176224.955719'.
+2018-01-07 12:46:02:INFO: BB Height:'373.249232', Lower BB: '1176207.122826'.
+2018-01-07 12:47:02:INFO: BB Height:'387.291752', Lower BB: '1176180.946813'.
+2018-01-07 12:48:01:INFO: BB Height:'339.525202', Lower BB: '1176156.639838'.
+2018-01-07 12:49:01:INFO: BB Height:'303.993782', Lower BB: '1176155.951685'.
+2018-01-07 12:50:01:INFO: BB Height:'255.719111', Lower BB: '1176156.074537'.
+2018-01-07 12:51:01:INFO: BB Height:'248.626645', Lower BB: '1176165.497587'.
+2018-01-07 12:52:01:INFO: BB Height:'243.221601', Lower BB: '1176161.972392'.
+2018-01-07 12:53:01:INFO: BB Height:'264.149974', Lower BB: '1176156.103485'.
+2018-01-07 12:54:02:INFO: BB Height:'317.442112', Lower BB: '1176149.139299'.
+2018-01-07 12:55:02:INFO: BB Height:'384.572833', Lower BB: '1176117.027307'.
+2018-01-07 12:56:02:INFO: BB Height:'384.572833', Lower BB: '1176117.027307'.
+2018-01-07 12:57:02:INFO: BB Height:'422.385169', Lower BB: '1176108.570726'.
+2018-01-07 12:58:02:INFO: BB Height:'441.512386', Lower BB: '1176099.307416'.
+2018-01-07 12:59:02:INFO: BB Height:'458.505264', Lower BB: '1176107.886664'.
+2018-01-07 13:00:02:INFO: BB Height:'440.323957', Lower BB: '1176111.247368'.
+2018-01-07 13:01:02:INFO: BB Height:'418.807097', Lower BB: '1176129.695165'.
+2018-01-07 17:54:32:INFO: Create connection.
+2018-01-07 17:54:38:INFO: Successfully connected.
+2018-01-07 17:54:38:INFO: Create signalers.
+2018-01-07 17:54:38:INFO: Create traders.
+2018-01-07 17:54:39:INFO: BB Height:'336.051278', Lower BB: '1175955.730528'.
+2018-01-07 17:55:01:INFO: BB Height:'336.051278', Lower BB: '1175955.730528'.
+2018-01-07 17:56:02:INFO: BB Height:'277.552411', Lower BB: '1176015.974361'.
+2018-01-07 17:57:03:INFO: BB Height:'182.402285', Lower BB: '1176124.248669'.
+2018-01-07 17:58:02:INFO: BB Height:'182.402285', Lower BB: '1176124.248669'.
+2018-01-07 17:59:02:INFO: BB Height:'221.585892', Lower BB: '1176126.013143'.
+2018-01-07 18:00:02:INFO: BB Height:'229.309906', Lower BB: '1176112.207054'.
+2018-01-07 18:01:02:INFO: BB Height:'275.059714', Lower BB: '1176109.487904'.
+2018-01-07 18:02:02:INFO: BB Height:'395.503518', Lower BB: '1176096.470143'.
+2018-01-07 18:03:01:INFO: BB Height:'541.575723', Lower BB: '1176055.391098'.
+2018-01-07 18:04:01:INFO: BB Height:'661.529098', Lower BB: '1176010.354996'.
+2018-01-07 18:04:01:INFO: Into first step put
+2018-01-07 18:05:01:INFO: BB Height:'735.162986', Lower BB: '1175977.521165'.
+2018-01-07 18:06:02:INFO: BB Height:'732.258766', Lower BB: '1175971.918507'.
+2018-01-07 18:07:02:INFO: BB Height:'685.758423', Lower BB: '1175997.584902'.
+2018-01-07 18:08:01:INFO: BB Height:'638.815112', Lower BB: '1176043.120788'.
+2018-01-07 18:09:02:INFO: BB Height:'601.474014', Lower BB: '1176084.306730'.
+2018-01-07 18:10:02:INFO: BB Height:'599.472955', Lower BB: '1176131.334422'.
+2018-01-07 18:11:02:INFO: BB Height:'518.590228', Lower BB: '1176161.049237'.
+2018-01-07 18:12:01:INFO: BB Height:'445.750337', Lower BB: '1176223.919172'.
+2018-01-07 18:13:01:INFO: BB Height:'434.439591', Lower BB: '1176277.910546'.
+2018-01-07 18:14:01:INFO: BB Height:'388.994647', Lower BB: '1176306.351633'.
+2018-01-07 18:15:02:INFO: BB Height:'379.198924', Lower BB: '1176390.394455'.
+2018-01-07 18:16:02:INFO: BB Height:'379.198924', Lower BB: '1176390.394455'.
+2018-01-07 18:17:02:INFO: BB Height:'381.066289', Lower BB: '1176397.686252'.
+2018-01-07 18:18:02:INFO: BB Height:'376.780579', Lower BB: '1176398.252570'.
+2018-01-07 18:19:01:INFO: BB Height:'379.465906', Lower BB: '1176397.181139'.
+2018-01-07 18:20:01:INFO: BB Height:'390.522108', Lower BB: '1176396.838476'.
+2018-01-07 18:21:01:INFO: BB Height:'366.902928', Lower BB: '1176404.953232'.
+2018-01-07 18:22:02:INFO: BB Height:'283.267590', Lower BB: '1176436.619965'.
+2018-01-07 18:23:02:INFO: BB Height:'280.306896', Lower BB: '1176492.937634'.
+2018-01-07 18:24:01:INFO: BB Height:'287.366825', Lower BB: '1176503.703695'.
+2018-01-07 18:25:02:INFO: BB Height:'266.071130', Lower BB: '1176504.316587'.
+2018-01-07 18:26:02:INFO: BB Height:'282.158088', Lower BB: '1176532.964435'.
+2018-01-07 18:27:02:INFO: BB Height:'487.103121', Lower BB: '1176552.063813'.
+2018-01-07 18:28:01:INFO: BB Height:'557.708341', Lower BB: '1176478.877011'.
+2018-01-07 18:29:02:INFO: BB Height:'868.480446', Lower BB: '1176417.176994'.
+2018-01-07 18:30:02:INFO: BB Height:'875.075532', Lower BB: '1176383.474063'.
+2018-01-07 18:31:02:INFO: BB Height:'875.075532', Lower BB: '1176383.474063'.
+2018-01-07 18:32:02:INFO: BB Height:'888.351579', Lower BB: '1176411.319377'.
+2018-01-07 18:33:01:INFO: BB Height:'909.496854', Lower BB: '1176446.395639'.
+2018-01-07 18:34:01:INFO: BB Height:'897.676268', Lower BB: '1176476.680144'.
+2018-01-07 18:35:01:INFO: BB Height:'894.836028', Lower BB: '1176514.090438'.
+2018-01-07 18:36:02:INFO: BB Height:'818.769326', Lower BB: '1176551.796272'.
+2018-01-07 18:37:02:INFO: BB Height:'776.649553', Lower BB: '1176635.401051'.
+2018-01-07 18:38:01:INFO: BB Height:'656.554376', Lower BB: '1176703.246652'.
+2018-01-07 18:39:01:INFO: BB Height:'501.594819', Lower BB: '1176804.365669'.
+2018-01-07 18:40:01:INFO: BB Height:'380.984151', Lower BB: '1176911.916876'.
+2018-01-07 18:41:01:INFO: BB Height:'384.419185', Lower BB: '1176993.007925'.
+2018-01-07 18:42:01:INFO: BB Height:'367.848990', Lower BB: '1176990.647550'.
+2018-01-07 18:43:01:INFO: BB Height:'367.836084', Lower BB: '1177000.932648'.
+2018-01-07 18:44:01:INFO: BB Height:'362.614317', Lower BB: '1177001.081958'.
+2018-01-07 18:45:01:INFO: BB Height:'341.013873', Lower BB: '1177000.621413'.
+2018-01-07 18:46:01:INFO: BB Height:'346.900119', Lower BB: '1177016.493064'.
+2018-01-07 18:47:01:INFO: BB Height:'375.356944', Lower BB: '1177018.549941'.
+2018-01-07 18:48:01:INFO: BB Height:'388.740542', Lower BB: '1177011.750100'.
+2018-01-07 18:49:02:INFO: BB Height:'405.593853', Lower BB: '1177016.844015'.
+2018-01-07 18:50:02:INFO: BB Height:'418.994715', Lower BB: '1177014.774502'.
+2018-01-07 18:51:01:INFO: BB Height:'404.895754', Lower BB: '1177012.645500'.
+2018-01-07 18:52:01:INFO: BB Height:'433.194523', Lower BB: '1177016.694980'.
+2018-01-07 18:53:01:INFO: BB Height:'439.679504', Lower BB: '1177009.259882'.
+2018-01-07 18:54:01:INFO: BB Height:'473.256755', Lower BB: '1177015.088820'.
+2018-01-07 18:55:01:INFO: BB Height:'462.736818', Lower BB: '1177016.014480'.
+2018-01-07 18:56:01:INFO: BB Height:'370.933482', Lower BB: '1177049.345877'.
+2018-01-07 18:57:01:INFO: BB Height:'345.537581', Lower BB: '1177123.890402'.
+2018-01-07 18:58:01:INFO: BB Height:'316.790498', Lower BB: '1177149.659781'.
+2018-01-07 18:59:01:INFO: BB Height:'217.416802', Lower BB: '1177176.176179'.
+2018-01-07 19:00:01:INFO: BB Height:'197.987457', Lower BB: '1177243.220170'.
+2018-01-07 19:01:01:INFO: BB Height:'219.750908', Lower BB: '1177255.649129'.
+2018-01-07 19:02:02:INFO: BB Height:'216.273331', Lower BB: '1177240.124546'.
+2018-01-07 19:03:02:INFO: BB Height:'212.701927', Lower BB: '1177245.863334'.
+2018-01-07 19:04:02:INFO: BB Height:'226.289128', Lower BB: '1177250.291893'.
+2018-01-07 19:05:02:INFO: BB Height:'269.908735', Lower BB: '1177240.355436'.
+2018-01-07 19:06:02:INFO: BB Height:'337.401577', Lower BB: '1177211.402775'.
+2018-01-07 19:07:02:INFO: BB Height:'409.591810', Lower BB: '1177162.013497'.
+2018-01-07 19:08:02:INFO: BB Height:'422.390580', Lower BB: '1177111.775524'.
+2018-01-07 19:09:02:INFO: BB Height:'405.839680', Lower BB: '1177087.161853'.
+2018-01-07 19:10:02:INFO: BB Height:'374.870410', Lower BB: '1177074.580160'.
+2018-01-07 19:11:02:INFO: BB Height:'355.518998', Lower BB: '1177076.279081'.
+2018-01-07 19:12:02:INFO: BB Height:'343.041983', Lower BB: '1177078.169072'.
+2018-01-07 19:13:02:INFO: BB Height:'306.694966', Lower BB: '1177069.836151'.
+2018-01-07 19:14:01:INFO: BB Height:'310.991891', Lower BB: '1177079.009660'.
+2018-01-07 19:15:02:INFO: BB Height:'307.841546', Lower BB: '1177067.361198'.
+2018-01-11 00:32:56:INFO: Create connection.
+2018-01-11 00:33:02:INFO: Successfully connected.
+2018-01-11 00:33:02:INFO: Create signalers.
+2018-01-11 00:33:02:INFO: Create traders.
+2018-01-11 00:33:04:INFO: BB Height:'1351.485955', Lower BB: '1195618.953312'.
+2018-01-11 00:34:02:INFO: BB Height:'1351.485955', Lower BB: '1195618.953312'.
+2018-01-11 00:35:01:INFO: BB Height:'1351.485955', Lower BB: '1195618.953312'.
+2018-01-11 00:37:36:INFO: Create connection.
+2018-01-11 00:37:42:INFO: Successfully connected.
+2018-01-11 00:37:42:INFO: Create signalers.
+2018-01-11 00:37:42:INFO: Create traders.
+2018-01-11 00:38:01:INFO: BB Height:'318.143654', Lower BB: '1195717.294499'.
+2018-01-11 00:42:58:INFO: Create connection.
+2018-01-11 00:43:04:INFO: Successfully connected.
+2018-01-11 00:43:04:INFO: Create signalers.
+2018-01-11 00:43:04:INFO: Create traders.
+2018-01-11 00:44:11:INFO: Create connection.
+2018-01-11 00:44:17:INFO: Successfully connected.
+2018-01-11 00:44:17:INFO: Create signalers.
+2018-01-11 00:44:17:INFO: Create traders.
+2018-01-11 00:46:27:INFO: Create connection.
+2018-01-11 00:46:33:INFO: Successfully connected.
+2018-01-11 00:46:33:INFO: Create signalers.
+2018-01-11 00:46:33:INFO: Create traders.
+2018-01-11 00:46:55:INFO: Create connection.
+2018-01-11 00:47:01:INFO: Successfully connected.
+2018-01-11 00:47:01:INFO: Create signalers.
+2018-01-11 00:47:01:INFO: Create traders.
+2018-01-11 00:50:55:INFO: Create connection.
+2018-01-11 00:51:01:INFO: Successfully connected.
+2018-01-11 00:51:01:INFO: Create signalers.
+2018-01-11 00:51:01:INFO: Create traders.
+2018-01-11 00:52:02:INFO: BB Height:'2853.968126', Lower BB: '1194807.678078'.
+2018-01-11 00:56:49:INFO: Create connection.
+2018-01-11 00:57:07:INFO: Successfully connected.
+2018-01-11 00:57:07:INFO: Create signalers.
+2018-01-11 00:57:07:INFO: Create traders.
+2018-01-11 00:58:02:INFO: BB Height:'2921.342834', Lower BB: '1194446.587365'.
+2018-01-11 01:03:25:INFO: Create connection.
+2018-01-11 01:03:31:INFO: Successfully connected.
+2018-01-11 01:03:31:INFO: Create signalers.
+2018-01-11 01:03:31:INFO: Create traders.
+2018-01-11 01:04:01:INFO: BB Height:'1065.128584', Lower BB: '1194377.275371'.
+2018-01-11 01:05:01:INFO: BB Height:'1129.586134', Lower BB: '1194335.649994'.
+2018-01-11 01:05:01:INFO: High Band:'1195400.778578', First candle close: '1195440.000000'.
+2018-01-11 01:06:02:INFO: BB Height:'1037.316911', Lower BB: '1194371.635504'.
+2018-01-11 01:07:02:INFO: BB Height:'841.782515', Lower BB: '1194462.770116'.
+2018-01-11 01:08:02:INFO: BB Height:'690.857088', Lower BB: '1194606.965885'.
+2018-01-11 01:09:03:INFO: BB Height:'682.574313', Lower BB: '1194710.755638'.
+2018-01-11 01:10:02:INFO: BB Height:'682.574313', Lower BB: '1194710.755638'.
+2018-01-11 01:11:02:INFO: BB Height:'669.913887', Lower BB: '1194733.712844'.
+2018-01-11 01:12:02:INFO: BB Height:'644.716481', Lower BB: '1194742.543057'.
+2018-01-11 01:13:02:INFO: BB Height:'658.189324', Lower BB: '1194772.284617'.
+2018-01-11 01:14:02:INFO: BB Height:'665.594009', Lower BB: '1194795.635389'.
+2018-01-11 01:15:01:INFO: BB Height:'665.594009', Lower BB: '1194795.635389'.
+2018-01-11 01:16:01:INFO: BB Height:'654.010451', Lower BB: '1194837.202996'.
+2018-01-11 01:17:02:INFO: BB Height:'655.353273', Lower BB: '1194866.209060'.
+2018-01-11 01:18:02:INFO: BB Height:'640.166531', Lower BB: '1194871.251935'.
+2018-01-11 01:19:01:INFO: BB Height:'609.600842', Lower BB: '1194874.559592'.
+2018-01-11 01:20:02:INFO: BB Height:'612.478302', Lower BB: '1194857.342436'.
+2018-01-11 01:21:02:INFO: BB Height:'608.843256', Lower BB: '1194853.046563'.
+2018-01-11 01:22:02:INFO: BB Height:'632.865453', Lower BB: '1194858.435515'.
+2018-01-11 01:23:02:INFO: BB Height:'577.925430', Lower BB: '1194867.138702'.
+2018-01-11 01:24:02:INFO: BB Height:'540.071220', Lower BB: '1194921.939098'.
+2018-01-11 01:25:01:INFO: BB Height:'540.071220', Lower BB: '1194921.939098'.
+2018-01-11 01:26:02:INFO: BB Height:'740.277643', Lower BB: '1194992.464390'.
+2018-01-11 01:27:02:INFO: BB Height:'904.960688', Lower BB: '1194935.932607'.
+2018-01-11 01:27:02:INFO: High Band:'1195676.210250', First candle close: '1195800.000000'.
+2018-01-11 01:28:01:INFO: BB Height:'1010.273600', Lower BB: '1194892.519656'.
+2018-01-11 01:29:01:INFO: BB Height:'1084.278258', Lower BB: '1194876.648914'.
+2018-01-11 01:30:02:INFO: BB Height:'1143.082395', Lower BB: '1194862.503728'.
+2018-01-11 01:31:02:INFO: BB Height:'1246.173925', Lower BB: '1194883.149348'.
+2018-01-11 01:32:01:INFO: BB Height:'1246.173925', Lower BB: '1194883.149348'.
+2018-01-11 01:33:01:INFO: BB Height:'1317.654426', Lower BB: '1194895.484466'.
+2018-01-11 01:34:02:INFO: BB Height:'1403.274820', Lower BB: '1194950.815644'.
+2018-01-11 01:34:02:INFO: High Band:'1196268.470070', First candle close: '1196355.000000'.
+2018-01-11 01:35:02:INFO: BB Height:'1345.515139', Lower BB: '1194997.291162'.
+2018-01-11 01:36:02:INFO: BB Height:'1282.971311', Lower BB: '1195101.171002'.
+2018-01-11 01:37:02:INFO: BB Height:'1141.675076', Lower BB: '1195181.014345'.
+2018-01-11 01:38:02:INFO: BB Height:'968.056851', Lower BB: '1195315.948177'.

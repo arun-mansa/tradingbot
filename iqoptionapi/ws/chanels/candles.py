@@ -21,4 +21,4 @@ class GetCandles(Base):
                 "from": self.api.timesync.server_timestamp - (duration * period),
                 "till": self.api.timesync.server_timestamp}
 
-        self.send_websocket_request(self.name, data)
+        self.send_websocket_request(self.name, data, str(duration))

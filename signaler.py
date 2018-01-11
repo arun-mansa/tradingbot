@@ -58,12 +58,12 @@ class Signaler(object):
                     logger.info("Signaler for active '%s' recived pattern '%s' in direction 'call'.",
                                 self.active, pattern.name)
                     subprocess.Popen(['notify-send', "Call " + self.active])
-                    return Signal("call", 10, api_constants.ACTIVES[self.active], "turbo")
+                    return Signal("call", 1, api_constants.ACTIVES[self.active], "turbo")
                 if pattern.put():
                     logger.info("Signaler for active '%s' recived pattern '%s' in direction 'put'.",
                                 self.active, pattern.name)
                     subprocess.Popen(['notify-send', "PUT " + self.active])
-                    return Signal("put", 10, api_constants.ACTIVES[self.active], "turbo")
+                    return Signal("put", 1, api_constants.ACTIVES[self.active], "turbo")
 
 
 def create_signaler(api, active):
