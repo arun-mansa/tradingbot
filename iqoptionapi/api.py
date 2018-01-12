@@ -44,6 +44,7 @@ class IQOptionAPI(object):
     candles = Candles()
     candle5Mins = Candles()
     activeCandles = {}
+    active5MinCandles = {}
 
     def __init__(self, host, username, password, proxies=None):
         """

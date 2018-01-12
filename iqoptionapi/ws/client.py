@@ -47,6 +47,7 @@ class WebsocketClient(object):
                 self.api.activeCandles[message["msg"]["active_id"]] = self.api.candles
             if message["request_id"] == "300":
                 self.api.candle5Mins.candles_data = message["msg"]["data"]
+                self.api.active5MinCandles[message["msg"]["active_id"]] = self.api.candle5Mins
 
         if message["name"] == "buyComplete":
             self.api.buy_status = message["msg"]["isSuccessful"]

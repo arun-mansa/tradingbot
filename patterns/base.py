@@ -24,6 +24,14 @@ class Base(object):
         else:
             return False
 
+    @property
+    def candle5Mins(self):
+        """Property to get candles."""
+        if self.active in self.api.active5MinCandles:
+            return self.api.active5MinCandles[self.active]
+        else:
+            return False
+
     def rsi(self, candles, period=14):
         """Method to get RSI on fetched candels."""
         # logger = logging.getLogger("__main__")
@@ -76,6 +84,8 @@ class Base(object):
             self.fetched_candles[self.active] = False
             if self.active in self.api.activeCandles:
                 del self.api.activeCandles[self.active]
+            if self.active in self.api.active5MinCandles:
+                del self.api.active5MinCandles[self.active]
 
         if not self.fetched_candles[self.active]:
             self.api.getcandles(self.active, 60, 28)

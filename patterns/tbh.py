@@ -18,8 +18,9 @@ class TBH(Base):
         """Method to check call pattern."""
         logger = logging.getLogger("__main__")
         candles = self.candles
+        candle5Mins = self.candle5Mins
 
-        if hasattr(candles, 'first_candle') and hasattr(candles, 'second_candle'):
+        if hasattr(candles, 'first_candle') and hasattr(candle5Mins, 'first_candle'):
             up, lw, height = self.bolinger_bands(candles=candles)
 
             logger.info("BB Height:'%f', Lower BB: '%f'.", height[26], lw[25])
@@ -34,8 +35,9 @@ class TBH(Base):
         """Method to check put pattern."""
         logger = logging.getLogger("__main__")
         candles = self.candles
+        candle5Mins = self.candle5Mins
 
-        if hasattr(candles, 'first_candle') and hasattr(candles, 'second_candle'):
+        if hasattr(candles, 'first_candle') and hasattr(candle5Mins, 'first_candle'):
             up, lw, height = self.bolinger_bands(candles=candles)
 
             if candles.first_candle.candle_close > up[25] and height[25] > 599:
