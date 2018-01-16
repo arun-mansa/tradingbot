@@ -7,3 +7,25 @@
 2018-01-13 21:24:16:INFO: Create signaler for active 'EURUSD-OTC'.
 2018-01-13 21:24:16:INFO: Signaler for active 'EURUSD-OTC' started.
 2018-01-13 21:24:16:INFO: Signaler for active 'EURUSD-OTC' wait for pattern 'TBH'.
+2018-01-16 11:21:22:INFO: Create signaler for active 'EURUSD'.
+2018-01-16 11:21:22:INFO: Signaler for active 'EURUSD' started.
+2018-01-16 11:21:22:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-01-16 11:59:23:INFO: Create signaler for active 'EURUSD'.
+2018-01-16 11:59:23:INFO: Signaler for active 'EURUSD' started.
+2018-01-16 11:59:23:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-01-16 12:03:57:INFO: Create signaler for active 'EURUSD'.
+2018-01-16 12:03:57:INFO: Signaler for active 'EURUSD' started.
+2018-01-16 12:03:57:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-01-16 12:09:02:INFO: Signaler for active 'EURUSD' recived pattern 'TBH' in direction 'put'.
+2018-01-16 12:16:39:INFO: Create signaler for active 'EURUSD'.
+2018-01-16 12:16:39:INFO: Signaler for active 'EURUSD' started.
+2018-01-16 12:16:39:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-01-16 12:43:02:INFO: Signaler for active 'EURUSD' recived pattern 'TBH' in direction 'call'.
+2018-01-16 13:46:33:INFO: Create signaler for active 'EURUSD'.
+2018-01-16 13:46:33:INFO: Signaler for active 'EURUSD' started.
+2018-01-16 13:46:33:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-01-16 13:54:24:INFO: Create signaler for active 'EURUSD'.
+2018-01-16 13:54:24:INFO: Signaler for active 'EURUSD' started.
+2018-01-16 13:54:24:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-01-16 14:18:02:INFO: Signaler for active 'EURUSD' recived pattern 'TBH' in direction 'call'.
+2018-01-16 14:20:02:INFO: Signaler for active 'EURUSD' recived pattern 'TBH' in direction 'call'.
