@@ -24,13 +24,16 @@ class TBH(Base):
             up, lw, height = self.bolinger_bands(candles=candles)
             up5, lw5, height5 = self.bolinger_bands(candles=candle5Mins)
 
-            logger.info("height:'%f', Lower BB: '%f'.", height[25], lw[25])
-
             if height[25] > 499:
+                logger.info("Call Step 1")
                 if candles.first_candle.candle_close <= (lw[25] + 100):
+                    logger.info("Call Step 2")
                     if candles.first_candle.candle_type == "red" and candles.second_candle.candle_type == "green":
+                        logger.info("Call Step 3")
                         if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
-                            if candle5Mins.current_candle.candle_low <= (lw5[27] + 100):
+                            logger.info("Call Step 4")
+                            if candle5Mins.current_candle.candle_low <= (lw5[27] + 150):
+                                logger.info("Call Final")
                                 logger.info("Lower Band:'%f', First candle close: '%f'.", lw[25], candles.first_candle.candle_close)
                                 return True
 
@@ -45,9 +48,14 @@ class TBH(Base):
             up5, lw5, height5 = self.bolinger_bands(candles=candle5Mins)
 
             if height[25] > 499:
+                logger.info("Put Step 1")
                 if candles.first_candle.candle_close >= (up[25] - 100):
+                    logger.info("Put Step 2")
                     if candles.first_candle.candle_type == "green" and candles.second_candle.candle_type == "red":
+                        logger.info("Put Step 3")
                         if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
-                            if candle5Mins.current_candle.candle_high >= (up5[27] - 100):
+                            logger.info("Put Step 4")
+                            if candle5Mins.current_candle.candle_high >= (up5[27] - 150):
+                                logger.info("Put Final")
                                 logger.info("High Band:'%f', First candle close: '%f'.", up[25], candles.first_candle.candle_close)
                                 return True
