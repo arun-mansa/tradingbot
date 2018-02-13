@@ -18,17 +18,16 @@ class TBH(Base):
         """Method to check call pattern."""
         logger = logging.getLogger("__main__")
         candles = self.candles
-        candle5Mins = self.candle5Mins
 
-        if hasattr(candles, 'first_candle') and hasattr(candle5Mins, 'first_candle'):
+        if hasattr(candles, 'first_candle'):
             up, lw, height = self.bolinger_bands(candles=candles)
-            up5, lw5, height5 = self.bolinger_bands(candles=candle5Mins)
 
-            if candles.first_candle.candle_close < lw[25] and height[25] > 599:
+            if candles.second_candle.is_spinning_top:
+                logger.info("Spinning top")
+
+            if candles.first_candle.candle_close < lw[25] and height[25] > 399:
                 if candles.first_candle.candle_type == "red" and candles.second_candle.candle_type == "green":
                     if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
-                        # logger.info("Candle5 Low: '%f', BB Low: '%f'", candle5Mins.current_candle.candle_low, (lw5[27] + 100))
-                        # if candle5Mins.current_candle.candle_low <= (lw5[25] + 100):
                         logger.info("Lower Band:'%f', First candle close: '%f'.", lw[25], candles.first_candle.candle_close)
                         return True
 
@@ -36,16 +35,12 @@ class TBH(Base):
         """Method to check put pattern."""
         logger = logging.getLogger("__main__")
         candles = self.candles
-        candle5Mins = self.candle5Mins
 
-        if hasattr(candles, 'first_candle') and hasattr(candle5Mins, 'first_candle'):
+        if hasattr(candles, 'first_candle'):
             up, lw, height = self.bolinger_bands(candles=candles)
-            up5, lw5, height5 = self.bolinger_bands(candles=candle5Mins)
 
-            if candles.first_candle.candle_close > up[25] and height[25] > 599:
+            if candles.first_candle.candle_close > up[25] and height[25] > 399:
                 if candles.first_candle.candle_type == "green" and candles.second_candle.candle_type == "red":
                     if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
-                        # logger.info("Candle5 High: '%f', BB High: '%f'", candle5Mins.current_candle.candle_high, (up5[27] - 100))
-                        # if candle5Mins.current_candle.candle_high >= (up5[25] - 100):
                         logger.info("High Band:'%f', First candle close: '%f'.", up[25], candles.first_candle.candle_close)
                         return True

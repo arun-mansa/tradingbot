@@ -3,7 +3,7 @@ import logging
 
 import iqoptionapi.constants as api_constants
 import patterns.constants as pattern_constants
-# import subprocess
+import subprocess
 # from signal import Signal
 
 class Signal(object):
@@ -57,13 +57,13 @@ class Signaler(object):
                 if pattern.call():
                     logger.info("Signaler for active '%s' recived pattern '%s' in direction 'call'.",
                                 self.active, pattern.name)
-                    # subprocess.Popen(['notify-send', "Call " + self.active])
-                    return Signal("call", 2, api_constants.ACTIVES[self.active], "turbo")
+                    subprocess.Popen(['notify-send', "Call " + self.active])
+                    return Signal("call", 4, api_constants.ACTIVES[self.active], "turbo")
                 if pattern.put():
                     logger.info("Signaler for active '%s' recived pattern '%s' in direction 'put'.",
                                 self.active, pattern.name)
-                    # subprocess.Popen(['notify-send', "PUT " + self.active])
-                    return Signal("put", 2, api_constants.ACTIVES[self.active], "turbo")
+                    subprocess.Popen(['notify-send', "PUT " + self.active])
+                    return Signal("put", 4, api_constants.ACTIVES[self.active], "turbo")
 
 
 def create_signaler(api, active):

@@ -74,6 +74,40 @@ class Candle(object):
         elif self.candle_open > self.candle_close:
             return self.candle_open - self.candle_close
 
+    @property
+    def upper_shadow(self):
+        """Property to get candle height value.
+
+        :returns: The candle type value.
+        """
+        if self.candle_type == "green":
+            return self.candle_high - self.candle_close
+        elif self.candle_open > self.candle_close:
+            return self.candle_high - self.candle_open
+
+    @property
+    def lower_shadow(self):
+        """Property to get candle height value.
+
+        :returns: The candle type value.
+        """
+        if self.candle_type == "green":
+            return self.candle_high - self.candle_open
+        elif self.candle_open > self.candle_close:
+            return self.candle_high - self.candle_close
+
+    @property
+    def is_spinning_top(self):
+        """Property to get candle close value.
+
+        :returns: The candle close value.
+        """
+
+        if self.candle_height > 1 and self.upper_shadow >= (5 * self.candle_height):
+            return True
+        elif self.candle_height > 1 and self.upper_shadow < (5 * self.candle_height):
+            return False
+
 
 
 class Candles(Base):

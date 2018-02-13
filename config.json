@@ -1,12 +1,12 @@
 {
     "connection_settings": {
         "hostname": "iqoption.com",
-        "password": "randomstring5090",
+        "password": "arun@word321",
         "username": "kumar.ak.arun3@gmail.com"
     }, 
     "trade_settings": {
         "actives": [
-            "NZDUSD"
+            "EURUSD"
         ], 
         "patterns": [
             "TBH"

@@ -4,13 +4,13 @@ from test import TEST
 from dblhc import DBLHC
 from dbhlc import DBHLC
 from tbh import TBH
-from tbl import TBL
+from spintop import SPINTOP
 
 
 PATTERNS = {
     "TEST": TEST,
     "TBH": TBH,
-    "TBL": TBL,
+    "SPINTOP": SPINTOP,
     "DBHLC": DBHLC,
     "DBLHC": DBLHC
 }
