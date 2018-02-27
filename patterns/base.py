@@ -68,6 +68,15 @@ class Base(object):
             # logger.info("Upper Band:'%f', Lower Band: '%f'.", upper_band[26], lower_band[26])
             return upper_band, lower_band, height
 
+    def candle_csv_details(self, candles, rsi, up, low, height):
+        """Method to get RSI on fetched candels."""
+        # logger = logging.getLogger("__main__")
+        if hasattr(candles, 'second_candle'):
+            details = [candles.second_candle.candle_time, candles.second_candle.candle_open, rsi[26], up[26], low[26], height[26], candles.second_candle.candle_close]
+            
+            # logger.info("RSI for first candle '%f'.", rsi[26])
+            return details
+
     def call(self):
         """Method to check call pattern."""
         pass
@@ -84,12 +93,12 @@ class Base(object):
             self.fetched_candles[self.active] = False
             if self.active in self.api.activeCandles:
                 del self.api.activeCandles[self.active]
-            if self.active in self.api.active5MinCandles:
-                del self.api.active5MinCandles[self.active]
+            # if self.active in self.api.active5MinCandles:
+            #     del self.api.active5MinCandles[self.active]
 
         if not self.fetched_candles[self.active]:
             self.api.getcandles(self.active, 60, 28)
-            self.api.getcandles(self.active, 60 * 5, 28)
+            # self.api.getcandles(self.active, 60 * 5, 28)
 
             self.fetched_candles[self.active] = True
             self.fetched_candles['time'] = self.api.timesync.server_datetime
