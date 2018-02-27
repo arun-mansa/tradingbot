@@ -72,7 +72,7 @@ class Base(object):
         """Method to get RSI on fetched candels."""
         # logger = logging.getLogger("__main__")
         if hasattr(candles, 'second_candle'):
-            details = [candles.second_candle.candle_time, candles.second_candle.candle_open, rsi[26], up[26], low[26], height[26], candles.second_candle.candle_close]
+            details = [candles.first_candle.candle_open, candles.first_candle.candle_close, candles.first_candle.candle_high, candles.first_candle.candle_low, rsi[25], up[25], low[25], candles.second_candle.candle_type]
             
             # logger.info("RSI for first candle '%f'.", rsi[26])
             return details
