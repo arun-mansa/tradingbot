@@ -33,7 +33,10 @@ class TBH(Base):
 
             logger.info("Height:'%f'", height[25])
 
-            if candles.first_candle.candle_close < lw[25] and height[25] > 599:
+            if candles.second_candle.is_spinning_top:
+                logger.info("Spinning top")
+
+            if candles.first_candle.candle_close < lw[25] and height[25] > 399:
                 if candles.first_candle.candle_type == "red" and candles.second_candle.candle_type == "green":
                     if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
                         logger.info("Lower Band:'%f', First candle close: '%f'.", lw[25], candles.first_candle.candle_close)
@@ -47,7 +50,7 @@ class TBH(Base):
         if hasattr(candles, 'first_candle'):
             up, lw, height = self.bolinger_bands(candles=candles)
 
-            if candles.first_candle.candle_close > up[25] and height[25] > 599:
+            if candles.first_candle.candle_close > up[25] and height[25] > 399:
                 if candles.first_candle.candle_type == "green" and candles.second_candle.candle_type == "red":
                     if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
                         logger.info("High Band:'%f', First candle close: '%f'.", up[25], candles.first_candle.candle_close)

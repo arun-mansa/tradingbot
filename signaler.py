@@ -3,7 +3,7 @@ import logging
 
 import iqoptionapi.constants as api_constants
 import patterns.constants as pattern_constants
-# import subprocess
+import subprocess
 # from signal import Signal
 
 class Signal(object):

@@ -2,7 +2,7 @@
     "connection_settings": {
         "hostname": "iqoption.com",
         "password": "password",
-        "username": "kumar.ak.arun3@gmail.com"
+        "username": "username"
     }, 
     "trade_settings": {
         "actives": [
