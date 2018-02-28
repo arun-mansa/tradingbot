@@ -3,6 +3,7 @@ import csv
 import pickle
 import numpy as np
 import matplotlib.pyplot as plt
+import iqoptionapi.constants as api_constants
 
 from pandas import read_csv
 from sklearn.model_selection import train_test_split
@@ -15,7 +16,7 @@ class Learner(object):
 
     def __init__(self, api, active):
         self.api = api
-        self.active = active
+        self.active = api_constants.ACTIVES[active] 
 
 	def fetch_candles(self):
         """ Methond to fetch candles form IQOptions Websocket api"""
@@ -25,6 +26,9 @@ class Learner(object):
         self.fetched_candles['time'] = self.api.timesync.server_datetime
 
         time.sleep(3)
+
+        return self.api.activeCandles[self.active]
+
 
 url = "traningData.csv"
 
