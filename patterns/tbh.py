@@ -21,27 +21,20 @@ class TBH(Base):
         logger = logging.getLogger("__main__")
         candles = self.candles
 
-
-
         if hasattr(candles, 'first_candle'):
             up, lw, height = self.bolinger_bands(candles=candles)
-            rsi = self.rsi(candles=candles)
+            # rsi14 = self.rsi(candles=candles)
 
-            ofile  = open('traningData.csv', "ab+")
-            writer = csv.writer(ofile, quoting=csv.QUOTE_NONE, escapechar='\n')
-            writer.writerow(self.candle_csv_details(candles, rsi, up, lw, height))
-            ofile.close()
-
-            # loaded_model = pickle.load(open('finalized_model.sav', 'rb'))
-            # predicted_close = loaded_model.predict([[candles.second_candle.candle_open, candles.second_candle.candle_close, candles.second_candle.candle_high, candles.second_candle.candle_low, rsi[26], up[26], lw[26]]])
-            # print(predicted_close)
+            loaded_model = pickle.load(open('finalized_model.sav', 'rb'))
+            predicted_price = loaded_model.predict([[candles.second_candle.candle_open, candles.second_candle.candle_close, up[28], lw[28]]])
+            logger.info("Predicted price:'%s'", predicted_price[0])
             
-            logger.info("Height:'%f'", height[25])
+            logger.info("Height:'%f'", height[26])
 
-            if candles.first_candle.candle_close < lw[25] and height[25] > 499:
+            if candles.first_candle.candle_close < lw[26] and predicted_price[0] > candles.second_candle.candle_close:
                 if candles.first_candle.candle_type == "red" and candles.second_candle.candle_type == "green":
                     if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
-                        logger.info("Lower Band:'%f', First candle close: '%f'.", lw[25], candles.first_candle.candle_close)
+                        logger.info("Lower Band:'%f', First candle close: '%f'.", lw[26], candles.first_candle.candle_close)
                         return True
 
     def put(self):
@@ -51,9 +44,13 @@ class TBH(Base):
 
         if hasattr(candles, 'first_candle'):
             up, lw, height = self.bolinger_bands(candles=candles)
+            # rsi14 = self.rsi(candles=candles)
 
-            if candles.first_candle.candle_close > up[25] and height[25] > 499:
+            loaded_model = pickle.load(open('finalized_model.sav', 'rb'))
+            predicted_price = loaded_model.predict([[candles.second_candle.candle_open, candles.second_candle.candle_close, up[28], lw[28]]])
+
+            if candles.first_candle.candle_close > up[26] and predicted_price[0] < candles.second_candle.candle_close:
                 if candles.first_candle.candle_type == "green" and candles.second_candle.candle_type == "red":
                     if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
-                        logger.info("High Band:'%f', First candle close: '%f'.", up[25], candles.first_candle.candle_close)
+                        logger.info("High Band:'%f', First candle close: '%f'.", up[26], candles.first_candle.candle_close)
                         return True

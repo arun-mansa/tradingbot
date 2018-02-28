@@ -97,7 +97,7 @@ class Base(object):
             #     del self.api.active5MinCandles[self.active]
 
         if not self.fetched_candles[self.active]:
-            self.api.getcandles(self.active, 60, 28)
+            self.api.getcandles(self.active, 60, 30)
             # self.api.getcandles(self.active, 60 * 5, 28)
 
             self.fetched_candles[self.active] = True
