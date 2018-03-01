@@ -812,3 +812,37 @@
 2018-02-28 17:53:02:INFO: Height:'1223.473707'
 2018-02-28 17:54:02:INFO: Predicted price:'1222333.14025'
 2018-02-28 17:54:02:INFO: Height:'1223.473707'
+2018-03-01 17:26:48:INFO: Create connection.
+2018-03-01 17:26:55:INFO: Successfully connected.
+2018-03-01 17:26:55:INFO: Create signalers.
+2018-03-01 17:26:55:INFO: Create traders.
+2018-03-01 17:26:55:INFO: Create Learner.
+2018-03-01 17:29:10:INFO: Create connection.
+2018-03-01 17:29:16:INFO: Successfully connected.
+2018-03-01 17:29:16:INFO: Create signalers.
+2018-03-01 17:29:16:INFO: Create traders.
+2018-03-01 17:29:16:INFO: Create Learner.
+2018-03-01 17:31:37:INFO: Create connection.
+2018-03-01 17:31:43:INFO: Successfully connected.
+2018-03-01 17:31:43:INFO: Create signalers.
+2018-03-01 17:31:43:INFO: Create traders.
+2018-03-01 17:31:43:INFO: Create Learner.
+2018-03-01 17:32:08:INFO: Create connection.
+2018-03-01 17:32:15:INFO: Successfully connected.
+2018-03-01 17:32:15:INFO: Create signalers.
+2018-03-01 17:32:15:INFO: Create traders.
+2018-03-01 17:32:15:INFO: Create Learner.
+2018-03-01 17:32:16:INFO: Predicted price:'1.0'
+2018-03-01 17:32:16:INFO: Height:'704.491087'
+2018-03-01 17:33:01:INFO: Predicted price:'1.0'
+2018-03-01 17:33:01:INFO: Height:'704.491087'
+2018-03-01 17:34:01:INFO: Predicted price:'1.0'
+2018-03-01 17:34:01:INFO: Height:'579.799132'
+2018-03-01 17:35:02:INFO: Predicted price:'1.0'
+2018-03-01 17:35:02:INFO: Height:'455.723070'
+2018-03-01 17:36:01:INFO: Predicted price:'1.0'
+2018-03-01 17:36:01:INFO: Height:'403.424898'
+2018-03-01 17:37:01:INFO: Predicted price:'1.0'
+2018-03-01 17:37:01:INFO: Height:'408.137016'
+2018-03-01 17:38:01:INFO: Predicted price:'1.0'
+2018-03-01 17:38:01:INFO: Height:'435.725995'

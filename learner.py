@@ -13,6 +13,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.linear_model import ElasticNet
 from sklearn.svm import SVR
+from sklearn.svm import LinearSVC
 from iqoptionapi.api import IQOptionAPI
 from config import parse_config
 
@@ -27,11 +28,14 @@ class Learner(object):
 
     def fetch_candles(self):
         """Methond to fetch candles form IQOptions Websocket api"""
-        self.api.getcandles(self.active, 60, 250)
+        while not (self.active in self.api.activeCandles):
+            self.api.getcandles(self.active, 60, 1000)
+            time.sleep(3)
 
-        time.sleep(2)
-
-        return self.api.activeCandles[self.active]
+        if self.active in self.api.activeCandles:
+            return self.api.activeCandles[self.active]
+        else:
+            return False
 
     def rsi(self, candles, period=14):
         """Method to get RSI on fetched candels."""
@@ -73,14 +77,27 @@ class Learner(object):
 
         if hasattr(candles, 'first_candle'):
             up, lw = self.bolinger_bands(candles=candles)
-            rsi14 = self.rsi(candles=candles)
+            rsi7 = self.rsi(candles=candles, period=7)
+            rsi14 = self.rsi(candles=candles, period=14)
+            rsi28 = self.rsi(candles=candles, period=28)
 
             candles_array = candles.candles_array
-            ofile = open(url, "ab+")
+            ofile = open(url, "wb+")
             writer = csv.writer(ofile, quoting=csv.QUOTE_NONE, escapechar='\n')
             for index, candle in enumerate(candles_array):
                 if index > 28 and candle.candle_close > 0:
-                    writer.writerow([candles_array[index - 1].candle_open, candles_array[index - 1].candle_close, up[index - 1], lw[index - 1], candle.candle_close])
+                    if candles_array[index - 2].candle_close < lw[index - 3]:
+                        if candles_array[index - 2].candle_type == "red" and candles_array[index - 1].candle_type == "green":
+                            if candles_array[index - 1].candle_height >= (candles_array[index - 2].candle_height / 2):
+                                category = 1 if candle.candle_type == "green" else -1
+                                writer.writerow([candles_array[index - 1].candle_open, candles_array[index - 1].candle_close, rsi7[index - 1], rsi14[index - 1], rsi28[index - 1], up[index - 1], lw[index - 1], category])
+                    elif candles_array[index - 2].candle_close > up[index - 3]:
+                        if candles_array[index - 2].candle_type == "green" and candles_array[index - 1].candle_type == "red":
+                            if candles_array[index - 1].candle_height >= (candles_array[index - 2].candle_height / 2):
+                                category = 1 if candle.candle_type == "green" else -1
+                                writer.writerow([candles_array[index - 1].candle_open, candles_array[index - 1].candle_close, rsi7[index - 1], rsi14[index - 1], rsi28[index - 1], up[index - 1], lw[index - 1], category])
+                    else:
+                        writer.writerow([candles_array[index - 1].candle_open, candles_array[index - 1].candle_close, rsi7[index - 1], rsi14[index - 1], rsi28[index - 1], up[index - 1], lw[index - 1], 0])
             ofile.close()
 
     def save_model(self):
@@ -88,12 +105,12 @@ class Learner(object):
         url = "traningData.csv"
         dataframe = read_csv(url)
         array = dataframe.values
-        X = array[:, 0:4]
-        Y = array[:, 4]
-
+        X = array[:, 0:7]
+        Y = array[:, 7]
         # model = SVR(kernel= 'rbf', C= 1e3, gamma= 0.1)
         # model = LogisticRegression()
-        model = ElasticNet(random_state=0)
+        # model = ElasticNet(random_state=0)
+        model = LinearSVC(random_state=0)
         model.fit(X, Y)
 
         # save the model to disk
@@ -112,3 +129,28 @@ def create_learner(api, active):
     logger = logging.getLogger(__name__)
     logger.info("Create learner for active '%s'.", active)
     return Learner(api, active)
+
+# url = "traningData.csv"
+# dataframe = read_csv(url)
+# array = dataframe.values
+# X = array[:, 0:7]
+# Y = array[:, 7]
+
+# test_size = 0.33
+# seed = 7
+# X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=test_size, random_state=seed)
+
+# # Fit the model on 33%
+# model = LinearSVC(random_state=0)
+# model.fit(X_train, Y_train)
+# # save the model to disk
+
+# filename ='finalized_model.sav'
+# pickle.dump(model, open(filename,'wb'))
+
+# # some time later...
+
+# # load the model from disk
+# loaded_model = pickle.load(open(filename,'rb'))
+# result = loaded_model.score(X_test, Y_test)
+# print(result)

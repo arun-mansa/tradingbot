@@ -67,7 +67,7 @@ class Starter(object):
         actives = self.config.get_trade_actives()
         for active in actives:
             lerner = create_learner(self.api, active)
-            lerner.create_csv()
+            # lerner.create_csv()
             lerner.save_model()
         
         return
