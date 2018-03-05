@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 import iqoptionapi.constants as api_constants
 
 from pandas import read_csv
-from stockstats import StockDataFrame as Sdf
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.linear_model import ElasticNet
@@ -35,7 +34,7 @@ class Learner(object):
     def fetch_candles(self):
         """Methond to fetch candles form IQOptions Websocket api"""
         while not (self.active in self.api.activeCandles):
-            self.api.getcandles(self.active, 60, 10080)
+            self.api.getcandles(self.active, 60, 1440)
             time.sleep(3)
 
         if self.active in self.api.activeCandles:
@@ -75,6 +74,53 @@ class Learner(object):
 
             return upper_band, lower_band
 
+    def stoc_occilator(self, candles, period=13):
+        """Method to get Stocastic occilator on fetched candels."""
+        if hasattr(candles, 'candles_array'):
+            candel_array = candles.candles_array
+            close = pd.Series([candle.candle_close for candle in candel_array])
+            low = pd.Series([candle.candle_low for candle in candel_array])
+            high = pd.Series([candle.candle_high for candle in candel_array])
+
+            l_period = low.rolling(window=period).min()
+            h_period = high.rolling(window=period).max()
+
+            K = 100*((close - l_period) / (h_period - l_period) )
+            D = K.rolling(window=3).mean()
+
+            return K, D
+
+    def aroon(self, candles, period=28):
+        """Method to get aroon occilator on fetched candels."""
+        if hasattr(candles, 'candles_array'):
+            candel_array = candles.candles_array
+            aroon_up = []
+            aroon_down = []
+
+            for index, candle in enumerate(candel_array):
+                ar_up = 0.0
+                ar_down = 0.0
+                if index > period:
+                    low = [candle.candle_low for candle in candel_array[index-period:index]]
+                    high = [candle.candle_high for candle in candel_array[index-period:index]]
+
+                    l_period = min(low)
+                    h_period = max(high)
+
+                    ind_of_high = high.index(h_period)
+                    ind_of_low = low.index(l_period)
+                    
+                    days_since_high = period - ind_of_high - 1
+                    days_since_low = period - ind_of_low - 1
+                    
+                    ar_up = float(((period - days_since_high)/float(period)) * 100)
+                    ar_down = float(((period - days_since_low)/float(period)) * 100)
+
+                aroon_up.append(ar_up)
+                aroon_down.append(ar_down)
+
+            return aroon_up, aroon_down
+
     def create_csv(self):
         """Method to create csv based on fetched candels."""
         url = "traningData.csv"
@@ -82,36 +128,27 @@ class Learner(object):
 
         if hasattr(candles, 'first_candle'):
             up, lw = self.bolinger_bands(candles=candles)
-            rsi7 = self.rsi(candles=candles, period=7)
-            rsi14 = self.rsi(candles=candles, period=14)
-            rsi28 = self.rsi(candles=candles, period=28) 
+            rsi14 = self.rsi(candles=candles)
+            K, D = self.stoc_occilator(candles=candles)
+            aroon_up, aroon_down = self.aroon(candles=candles)
 
             candles_array = candles.candles_array
-            height = up - lw
             ofile = open(url, "wb+")
             writer = csv.writer(ofile, quoting=csv.QUOTE_NONE, escapechar='\n')
             for index, candle in enumerate(candles_array):
-                if 28 < index < (len(candles_array) - 5) and candle.candle_close > 0:
-                    if candles_array[index + 5].candle_close < (candle.candle_low - 100): 
-                        category = - 1.0
-                    elif candles_array[index + 5].candle_close > (candle.candle_high + 100):
-                        category = 1.0
+                if index > 28 and candle.candle_close > 0 and candle.candle_height > 0:
+                    if candles_array[index - 2].candle_close < lw[index - 3]:
+                        if candles_array[index - 2].candle_type == "red" and candles_array[index - 1].candle_type == "green":
+                            if candles_array[index - 1].candle_height >= (candles_array[index - 2].candle_height / 2):
+                                category = 1.0 if candle.candle_type == "green" else 0.0
+                                writer.writerow([up[index - 3] - candles_array[index - 2].candle_close, lw[index - 3] - candles_array[index - 2].candle_close, candles_array[index - 2].candle_height - candles_array[index - 1].candle_height, rsi14[index - 1], K[index - 1], D[index - 1], aroon_up[index - 1], aroon_down[index - 1], category])
+                    elif candles_array[index - 2].candle_close > up[index - 3]:
+                        if candles_array[index - 2].candle_type == "green" and candles_array[index - 1].candle_type == "red":
+                            if candles_array[index - 1].candle_height >= (candles_array[index - 2].candle_height / 2):
+                                category = -1.0 if candle.candle_type == "red" else 0.0
+                                writer.writerow([up[index - 3] - candles_array[index - 2].candle_close, lw[index - 3] - candles_array[index - 2].candle_close, candles_array[index - 2].candle_height - candles_array[index - 1].candle_height, rsi14[index - 1], K[index - 1], D[index - 1], aroon_up[index - 1], aroon_down[index - 1], category])
                     else:
-                         category = 0.0
-                    writer.writerow([up[index] - candle.candle_close, lw[index] - candle.candle_close, candles_array[index - 1].candle_height - candle.candle_height, rsi7[index], rsi14[index], rsi28[index], category])
-
-                    # if candles_array[index - 2].candle_close < lw[index - 3]:
-                    #     if candles_array[index - 2].candle_type == "red" and candles_array[index - 1].candle_type == "green":
-                    #         if candles_array[index - 1].candle_height >= (candles_array[index - 2].candle_height / 2):
-                    #             category = 1.0 if candle.candle_type == "green" else 0.0
-                    #             writer.writerow([up[index - 3] - candles_array[index - 2].candle_close, lw[index - 3] - candles_array[index - 2].candle_close, candles_array[index - 2].candle_height - candles_array[index - 1].candle_height, rsi7[index - 1], rsi14[index - 1], rsi28[index - 1], category])
-                    # elif candles_array[index - 2].candle_close > up[index - 3]:
-                    #     if candles_array[index - 2].candle_type == "green" and candles_array[index - 1].candle_type == "red":
-                    #         if candles_array[index - 1].candle_height >= (candles_array[index - 2].candle_height / 2):
-                    #             category = 0.0 if candle.candle_type == "green" else -1.0
-                    #             writer.writerow([up[index - 3] - candles_array[index - 2].candle_close, lw[index - 3] - candles_array[index - 2].candle_close, candles_array[index - 2].candle_height - candles_array[index - 1].candle_height, rsi7[index - 1], rsi14[index - 1], rsi28[index - 1], category])
-                    # else:
-                        # writer.writerow([up[index - 3] - candles_array[index - 2].candle_close, lw[index - 3] - candles_array[index - 2].candle_close, candles_array[index - 2].candle_height - candles_array[index - 1].candle_height, rsi7[index - 1], rsi14[index - 1], rsi28[index - 1], 0.0])
+                        writer.writerow([up[index - 3] - candles_array[index - 2].candle_close, lw[index - 3] - candles_array[index - 2].candle_close, candles_array[index - 2].candle_height - candles_array[index - 1].candle_height, rsi14[index - 1], K[index - 1], D[index - 1], aroon_up[index - 1], aroon_down[index - 1], 0.0])
             ofile.close()
 
     def save_model(self):
@@ -119,8 +156,8 @@ class Learner(object):
         url = "traningData.csv"
         dataframe = read_csv(url)
         array = dataframe.values
-        X = array[:, 0:6]
-        Y = array[:, 6]
+        X = array[:, 0:8]
+        Y = array[:, 8]
 
         model = RandomForestClassifier(random_state=1)
         # model = ElasticNet(random_state=0)
@@ -148,8 +185,8 @@ def create_learner(api, active):
 # url = "traningData.csv"
 # dataframe = read_csv(url)
 # array = dataframe.values
-# X = array[:, 0:6]
-# Y = array[:, 6]
+# X = array[:, 0:8]
+# Y = array[:, 8]
 
 # test_size = 0.33
 # seed = 6

@@ -1,0 +1,104 @@
+2018-03-05 11:13:58:INFO: Create trader for active 'EURUSD'.
+2018-03-05 11:13:58:INFO: Trader for active 'EURUSD' started.
+2018-03-05 11:13:58:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 11:15:08:INFO: Create trader for active 'EURUSD'.
+2018-03-05 11:15:08:INFO: Trader for active 'EURUSD' started.
+2018-03-05 11:15:08:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 11:16:19:INFO: Create trader for active 'EURUSD'.
+2018-03-05 11:16:19:INFO: Trader for active 'EURUSD' started.
+2018-03-05 11:16:19:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 11:16:58:INFO: Create trader for active 'EURUSD'.
+2018-03-05 11:16:58:INFO: Trader for active 'EURUSD' started.
+2018-03-05 11:16:58:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 11:17:32:INFO: Create trader for active 'EURUSD'.
+2018-03-05 11:17:32:INFO: Trader for active 'EURUSD' started.
+2018-03-05 11:17:32:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 11:17:58:INFO: Create trader for active 'EURUSD'.
+2018-03-05 11:17:58:INFO: Trader for active 'EURUSD' started.
+2018-03-05 11:17:58:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 11:20:01:INFO: Create trader for active 'EURUSD'.
+2018-03-05 11:20:01:INFO: Trader for active 'EURUSD' started.
+2018-03-05 11:20:01:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 11:21:39:INFO: Create trader for active 'EURUSD'.
+2018-03-05 11:21:39:INFO: Trader for active 'EURUSD' started.
+2018-03-05 11:21:39:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 11:23:56:INFO: Create trader for active 'EURUSD'.
+2018-03-05 11:23:56:INFO: Trader for active 'EURUSD' started.
+2018-03-05 11:23:56:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 11:51:02:INFO: Trader for active 'EURUSD' recived signal 'call'.
+2018-03-05 11:51:02:INFO: Trader for active 'EURUSD' successfully buy in direction 'call'.
+2018-03-05 12:09:00:INFO: Create trader for active 'EURUSD'.
+2018-03-05 12:09:00:INFO: Trader for active 'EURUSD' started.
+2018-03-05 12:09:00:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 12:12:20:INFO: Create trader for active 'EURUSD'.
+2018-03-05 12:12:20:INFO: Trader for active 'EURUSD' started.
+2018-03-05 12:12:20:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 12:18:02:INFO: Trader for active 'EURUSD' recived signal 'call'.
+2018-03-05 12:18:02:INFO: Trader for active 'EURUSD' successfully buy in direction 'call'.
+2018-03-05 12:44:02:INFO: Trader for active 'EURUSD' recived signal 'call'.
+2018-03-05 12:44:02:INFO: Trader for active 'EURUSD' successfully buy in direction 'call'.
+2018-03-05 13:08:02:INFO: Trader for active 'EURUSD' recived signal 'put'.
+2018-03-05 13:08:02:INFO: Trader for active 'EURUSD' successfully buy in direction 'put'.
+2018-03-05 13:16:01:INFO: Trader for active 'EURUSD' recived signal 'put'.
+2018-03-05 13:16:01:INFO: Trader for active 'EURUSD' successfully buy in direction 'put'.
+2018-03-05 13:30:02:INFO: Trader for active 'EURUSD' recived signal 'call'.
+2018-03-05 13:30:02:INFO: Trader for active 'EURUSD' successfully buy in direction 'call'.
+2018-03-05 13:34:01:INFO: Trader for active 'EURUSD' recived signal 'put'.
+2018-03-05 13:34:01:INFO: Trader for active 'EURUSD' successfully buy in direction 'put'.
+2018-03-05 13:49:02:INFO: Create trader for active 'EURUSD'.
+2018-03-05 13:49:02:INFO: Trader for active 'EURUSD' started.
+2018-03-05 13:49:02:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 14:03:21:INFO: Create trader for active 'EURUSD'.
+2018-03-05 14:03:21:INFO: Trader for active 'EURUSD' started.
+2018-03-05 14:03:21:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 14:06:35:INFO: Create trader for active 'EURUSD'.
+2018-03-05 14:06:35:INFO: Trader for active 'EURUSD' started.
+2018-03-05 14:06:35:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 14:07:52:INFO: Create trader for active 'EURUSD'.
+2018-03-05 14:07:52:INFO: Trader for active 'EURUSD' started.
+2018-03-05 14:07:52:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 14:10:24:INFO: Create trader for active 'EURUSD'.
+2018-03-05 14:10:24:INFO: Trader for active 'EURUSD' started.
+2018-03-05 14:10:24:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 14:11:39:INFO: Create trader for active 'EURUSD'.
+2018-03-05 14:11:39:INFO: Trader for active 'EURUSD' started.
+2018-03-05 14:11:39:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 14:12:49:INFO: Create trader for active 'EURUSD'.
+2018-03-05 14:12:49:INFO: Trader for active 'EURUSD' started.
+2018-03-05 14:12:49:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 14:13:30:INFO: Create trader for active 'EURUSD'.
+2018-03-05 14:13:30:INFO: Trader for active 'EURUSD' started.
+2018-03-05 14:13:30:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 14:13:59:INFO: Create trader for active 'EURUSD'.
+2018-03-05 14:13:59:INFO: Trader for active 'EURUSD' started.
+2018-03-05 14:13:59:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 14:15:30:INFO: Create trader for active 'EURUSD'.
+2018-03-05 14:15:30:INFO: Trader for active 'EURUSD' started.
+2018-03-05 14:15:30:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 14:53:55:INFO: Create trader for active 'EURUSD'.
+2018-03-05 14:53:55:INFO: Trader for active 'EURUSD' started.
+2018-03-05 14:53:55:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 15:26:11:INFO: Create trader for active 'EURUSD'.
+2018-03-05 15:26:11:INFO: Trader for active 'EURUSD' started.
+2018-03-05 15:26:11:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 15:27:18:INFO: Create trader for active 'EURUSD'.
+2018-03-05 15:27:18:INFO: Trader for active 'EURUSD' started.
+2018-03-05 15:27:18:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 15:28:25:INFO: Create trader for active 'EURUSD'.
+2018-03-05 15:28:25:INFO: Trader for active 'EURUSD' started.
+2018-03-05 15:28:25:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 15:38:12:INFO: Create trader for active 'EURUSD'.
+2018-03-05 15:38:12:INFO: Trader for active 'EURUSD' started.
+2018-03-05 15:38:12:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 15:40:52:INFO: Create trader for active 'EURUSD'.
+2018-03-05 15:40:52:INFO: Trader for active 'EURUSD' started.
+2018-03-05 15:40:52:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 15:53:51:INFO: Create trader for active 'EURUSD'.
+2018-03-05 15:53:51:INFO: Trader for active 'EURUSD' started.
+2018-03-05 15:53:51:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 16:34:33:INFO: Create trader for active 'EURUSD'.
+2018-03-05 16:34:33:INFO: Trader for active 'EURUSD' started.
+2018-03-05 16:34:33:INFO: Trader for active 'EURUSD' wait for signal.
+2018-03-05 16:37:58:INFO: Create trader for active 'EURUSD'.
+2018-03-05 16:37:58:INFO: Trader for active 'EURUSD' started.
+2018-03-05 16:37:58:INFO: Trader for active 'EURUSD' wait for signal.

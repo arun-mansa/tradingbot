@@ -68,14 +68,21 @@ class Base(object):
             # logger.info("Upper Band:'%f', Lower Band: '%f'.", upper_band[26], lower_band[26])
             return upper_band, lower_band, height
 
-    def candle_csv_details(self, candles, rsi, up, low, height):
-        """Method to get RSI on fetched candels."""
-        # logger = logging.getLogger("__main__")
-        if hasattr(candles, 'second_candle'):
-            details = [candles.first_candle.candle_open, candles.first_candle.candle_close, candles.first_candle.candle_high, candles.first_candle.candle_low, rsi[25], up[25], low[25], candles.second_candle.candle_type]
+    def stoc_occilator(self, candles, period=13):
+        if hasattr(candles, 'candles_array'):
+            candel_array = candles.candles_array
             
-            # logger.info("RSI for first candle '%f'.", rsi[26])
-            return details
+            close = pd.Series([candle.candle_close for candle in candel_array])
+            low = pd.Series([candle.candle_low for candle in candel_array])
+            high = pd.Series([candle.candle_high for candle in candel_array])
+
+            l_period = low.rolling(window=period).min()
+            h_period = high.rolling(window=period).max()
+ 
+            K = 100*((close - l_period) / (h_period - l_period) )
+            D = K.rolling(window=3).mean()
+
+            return K, D
 
     def call(self):
         """Method to check call pattern."""
