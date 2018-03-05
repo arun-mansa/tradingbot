@@ -73,6 +73,8 @@ class Candle(object):
             return self.candle_close - self.candle_open
         elif self.candle_open > self.candle_close:
             return self.candle_open - self.candle_close
+        else:
+            return 0
 
     @property
     def upper_shadow(self):

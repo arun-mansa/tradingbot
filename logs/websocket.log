@@ -1,4 +1,0 @@
-2018-02-28 11:17:22:ERROR: error from callback <bound method WebsocketClient.on_message of <iqoptionapi.ws.client.WebsocketClient object at 0x7fda76a1c810>>: 'bool' object has no attribute '__getitem__'
-2018-02-28 11:18:43:ERROR: error from callback <bound method WebsocketClient.on_message of <iqoptionapi.ws.client.WebsocketClient object at 0x7f061a798810>>: 'bool' object has no attribute '__getitem__'
-2018-02-28 11:19:07:ERROR: error from callback <bound method WebsocketClient.on_message of <iqoptionapi.ws.client.WebsocketClient object at 0x7fdde5c07790>>: 'bool' object has no attribute '__getitem__'
-2018-02-28 11:19:26:ERROR: error from callback <bound method WebsocketClient.on_message of <iqoptionapi.ws.client.WebsocketClient object at 0x7f4882e76790>>: 'bool' object has no attribute '__getitem__'

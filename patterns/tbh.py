@@ -28,12 +28,10 @@ class TBH(Base):
             rsi28 = self.rsi(candles=candles, period=28)
 
             loaded_model = pickle.load(open('finalized_model.sav', 'rb'))
-            predicted_price = loaded_model.predict([[candles.second_candle.candle_open, candles.second_candle.candle_close, rsi7[28], rsi14[28], rsi28[28], up[28], lw[28]]])
+            predicted_price = loaded_model.predict([[up[28] - candles.second_candle.candle_close, lw[28] - candles.second_candle.candle_close, candles.first_candle.candle_height - candles.second_candle.candle_height, rsi7[28], rsi14[28], rsi28[28]]])
             logger.info("Predicted price:'%s'", predicted_price[0])
-            
-            logger.info("Height:'%f'", height[26])
 
-            if candles.first_candle.candle_close < lw[26] and predicted_price[0] == 1:
+            if candles.first_candle.candle_close < lw[26] and predicted_price[0] == 1.0:
                 if candles.first_candle.candle_type == "red" and candles.second_candle.candle_type == "green":
                     if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
                         logger.info("Lower Band:'%f', First candle close: '%f'.", lw[26], candles.first_candle.candle_close)
@@ -51,9 +49,9 @@ class TBH(Base):
             rsi28 = self.rsi(candles=candles, period=28)
 
             loaded_model = pickle.load(open('finalized_model.sav', 'rb'))
-            predicted_price = loaded_model.predict([[candles.second_candle.candle_open, candles.second_candle.candle_close, rsi7[28], rsi14[28], rsi28[28], up[28], lw[28]]])
-
-            if candles.first_candle.candle_close > up[26] and predicted_price[0] == -1:
+            predicted_price = loaded_model.predict([[up[28] - candles.second_candle.candle_close, lw[28] - candles.second_candle.candle_close, candles.first_candle.candle_height - candles.second_candle.candle_height, rsi7[28], rsi14[28], rsi28[28]]])
+            
+            if candles.first_candle.candle_close > up[26] and predicted_price[0] == -1.0:
                 if candles.first_candle.candle_type == "green" and candles.second_candle.candle_type == "red":
                     if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
                         logger.info("High Band:'%f', First candle close: '%f'.", up[26], candles.first_candle.candle_close)
