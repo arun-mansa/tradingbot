@@ -133,7 +133,7 @@ class Learner(object):
             aroon_up, aroon_down = self.aroon(candles=candles)
 
             candles_array = candles.candles_array
-            ofile = open(url, "wb+")
+            ofile = open(url, "ab+")
             writer = csv.writer(ofile, quoting=csv.QUOTE_NONE, escapechar='\n')
             for index, candle in enumerate(candles_array):
                 if index > 28 and candle.candle_close > 0 and candle.candle_height > 0:
@@ -189,7 +189,7 @@ def create_learner(api, active):
 # Y = array[:, 8]
 
 # test_size = 0.33
-# seed = 6
+# seed = 8
 # X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=test_size, random_state=seed)
 
 # # Fit the model on 33%
@@ -206,8 +206,12 @@ def create_learner(api, active):
 # # load the model from disk
 # loaded_model = pickle.load(open(filename,'rb'))
 # result = loaded_model.score(X_test, Y_test)
-# plt.plot(loaded_model.predict(X_test), 'o')
-# plt.show()
-# plt.plot(Y_test, 'o')
+
+# f, axarr = plt.subplots(2, sharex=True)
+# axarr[0].plot(loaded_model.predict(X_test), 'o')
+# axarr[0].set_title('Predicted')
+# axarr[1].set_title('Orignal')
+# axarr[1].plot(Y_test, 'o')
+
 # plt.show()
 # print(result)

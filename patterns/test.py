@@ -24,12 +24,12 @@ class TEST(Base):
 
         if hasattr(candles, 'first_candle'):
             up, lw, height = self.bolinger_bands(candles=candles)
-            rsi7 = self.rsi(candles=candles, period=7)
-            rsi14 = self.rsi(candles=candles, period=14)
-            rsi28 = self.rsi(candles=candles, period=28)
+            rsi14 = self.rsi(candles=candles)
+            K, D = self.stoc_occilator(candles=candles)
+            aroon_up, aroon_down = self.aroon(candles=candles)
 
             loaded_model = pickle.load(open('finalized_model.sav', 'rb'))
-            predicted_price = loaded_model.predict([[up[26] - candles.first_candle.candle_close, lw[26] - candles.first_candle.candle_close, candles.first_candle.candle_height - candles.first_candle.candle_height, rsi7[28], rsi14[28], rsi28[28]]])
+            predicted_price = loaded_model.predict([[up[26] - candles.first_candle.candle_close, lw[26] - candles.first_candle.candle_close, candles.first_candle.candle_height - candles.second_candle.candle_height, rsi14[28], K[28], D[28], aroon_up[29], aroon_down[29]]])
             logger.info("Predicted price:'%s'", predicted_price[0])
             
             if predicted_price[0] == 1.0:
@@ -41,12 +41,12 @@ class TEST(Base):
 
         if hasattr(candles, 'first_candle'):
             up, lw, height = self.bolinger_bands(candles=candles)
-            rsi7 = self.rsi(candles=candles, period=7)
-            rsi14 = self.rsi(candles=candles, period=14)
-            rsi28 = self.rsi(candles=candles, period=28)
+            rsi14 = self.rsi(candles=candles)
+            K, D = self.stoc_occilator(candles=candles)
+            aroon_up, aroon_down = self.aroon(candles=candles)
 
             loaded_model = pickle.load(open('finalized_model.sav', 'rb'))
-            predicted_price = loaded_model.predict([[up[26] - candles.first_candle.candle_close, lw[26] - candles.first_candle.candle_close, candles.first_candle.candle_height - candles.first_candle.candle_height, rsi7[28], rsi14[28], rsi28[28]]])
+            predicted_price = loaded_model.predict([[up[26] - candles.first_candle.candle_close, lw[26] - candles.first_candle.candle_close, candles.first_candle.candle_height - candles.second_candle.candle_height, rsi14[28], K[28], D[28], aroon_up[29], aroon_down[29]]])
 
             if predicted_price[0] == -1.0:
                 return True

@@ -67,8 +67,8 @@ class Starter(object):
         actives = self.config.get_trade_actives()
         for active in actives:
             lerner = create_learner(self.api, active)
-            lerner.create_csv()
-            # lerner.save_model()
+            # lerner.create_csv()
+            lerner.save_model()
         
         return
 
@@ -156,15 +156,15 @@ def start():
     traders = starter.start_traders(["EURUSD-OTC"])
     starter.start_learner()
 
-    # while True:
-    #     for signaler in signalers:
-    #         signal = signaler.get_signal()
+    while True:
+        for signaler in signalers:
+            signal = signaler.get_signal()
 
-    #         if signal:
-    #             for trader in traders:
-    #                 if signaler.active == trader.active:
-    #                     trader.trade(signal)
-    #     time.sleep(1)
+            if signal:
+                for trader in traders:
+                    if signaler.active == trader.active:
+                        trader.trade(signal)
+        time.sleep(1)
 
 
 def _parse_args():

@@ -95,3 +95,68 @@
 2018-03-05 16:37:58:INFO: Create signaler for active 'EURUSD'.
 2018-03-05 16:37:58:INFO: Signaler for active 'EURUSD' started.
 2018-03-05 16:37:58:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-03-05 20:43:29:INFO: Create signaler for active 'EURUSD'.
+2018-03-05 20:43:29:INFO: Signaler for active 'EURUSD' started.
+2018-03-05 20:43:29:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-03-05 21:01:08:INFO: Create signaler for active 'EURUSD'.
+2018-03-05 21:01:08:INFO: Signaler for active 'EURUSD' started.
+2018-03-05 21:01:08:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-03-05 21:02:59:INFO: Create signaler for active 'EURUSD'.
+2018-03-05 21:02:59:INFO: Signaler for active 'EURUSD' started.
+2018-03-05 21:02:59:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-03-05 21:11:59:INFO: Create signaler for active 'EURUSD'.
+2018-03-05 21:11:59:INFO: Signaler for active 'EURUSD' started.
+2018-03-05 21:11:59:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-03-05 21:15:17:INFO: Create signaler for active 'EURUSD'.
+2018-03-05 21:15:17:INFO: Signaler for active 'EURUSD' started.
+2018-03-05 21:15:17:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-03-05 21:17:01:INFO: Signaler for active 'EURUSD' recived pattern 'TBH' in direction 'put'.
+2018-03-05 21:18:23:INFO: Create signaler for active 'EURUSD'.
+2018-03-05 21:18:23:INFO: Signaler for active 'EURUSD' started.
+2018-03-05 21:18:23:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-03-05 22:49:30:INFO: Create signaler for active 'EURUSD'.
+2018-03-05 22:49:30:INFO: Signaler for active 'EURUSD' started.
+2018-03-05 22:49:30:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-03-05 22:49:30:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2018-03-05 22:52:25:INFO: Create signaler for active 'EURUSD'.
+2018-03-05 22:52:25:INFO: Signaler for active 'EURUSD' started.
+2018-03-05 22:52:25:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-03-05 22:52:25:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2018-03-05 22:53:12:INFO: Create signaler for active 'EURUSD'.
+2018-03-05 22:53:12:INFO: Signaler for active 'EURUSD' started.
+2018-03-05 22:53:12:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-03-05 22:53:12:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2018-03-05 22:53:49:INFO: Create signaler for active 'EURUSD'.
+2018-03-05 22:53:49:INFO: Signaler for active 'EURUSD' started.
+2018-03-05 22:53:49:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-03-05 22:53:49:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2018-03-05 22:55:02:INFO: Signaler for active 'EURUSD' recived pattern 'TBH' in direction 'put'.
+2018-03-05 23:31:02:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'put'.
+2018-03-05 23:32:02:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'put'.
+2018-03-05 23:33:01:INFO: Signaler for active 'EURUSD' recived pattern 'TBH' in direction 'put'.
+2018-03-05 23:35:39:INFO: Create signaler for active 'EURUSD'.
+2018-03-05 23:35:39:INFO: Signaler for active 'EURUSD' started.
+2018-03-05 23:35:39:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2018-03-05 23:45:01:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2018-03-05 23:46:03:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2018-03-05 23:47:02:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2018-03-06 00:04:01:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2018-03-06 00:05:02:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2018-03-06 00:11:02:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'put'.
+2018-03-06 00:28:02:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2018-03-06 00:29:02:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2018-03-06 00:30:01:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2018-03-06 00:31:02:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2018-03-06 00:32:02:INFO: Signaler for active 'EURUSD' recived pattern 'TEST' in direction 'call'.
+2018-03-06 00:33:39:INFO: Create signaler for active 'EURUSD'.
+2018-03-06 00:33:39:INFO: Signaler for active 'EURUSD' started.
+2018-03-06 00:33:39:INFO: Signaler for active 'EURUSD' wait for pattern 'TEST'.
+2018-03-06 00:34:37:INFO: Create signaler for active 'EURUSD'.
+2018-03-06 00:34:37:INFO: Signaler for active 'EURUSD' started.
+2018-03-06 00:34:37:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-03-06 08:50:19:INFO: Create signaler for active 'EURUSD'.
+2018-03-06 08:50:19:INFO: Signaler for active 'EURUSD' started.
+2018-03-06 08:50:19:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-03-06 08:55:09:INFO: Create signaler for active 'EURUSD'.
+2018-03-06 08:55:09:INFO: Signaler for active 'EURUSD' started.
+2018-03-06 08:55:09:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.

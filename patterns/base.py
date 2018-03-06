@@ -84,6 +84,37 @@ class Base(object):
 
             return K, D
 
+    def aroon(self, candles, period=28):
+        """Method to get aroon occilator on fetched candels."""
+        if hasattr(candles, 'candles_array'):
+            candel_array = candles.candles_array
+            aroon_up = []
+            aroon_down = []
+
+            for index, candle in enumerate(candel_array):
+                ar_up = 0.0
+                ar_down = 0.0
+                if index > period:
+                    low = [candle.candle_low for candle in candel_array[index-period:index]]
+                    high = [candle.candle_high for candle in candel_array[index-period:index]]
+
+                    l_period = min(low)
+                    h_period = max(high)
+
+                    ind_of_high = high.index(h_period)
+                    ind_of_low = low.index(l_period)
+                    
+                    days_since_high = period - ind_of_high - 1
+                    days_since_low = period - ind_of_low - 1
+                    
+                    ar_up = float(((period - days_since_high)/float(period)) * 100)
+                    ar_down = float(((period - days_since_low)/float(period)) * 100)
+
+                aroon_up.append(ar_up)
+                aroon_down.append(ar_down)
+
+            return aroon_up, aroon_down
+
     def call(self):
         """Method to check call pattern."""
         pass
