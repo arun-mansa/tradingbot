@@ -67,7 +67,7 @@ class Starter(object):
         actives = self.config.get_trade_actives()
         for active in actives:
             lerner = create_learner(self.api, active)
-            # lerner.create_csv()
+            lerner.create_csv()
             lerner.save_model()
         
         return
@@ -154,7 +154,7 @@ def start():
     starter.create_connection()
     signalers = starter.start_signalers(["EURUSD-OTC"])
     traders = starter.start_traders(["EURUSD-OTC"])
-    starter.start_learner()
+    # starter.start_learner()
 
     while True:
         for signaler in signalers:

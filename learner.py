@@ -34,7 +34,7 @@ class Learner(object):
     def fetch_candles(self):
         """Methond to fetch candles form IQOptions Websocket api"""
         while not (self.active in self.api.activeCandles):
-            self.api.getcandles(self.active, 60, 1440)
+            self.api.getcandles(self.active, 60, 1000)
             time.sleep(3)
 
         if self.active in self.api.activeCandles:
@@ -71,8 +71,9 @@ class Learner(object):
             rolling_std = prices.rolling(window=period).std()
             upper_band = rolling_mean + (rolling_std*num_of_std)
             lower_band = rolling_mean - (rolling_std*num_of_std)
+            height = upper_band - lower_band
 
-            return upper_band, lower_band
+            return upper_band, lower_band, height
 
     def stoc_occilator(self, candles, period=13):
         """Method to get Stocastic occilator on fetched candels."""
@@ -96,10 +97,15 @@ class Learner(object):
             candel_array = candles.candles_array
             aroon_up = []
             aroon_down = []
+            close = []
 
             for index, candle in enumerate(candel_array):
                 ar_up = 0.0
                 ar_down = 0.0
+
+                if(candle.candle_close > 0):
+                    close.append(candle.candle_close)
+
                 if index > period:
                     low = [candle.candle_low for candle in candel_array[index-period:index]]
                     high = [candle.candle_high for candle in candel_array[index-period:index]]
@@ -119,6 +125,14 @@ class Learner(object):
                 aroon_up.append(ar_up)
                 aroon_down.append(ar_down)
 
+            # f, axarr = plt.subplots(2, sharex=True)
+            # axarr[0].set_title('price')
+            # axarr[0].plot(close)
+            # axarr[1].set_title('aroon')
+            # axarr[1].plot(aroon_up)
+            # axarr[1].plot(aroon_down)
+            # plt.show()
+            
             return aroon_up, aroon_down
 
     def create_csv(self):
@@ -127,13 +141,13 @@ class Learner(object):
         candles = self.fetch_candles()
 
         if hasattr(candles, 'first_candle'):
-            up, lw = self.bolinger_bands(candles=candles)
+            up, lw, height = self.bolinger_bands(candles=candles)
             rsi14 = self.rsi(candles=candles)
             K, D = self.stoc_occilator(candles=candles)
             aroon_up, aroon_down = self.aroon(candles=candles)
 
             candles_array = candles.candles_array
-            ofile = open(url, "ab+")
+            ofile = open(url, "wb+")
             writer = csv.writer(ofile, quoting=csv.QUOTE_NONE, escapechar='\n')
             for index, candle in enumerate(candles_array):
                 if index > 28 and candle.candle_close > 0 and candle.candle_height > 0:
@@ -198,7 +212,7 @@ def create_learner(api, active):
 # model.fit(X_train, Y_train)
 # # save the model to disk
 
-# filename ='finalized_model.sav'
+# filename ='finalized_model_test.sav'
 # pickle.dump(model, open(filename,'wb'))
 
 # # some time later...
