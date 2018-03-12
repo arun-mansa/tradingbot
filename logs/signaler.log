@@ -1,0 +1,5 @@
+2018-03-12 19:32:41:INFO: Create signaler for active 'EURUSD'.
+2018-03-12 19:32:41:INFO: Signaler for active 'EURUSD' started.
+2018-03-12 19:32:41:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-03-12 21:19:02:INFO: Signaler for active 'EURUSD' recived pattern 'TBH' in direction 'put'.
+2018-03-12 22:38:02:INFO: Signaler for active 'EURUSD' recived pattern 'TBH' in direction 'put'.
