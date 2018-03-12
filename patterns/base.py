@@ -131,12 +131,9 @@ class Base(object):
             self.fetched_candles[self.active] = False
             if self.active in self.api.activeCandles:
                 del self.api.activeCandles[self.active]
-            # if self.active in self.api.active5MinCandles:
-            #     del self.api.active5MinCandles[self.active]
 
         if not self.fetched_candles[self.active]:
             self.api.getcandles(self.active, 60, 30)
-            # self.api.getcandles(self.active, 60 * 5, 28)
 
             self.fetched_candles[self.active] = True
             self.fetched_candles['time'] = self.api.timesync.server_datetime

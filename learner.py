@@ -7,7 +7,10 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import iqoptionapi.constants as api_constants
+import matplotlib.dates as mdates
+import matplotlib.ticker as mticker
 
+from matplotlib.finance import candlestick_ohlc
 from pandas import read_csv
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -34,7 +37,7 @@ class Learner(object):
     def fetch_candles(self):
         """Methond to fetch candles form IQOptions Websocket api"""
         while not (self.active in self.api.activeCandles):
-            self.api.getcandles(self.active, 60, 1000)
+            self.api.getcandles(self.active, 60, 60)
             time.sleep(3)
 
         if self.active in self.api.activeCandles:
@@ -97,14 +100,15 @@ class Learner(object):
             candel_array = candles.candles_array
             aroon_up = []
             aroon_down = []
-            close = []
+            candle_data = []
 
             for index, candle in enumerate(candel_array):
                 ar_up = 0.0
                 ar_down = 0.0
 
                 if(candle.candle_close > 0):
-                    close.append(candle.candle_close)
+                    append_me = candle.candle_time, candle.candle_open, candle.candle_high, candle.candle_low, candle.candle_close
+                    candle_data.append(append_me)
 
                 if index > period:
                     low = [candle.candle_low for candle in candel_array[index-period:index]]
@@ -125,13 +129,15 @@ class Learner(object):
                 aroon_up.append(ar_up)
                 aroon_down.append(ar_down)
 
-            # f, axarr = plt.subplots(2, sharex=True)
+            # f, axarr = plt.subplots(2)
             # axarr[0].set_title('price')
-            # axarr[0].plot(close)
+            # # axarr[0].plot(close)
+            # candlestick_ohlc(axarr[0], candle_data, width=0.4, colorup='#77d879', colordown='#db3f3f')
             # axarr[1].set_title('aroon')
             # axarr[1].plot(aroon_up)
             # axarr[1].plot(aroon_down)
             # plt.show()
+
             
             return aroon_up, aroon_down
 
