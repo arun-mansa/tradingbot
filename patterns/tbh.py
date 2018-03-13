@@ -36,7 +36,7 @@ class TBH(Base):
             if candles.first_candle.candle_close <= lw[26] and height[26] > 499:
                 if candles.first_candle.candle_type == "red" and candles.second_candle.candle_type == "green":
                     if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
-                        if aroon_down[29] - aroon_up[29] < 50:
+                        if aroon_down[29] > 60:
                             logger.info("Lower Band:'%f', First candle close: '%f'.", lw[26], candles.first_candle.candle_close)
                             return True
 
@@ -57,6 +57,6 @@ class TBH(Base):
             if candles.first_candle.candle_close >= up[26] and height[26] > 499:
                 if candles.first_candle.candle_type == "green" and candles.second_candle.candle_type == "red":
                     if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
-                        if aroon_up[29] - aroon_down[29] < 50:
+                        if aroon_up[29] > 60:
                             logger.info("High Band:'%f', First candle close: '%f'.", up[26], candles.first_candle.candle_close)
                             return True
