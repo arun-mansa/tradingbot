@@ -9,7 +9,7 @@ from iqoptionapi.api import IQOptionAPI
 from config import parse_config
 from signaler import create_signaler
 from trader import create_trader
-from learner import create_learner
+# from learner import create_learner
 
 
 class Starter(object):
@@ -60,17 +60,17 @@ class Starter(object):
             traders.append(trader)
         return traders
 
-    def start_learner(self):
-        """Method for start traders."""
-        logger = logging.getLogger(__name__)
-        logger.info("Create Learner.")
-        actives = self.config.get_trade_actives()
-        for active in actives:
-            lerner = create_learner(self.api, active)
-            lerner.create_csv()
-            # lerner.save_model()
+    # def start_learner(self):
+    #     """Method for start traders."""
+    #     logger = logging.getLogger(__name__)
+    #     logger.info("Create Learner.")
+    #     actives = self.config.get_trade_actives()
+    #     for active in actives:
+    #         lerner = create_learner(self.api, active)
+    #         lerner.create_csv()
+    #         # lerner.save_model()
         
-        return
+    #     return
 
 def _prepare_logging():
     """Prepare logging for starter."""
