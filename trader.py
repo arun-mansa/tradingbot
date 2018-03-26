@@ -15,7 +15,7 @@ class Trader(object):
         """Method for start trader."""
         logger = logging.getLogger(__name__)
 
-        self.api.timesync.expiration_time = 60
+        self.api.timesync.expiration_time = 60 * 3
 
         logger.info("Trader for active '%s' started.", self.active)
 

@@ -24,17 +24,17 @@ class TBH(Base):
         if hasattr(candles, 'first_candle'):
             up, lw, height = self.bolinger_bands(candles=candles, period=13, num_of_std=2.2)
             rsi14 = self.rsi(candles=candles, period=13)
-            K, D = self.stoc_occilator(candles=candles)
-            aroon_up, aroon_down = self.aroon(candles=candles, period=14)
+            # K, D = self.stoc_occilator(candles=candles)
+            aroon_up, aroon_down = self.aroon(candles=candles, period=13)
 
             # loaded_model = pickle.load(open('finalized_model.sav', 'rb'))
             # predicted_price = loaded_model.predict([[up[26] - candles.first_candle.candle_close, lw[26] - candles.first_candle.candle_close, candles.first_candle.candle_height - candles.second_candle.candle_height, rsi14[28], K[28], D[28], aroon_up[29], aroon_down[29]]])
-            logger.info("CandleClose:'%d', BBUp:'%d', BBLow:'%d', RSI: '%d', ARUp:'%d', ARDown:'%d'", candles.second_candle.candle_close, up[28], lw[28], rsi14[28], aroon_up[28], aroon_down[28])
+            logger.info("CandleClose:'%d', BBUp:'%d', BBLow:'%d', RSI: '%d', ARUp:'%d', ARDown:'%d'", candles.first_candle.candle_close, up[27], lw[27], rsi14[27], aroon_up[27], aroon_down[26])
 
-            if candles.second_candle.candle_close < lw[28] and rsi14[28] < 26:
-                # if candles.first_candle.candle_type == "red" and candles.second_candle.candle_type == "green":
-                # if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
-                return True
+            if candles.first_candle.candle_close < lw[27] and rsi14[27] < 26 and and aroon_up[27] > aroon_up[26]:
+                if candles.first_candle.candle_type == "red" and candles.second_candle.candle_type == "green":
+                    if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
+                        return True
 
     def put(self):
         """Method to check put pattern."""
@@ -44,13 +44,13 @@ class TBH(Base):
         if hasattr(candles, 'first_candle'):
             up, lw, height = self.bolinger_bands(candles=candles, period=13, num_of_std=2.2)
             rsi14 = self.rsi(candles=candles, period=13)
-            K, D = self.stoc_occilator(candles=candles)
-            aroon_up, aroon_down = self.aroon(candles=candles, period=14)
+            # K, D = self.stoc_occilator(candles=candles)
+            aroon_up, aroon_down = self.aroon(candles=candles, period=13)
 
             # loaded_model = pickle.load(open('finalized_model.sav', 'rb'))
             # predicted_price = loaded_model.predict([[up[26] - candles.first_candle.candle_close, lw[26] - candles.first_candle.candle_close, candles.first_candle.candle_height - candles.second_candle.candle_height, rsi14[28], K[28], D[28], aroon_up[29], aroon_down[29]]])
 
-            if candles.second_candle.candle_close > up[28] and rsi14[28] > 74:
-                # if candles.first_candle.candle_type == "green" and candles.second_candle.candle_type == "red":
-                # if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
-                return True
+            if candles.first_candle.candle_close > up[27] and rsi14[27] > 74 and aroon_down[27] > aroon_down[26]:
+                if candles.first_candle.candle_type == "green" and candles.second_candle.candle_type == "red":
+                    if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
+                        return True
