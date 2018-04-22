@@ -25,3 +25,6 @@
 2018-03-19 11:47:43:INFO: Create signaler for active 'EURUSD'.
 2018-03-19 11:47:43:INFO: Signaler for active 'EURUSD' started.
 2018-03-19 11:47:43:INFO: Signaler for active 'EURUSD' wait for pattern 'TBH'.
+2018-04-22 11:42:25:INFO: Create signaler for active 'EURUSD-OTC'.
+2018-04-22 11:42:25:INFO: Signaler for active 'EURUSD-OTC' started.
+2018-04-22 11:42:25:INFO: Signaler for active 'EURUSD-OTC' wait for pattern 'TBH'.

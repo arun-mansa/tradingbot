@@ -31,7 +31,7 @@ class TBH(Base):
             # predicted_price = loaded_model.predict([[up[26] - candles.first_candle.candle_close, lw[26] - candles.first_candle.candle_close, candles.first_candle.candle_height - candles.second_candle.candle_height, rsi14[28], K[28], D[28], aroon_up[29], aroon_down[29]]])
             logger.info("CandleClose:'%d', BBUp:'%d', BBLow:'%d', RSI: '%d', ARUp:'%d', ARDown:'%d'", candles.first_candle.candle_close, up[27], lw[27], rsi14[27], aroon_up[27], aroon_down[26])
 
-            if candles.first_candle.candle_close < lw[27] and rsi14[27] < 26 and and aroon_up[27] > aroon_up[26]:
+            if candles.first_candle.candle_close < lw[27] and rsi14[27] < 26 and aroon_up[27] > aroon_up[26]:
                 if candles.first_candle.candle_type == "red" and candles.second_candle.candle_type == "green":
                     if candles.second_candle.candle_height >= (candles.first_candle.candle_height / 2):
                         return True

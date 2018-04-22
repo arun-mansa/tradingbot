@@ -42,12 +42,8 @@ class WebsocketClient(object):
             self.api.profile.balance_id = message["msg"]["balance_id"]
 
         if message["name"] == "candles":
-            if message["request_id"] == "60":
-                self.api.candles.candles_data = message["msg"]["data"]
-                self.api.activeCandles[message["msg"]["active_id"]] = self.api.candles
-            if message["request_id"] == "300":
-                self.api.candle5Mins.candles_data = message["msg"]["data"]
-                self.api.active5MinCandles[message["msg"]["active_id"]] = self.api.candle5Mins
+            self.api.candles.candles_data = message["msg"]["candles"]
+            self.api.activeCandles[int(message["request_id"])] = self.api.candles
 
         if message["name"] == "buyComplete":
             self.api.buy_status = message["msg"]["isSuccessful"]
@@ -55,17 +51,20 @@ class WebsocketClient(object):
     @staticmethod
     def on_error(wss, error): # pylint: disable=unused-argument
         """Method to process websocket errors."""
+        print('in error')
         logger = logging.getLogger(__name__)
         logger.error(error)
 
     @staticmethod
     def on_open(wss): # pylint: disable=unused-argument
         """Method to process websocket open."""
+        print('in open')
         logger = logging.getLogger(__name__)
         logger.debug("Websocket client connected.")
 
     @staticmethod
     def on_close(wss): # pylint: disable=unused-argument
         """Method to process websocket close."""
+        print('on close')
         logger = logging.getLogger(__name__)
         logger.debug("Websocket connection closed.")

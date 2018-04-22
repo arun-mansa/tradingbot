@@ -18,7 +18,7 @@ class Candle(object):
 
         :returns: The candle time.
         """
-        return self.__candle_data[0]
+        return self.__candle_data['from']
 
     @property
     def candle_open(self):
@@ -26,7 +26,7 @@ class Candle(object):
 
         :returns: The candle open value.
         """
-        return self.__candle_data[1]
+        return self.__candle_data['open'] * 1000000
 
     @property
     def candle_close(self):
@@ -34,7 +34,7 @@ class Candle(object):
 
         :returns: The candle close value.
         """
-        return self.__candle_data[2]
+        return self.__candle_data['close'] * 1000000
 
     @property
     def candle_high(self):
@@ -42,7 +42,7 @@ class Candle(object):
 
         :returns: The candle high value.
         """
-        return self.__candle_data[3]
+        return self.__candle_data['max'] * 1000000
 
     @property
     def candle_low(self):
@@ -50,7 +50,7 @@ class Candle(object):
 
         :returns: The candle low value.
         """
-        return self.__candle_data[4]
+        return self.__candle_data['min'] * 1000000
 
     @property
     def candle_type(self):
