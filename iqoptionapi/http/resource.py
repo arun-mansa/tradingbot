@@ -12,7 +12,7 @@ class Resource(object):
         """
         self.api = api
 
-    def send_http_request(self, method, data=None, params=None, headers=None):
+    def send_http_request(self, method, data=None, params=None, headers=None, is_auth=False):
         """Send http request to IQ Option API.
 
         :param str method: The http request method.
@@ -22,4 +22,4 @@ class Resource(object):
 
         :returns: The instance of :class:`requests.Response`.
         """
-        return self.api.send_http_request(self, method, data=data, params=params, headers=headers)
+        return self.api.send_http_request(self, method, data=data, params=params, headers=headers, is_auth=is_auth)

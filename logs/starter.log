@@ -6989,3 +6989,8 @@
 2018-04-22 11:42:27:INFO: CandleClose:'1189545', BBUp:'1189813', BBLow:'1189552', RSI: '35', ARUp:'23', ARDown:'15'
 2018-04-22 11:43:02:INFO: CandleClose:'1189545', BBUp:'1189813', BBLow:'1189552', RSI: '35', ARUp:'23', ARDown:'15'
 2018-04-22 11:44:02:INFO: CandleClose:'1189542', BBUp:'1189822', BBLow:'1189516', RSI: '29', ARUp:'15', ARDown:'7'
+2018-05-10 15:19:44:INFO: Create connection.
+2018-05-10 15:21:04:INFO: Create connection.
+2018-05-10 15:21:11:INFO: Successfully connected.
+2018-05-10 15:21:11:INFO: Create signalers.
+2018-05-10 15:21:11:INFO: Create traders.

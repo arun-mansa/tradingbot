@@ -15,6 +15,7 @@ class GetCandles(Base):
         :param active_id: The active identifier.
         :param duration: The candle duration.
         """
+        server_timestamp = self.api.timesync.server_timestamp - (16 * 3600 * 0)
 
         data = {
             "name":"get-candles",
@@ -22,8 +23,8 @@ class GetCandles(Base):
             "body": {
                 "active_id": active_id,
                 "size": duration,
-                "from": self.api.timesync.server_timestamp - (duration * period),
-                "to": self.api.timesync.server_timestamp,
+                "from": server_timestamp - (duration * period),
+                "to": server_timestamp,
                 "chunk_size": period,
             }
         }

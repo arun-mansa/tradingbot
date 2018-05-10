@@ -8,7 +8,7 @@ import requests
 
 from iqoptionapi.http.login import Login
 from iqoptionapi.http.loginv2 import Loginv2
-from iqoptionapi.http.getprofile import Getprofile
+from iqoptionapi.http.getregdata import Getprofile
 from iqoptionapi.http.auth import Auth
 from iqoptionapi.http.token import Token
 from iqoptionapi.http.appinit import Appinit
@@ -55,6 +55,7 @@ class IQOptionAPI(object):
         """
         self.is_successful = True
         self.https_url = "https://{host}/api".format(host=host)
+        self.https_auth_url = "https://auth.{host}/api".format(host=host)
         self.wss_url = "wss://{host}/echo/websocket".format(host=host)
         self.websocket_client = None
         self.session = requests.Session()
@@ -64,7 +65,7 @@ class IQOptionAPI(object):
         self.password = password
         self.proxies = proxies
 
-    def prepare_http_url(self, resource):
+    def prepare_http_url(self, resource, is_auth=False):
         """Construct http url from resource url.
 
         :param resource: The instance of
@@ -72,9 +73,12 @@ class IQOptionAPI(object):
 
         :returns: The full url to IQ Option http resource.
         """
-        return "/".join((self.https_url, resource.url))
+        if not is_auth:
+            return "/".join((self.https_url, resource.url))
+        else:
+            return "/".join((self.https_auth_url, resource.url))
 
-    def send_http_request(self, resource, method, data=None, params=None, headers=None): # pylint: disable=too-many-arguments
+    def send_http_request(self, resource, method, data=None, params=None, headers=None, is_auth=False): # pylint: disable=too-many-arguments
         """Send http request to IQ Option server.
 
         :param resource: The instance of
@@ -87,7 +91,7 @@ class IQOptionAPI(object):
         :returns: The instance of :class:`Response <requests.Response>`.
         """
         logger = logging.getLogger(__name__)
-        url = self.prepare_http_url(resource)
+        url = self.prepare_http_url(resource, is_auth)
 
         logger.debug(url)
 
@@ -288,7 +292,7 @@ class IQOptionAPI(object):
         """Method to set session cookies."""
         cookies = dict(platform="9")
         requests.utils.add_dict_to_cookiejar(self.session.cookies, cookies)
-        self.getprofile() # pylint: disable=not-callable
+        # self.getprofile() # pylint: disable=not-callable
 
     def connect(self):
         """Method for connection to IQ Option API."""
